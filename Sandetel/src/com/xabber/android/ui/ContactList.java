@@ -760,7 +760,6 @@ public class ContactList extends ManagedListActivity implements
 	// return true;
 	// }
 
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		super.onOptionsItemSelected(item);
@@ -873,11 +872,13 @@ public class ContactList extends ManagedListActivity implements
 
 			break;
 
-		/*case R.id.action_avatar_change:
-
-			showFileChooser();
-
-			break;*/
+		/*
+		 * case R.id.action_avatar_change:
+		 * 
+		 * showFileChooser();
+		 * 
+		 * break;
+		 */
 		case R.id.action_state:
 			startActivity(StatusEditor.createIntent(this));
 			return true;

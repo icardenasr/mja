@@ -23,7 +23,7 @@
     <string name="contacts_automatic_download">Descarga automática\nLos archivos que recibas se descargarán automáticamente si cumplen la siguiente preferencia.</string>
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_02.png -->
     <string name="contacts_automatic_download_mb_title">Peso máximo en MB (%1$s)</string>
-    <string name="contacts_automatic_download_mb">Peso máximo en MB\n Establece un número de MB en un rango entre 1 y 5 para tus descargasa automáticas.</string>
+    <string name="contacts_automatic_download_mb">Peso máximo en MB\n Establece un número de MB en un rango entre 1 y 5 para tus descargas automáticas.</string>
     <string name="contacts_automatic_download_mb_default">5</string>
     <string name="contacts_is_an_invalid_number">Número inválido</string>
     <string name="contacts_is_an_invalid_range">El número debe estar comprendido entre 1 y 5</string>

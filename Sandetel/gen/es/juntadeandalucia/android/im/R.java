@@ -1241,50 +1241,50 @@ containing a value of this type.
         public static final int smack_config=0x7f060003;
     }
     public static final class string {
-        public static final int A=0x7f0803d2;
+        public static final int A=0x7f0803d4;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_error.png 
          */
-        public static final int ALREADY_IN_PROGRESS=0x7f08021b;
+        public static final int ALREADY_IN_PROGRESS=0x7f08021d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_error.png 
          */
-        public static final int ALREADY_JOINED=0x7f08021c;
+        public static final int ALREADY_JOINED=0x7f08021e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_error.png 
          */
-        public static final int ATTENTION_IS_NOT_SUPPORTED=0x7f08012a;
+        public static final int ATTENTION_IS_NOT_SUPPORTED=0x7f08012b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_authorization.png 
          */
-        public static final int AUTHENTICATION_FAILED=0x7f080230;
+        public static final int AUTHENTICATION_FAILED=0x7f080232;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png 
          */
-        public static final int CANNOT_ADD_TO_GROUP=0x7f08015a;
+        public static final int CANNOT_ADD_TO_GROUP=0x7f08015b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png 
          */
-        public static final int CANNOT_CREATE_CONTACT=0x7f08015b;
+        public static final int CANNOT_CREATE_CONTACT=0x7f08015c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png 
          */
-        public static final int CANNOT_REMOVE_CONTACT=0x7f08015c;
+        public static final int CANNOT_REMOVE_CONTACT=0x7f08015d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png 
          */
-        public static final int CANNOT_REMOVE_FROM_GROUP=0x7f08015d;
+        public static final int CANNOT_REMOVE_FROM_GROUP=0x7f08015e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png 
          */
-        public static final int CANNOT_REMOVE_GROUP=0x7f08015e;
+        public static final int CANNOT_REMOVE_GROUP=0x7f08015f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png 
          */
-        public static final int CANNOT_RENAME_GROUP=0x7f08015f;
+        public static final int CANNOT_RENAME_GROUP=0x7f080160;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_error.png 
          */
-        public static final int CONNECTION_FAILED=0x7f080194;
-        public static final int E=0x7f08037d;
+        public static final int CONNECTION_FAILED=0x7f080196;
+        public static final int E=0x7f08037f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png 
          */
-        public static final int EMPTY_ACCOUNT=0x7f080171;
+        public static final int EMPTY_ACCOUNT=0x7f080172;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_error.png 
          */
-        public static final int EMPTY_NICK_NAME=0x7f080210;
+        public static final int EMPTY_NICK_NAME=0x7f080212;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_error.png 
          */
-        public static final int EMPTY_ROOM_NAME=0x7f080211;
+        public static final int EMPTY_ROOM_NAME=0x7f080213;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_add_error.png 
          */
         public static final int EMPTY_SERVER_NAME=0x7f080040;
@@ -1293,50 +1293,50 @@ containing a value of this type.
         public static final int EMPTY_USER_NAME=0x7f080041;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_error.png 
          */
-        public static final int ENTRY_IS_NOT_AVAILABLE=0x7f080104;
+        public static final int ENTRY_IS_NOT_AVAILABLE=0x7f080105;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png 
          */
-        public static final int ENTRY_IS_NOT_FOUND=0x7f08016a;
+        public static final int ENTRY_IS_NOT_FOUND=0x7f08016b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_error.png 
          */
-        public static final int FILE_NOT_FOUND=0x7f080105;
+        public static final int FILE_NOT_FOUND=0x7f080106;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_add_error.png 
          */
         public static final int INCORRECT_USER_NAME=0x7f08006a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_certificate.png 
          */
-        public static final int INVALID_CERTIFICATE=0x7f080244;
+        public static final int INVALID_CERTIFICATE=0x7f080246;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_add_error.png 
          */
         public static final int LENGHT_USER_NAME=0x7f080042;
-        public static final int N=0x7f08037b;
-        public static final int NE=0x7f08037c;
+        public static final int N=0x7f08037d;
+        public static final int NE=0x7f08037e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_error.png 
          */
-        public static final int NICK_ALREADY_USED=0x7f08021a;
+        public static final int NICK_ALREADY_USED=0x7f08021c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_error.png 
          */
-        public static final int NOT_CONNECTED=0x7f0801a6;
-        public static final int NOT_SUPPORTED_ROOM_NAME=0x7f080405;
+        public static final int NOT_CONNECTED=0x7f0801a8;
+        public static final int NOT_SUPPORTED_ROOM_NAME=0x7f080407;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_error.png 
          */
-        public static final int NO_SUCH_ACCOUNT=0x7f0801a5;
-        public static final int NW=0x7f080382;
+        public static final int NO_SUCH_ACCOUNT=0x7f0801a7;
+        public static final int NW=0x7f080384;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_error.png 
          */
-        public static final int OTR_ERROR=0x7f0801b3;
+        public static final int OTR_ERROR=0x7f0801b5;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_password.png 
          */
-        public static final int PASSWORD_REQUIRED=0x7f080247;
-        public static final int S=0x7f08037f;
-        public static final int SE=0x7f08037e;
-        public static final int SW=0x7f080380;
-        public static final int W=0x7f080381;
+        public static final int PASSWORD_REQUIRED=0x7f080249;
+        public static final int S=0x7f080381;
+        public static final int SE=0x7f080380;
+        public static final int SW=0x7f080382;
+        public static final int W=0x7f080383;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_error.png 
          */
-        public static final int XMPP_EXCEPTION=0x7f0801a8;
-        public static final int a=0x7f0803d1;
-        public static final int a_las=0x7f0803d0;
+        public static final int XMPP_EXCEPTION=0x7f0801aa;
+        public static final int a=0x7f0803d3;
+        public static final int a_las=0x7f0803d2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/about_viewer.png 
          */
         public static final int about_copyright=0x7f08001b;
@@ -1352,10 +1352,10 @@ containing a value of this type.
         public static final int about_version=0x7f08001e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_02.png 
          */
-        public static final int about_viewer=0x7f08027c;
+        public static final int about_viewer=0x7f08027e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int accept_subscription=0x7f08017f;
+        public static final int accept_subscription=0x7f080181;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_list.png 
          */
         public static final int account_add=0x7f08007a;
@@ -1368,7 +1368,7 @@ containing a value of this type.
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_history.png 
          */
         public static final int account_archive_mode_dont_store=0x7f080045;
-        public static final int account_archive_mode_key=0x7f080322;
+        public static final int account_archive_mode_key=0x7f080324;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_history.png 
          */
         public static final int account_archive_mode_local=0x7f080046;
@@ -1381,14 +1381,14 @@ containing a value of this type.
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_02.png 
          */
         public static final int account_compression=0x7f080020;
-        public static final int account_compression_key=0x7f08031b;
+        public static final int account_compression_key=0x7f08031d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_02.png 
          */
         public static final int account_compression_summary=0x7f080049;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_custom=0x7f08004a;
-        public static final int account_custom_key=0x7f080321;
+        public static final int account_custom_key=0x7f080323;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_custom_summary=0x7f08004b;
@@ -1407,14 +1407,14 @@ containing a value of this type.
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_enabled=0x7f080022;
-        public static final int account_enabled_key=0x7f08030e;
+        public static final int account_enabled_key=0x7f080310;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_enabled_summary=0x7f08004c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_02.png 
          */
         public static final int account_host=0x7f080023;
-        public static final int account_host_key=0x7f080314;
+        public static final int account_host_key=0x7f080316;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_error.png 
          */
         public static final int account_invalid_port=0x7f08004d;
@@ -1423,93 +1423,93 @@ containing a value of this type.
         public static final int account_invalid_priority=0x7f08004e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_account_is_offline.png 
          */
-        public static final int account_is_offline=0x7f0800fc;
+        public static final int account_is_offline=0x7f0800fd;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_wlm.png 
          */
         public static final int account_oauth=0x7f08004f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_oauth_not_authorized.png 
          */
         public static final int account_oauth_invalidated=0x7f080050;
-        public static final int account_oauth_key=0x7f080310;
+        public static final int account_oauth_key=0x7f080312;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_wlm.png 
          */
         public static final int account_oauth_summary=0x7f080051;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_password=0x7f080024;
-        public static final int account_password_key=0x7f080313;
+        public static final int account_password_key=0x7f080315;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_02.png 
          */
         public static final int account_port=0x7f080025;
-        public static final int account_port_key=0x7f080315;
+        public static final int account_port_key=0x7f080317;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_02.png 
          */
         public static final int account_priority=0x7f080026;
-        public static final int account_priority_key=0x7f080318;
-        public static final int account_protocol_gtalk=0x7f080157;
+        public static final int account_priority_key=0x7f08031a;
+        public static final int account_protocol_gtalk=0x7f080158;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_gtalk.png 
          */
         public static final int account_protocol_gtalk_title=0x7f080052;
-        public static final int account_protocol_own=0x7f080159;
+        public static final int account_protocol_own=0x7f08015a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/ 
          */
         public static final int account_protocol_own_server_title=0x7f080054;
-        public static final int account_protocol_wlm=0x7f080158;
+        public static final int account_protocol_wlm=0x7f080159;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_wlm.png 
          */
         public static final int account_protocol_wlm_title=0x7f080053;
-        public static final int account_protocol_xmpp=0x7f080156;
+        public static final int account_protocol_xmpp=0x7f080157;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_protocol_xmpp_title=0x7f080055;
         public static final int account_proxy_host=0x7f080072;
-        public static final int account_proxy_host_key=0x7f08031d;
+        public static final int account_proxy_host_key=0x7f08031f;
         public static final int account_proxy_password=0x7f080075;
-        public static final int account_proxy_password_key=0x7f080320;
+        public static final int account_proxy_password_key=0x7f080322;
         public static final int account_proxy_port=0x7f080073;
-        public static final int account_proxy_port_key=0x7f08031e;
+        public static final int account_proxy_port_key=0x7f080320;
         public static final int account_proxy_type=0x7f08006c;
         public static final int account_proxy_type_http=0x7f08006e;
-        public static final int account_proxy_type_key=0x7f08031c;
+        public static final int account_proxy_type_key=0x7f08031e;
         public static final int account_proxy_type_none=0x7f08006d;
         public static final int account_proxy_type_orbot=0x7f080071;
         public static final int account_proxy_type_socks4=0x7f08006f;
         public static final int account_proxy_type_socks5=0x7f080070;
         public static final int account_proxy_user=0x7f080074;
-        public static final int account_proxy_user_key=0x7f08031f;
+        public static final int account_proxy_user_key=0x7f080321;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_connected.png 
          */
-        public static final int account_quantity_1=0x7f08022a;
+        public static final int account_quantity_1=0x7f08022c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_connected.png 
          */
-        public static final int account_quantity_2=0x7f08022b;
+        public static final int account_quantity_2=0x7f08022d;
         /**  Used for plural form in russian. http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_connected.png 
          */
-        public static final int account_quantity_5=0x7f08022c;
+        public static final int account_quantity_5=0x7f08022e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_offline.png 
          */
-        public static final int account_quantity_offline_1=0x7f08022d;
+        public static final int account_quantity_offline_1=0x7f08022f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_offline.png 
          */
-        public static final int account_quantity_offline_2=0x7f08022e;
+        public static final int account_quantity_offline_2=0x7f080230;
         /**  Used for plural form in russian. http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_offline.png 
          */
-        public static final int account_quantity_offline_5=0x7f08022f;
+        public static final int account_quantity_offline_5=0x7f080231;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int account_reconnect=0x7f080180;
+        public static final int account_reconnect=0x7f080182;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_02.png 
          */
         public static final int account_resource=0x7f080027;
-        public static final int account_resource_key=0x7f080317;
+        public static final int account_resource_key=0x7f080319;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_02.png 
          */
         public static final int account_sasl=0x7f080056;
-        public static final int account_sasl_key=0x7f080319;
+        public static final int account_sasl_key=0x7f08031b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_02.png 
          */
         public static final int account_sasl_summary=0x7f080057;
-        public static final int account_server_key=0x7f080316;
+        public static final int account_server_key=0x7f080318;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_server_name=0x7f080028;
@@ -1534,14 +1534,14 @@ containing a value of this type.
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_store_password=0x7f080058;
-        public static final int account_store_password_key=0x7f080312;
+        public static final int account_store_password_key=0x7f080314;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_store_password_summary=0x7f080059;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_syncable=0x7f08005a;
-        public static final int account_syncable_key=0x7f08030f;
+        public static final int account_syncable_key=0x7f080311;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_syncable_summary=0x7f08005b;
@@ -1560,7 +1560,7 @@ containing a value of this type.
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_02.png 
          */
         public static final int account_tls_mode=0x7f080060;
-        public static final int account_tls_mode_key=0x7f08031a;
+        public static final int account_tls_mode_key=0x7f08031c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_tls.png 
          */
         public static final int account_tls_require=0x7f080061;
@@ -1658,183 +1658,183 @@ containing a value of this type.
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_01.png 
          */
         public static final int account_user_name=0x7f08003f;
-        public static final int account_username_key=0x7f080311;
-        public static final int accuracy=0x7f08039d;
-        public static final int aceptar=0x7f0803f4;
-        public static final int acerca_de=0x7f0803f7;
-        public static final int acerca_de_opciones=0x7f0803f9;
-        public static final int acerca_de_titulo=0x7f0803f8;
-        public static final int action_attention_called=0x7f08010c;
-        public static final int action_attention_requested=0x7f08010d;
+        public static final int account_username_key=0x7f080313;
+        public static final int accuracy=0x7f08039f;
+        public static final int aceptar=0x7f0803f6;
+        public static final int acerca_de=0x7f0803f9;
+        public static final int acerca_de_opciones=0x7f0803fb;
+        public static final int acerca_de_titulo=0x7f0803fa;
+        public static final int action_attention_called=0x7f08010d;
+        public static final int action_attention_requested=0x7f08010e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_ban=0x7f08010e;
+        public static final int action_ban=0x7f08010f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_ban_by=0x7f08010f;
-        public static final int action_export_ddbb=0x7f080409;
+        public static final int action_ban_by=0x7f080110;
+        public static final int action_export_ddbb=0x7f08040b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_invite_error=0x7f080110;
+        public static final int action_invite_error=0x7f080111;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_invite_sent=0x7f080111;
+        public static final int action_invite_sent=0x7f080112;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_join=0x7f0800fa;
+        public static final int action_join=0x7f0800fb;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_join_complete=0x7f080112;
+        public static final int action_join_complete=0x7f080113;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_join_complete_to=0x7f080113;
+        public static final int action_join_complete_to=0x7f080114;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_kick=0x7f0800fb;
+        public static final int action_kick=0x7f0800fc;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_kick_by=0x7f080114;
+        public static final int action_kick_by=0x7f080115;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_leave=0x7f080115;
+        public static final int action_leave=0x7f080116;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_nickname=0x7f080116;
+        public static final int action_nickname=0x7f080117;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_encryption=0x7f080117;
+        public static final int action_otr_encryption=0x7f080118;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_error=0x7f080118;
+        public static final int action_otr_error=0x7f080119;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_finish=0x7f080119;
+        public static final int action_otr_finish=0x7f08011a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_finished_session=0x7f08011a;
+        public static final int action_otr_finished_session=0x7f08011b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_plain=0x7f08011b;
+        public static final int action_otr_plain=0x7f08011c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_smp_cheated=0x7f08011c;
+        public static final int action_otr_smp_cheated=0x7f08011d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_smp_failed=0x7f08011d;
+        public static final int action_otr_smp_failed=0x7f08011e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_smp_not_approved=0x7f08011e;
+        public static final int action_otr_smp_not_approved=0x7f08011f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_smp_unverified=0x7f08011f;
+        public static final int action_otr_smp_unverified=0x7f080120;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_smp_verified=0x7f080120;
+        public static final int action_otr_smp_verified=0x7f080121;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_unreadable=0x7f080121;
+        public static final int action_otr_unreadable=0x7f080122;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int action_otr_verified=0x7f080122;
+        public static final int action_otr_verified=0x7f080123;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_status_available=0x7f080123;
+        public static final int action_status_available=0x7f080124;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_status_away=0x7f080124;
+        public static final int action_status_away=0x7f080125;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_status_chat=0x7f080125;
+        public static final int action_status_chat=0x7f080126;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_status_dnd=0x7f080126;
+        public static final int action_status_dnd=0x7f080127;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_status_text=0x7f0800f8;
+        public static final int action_status_text=0x7f0800f9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_status_text_none=0x7f0800f9;
+        public static final int action_status_text_none=0x7f0800fa;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_status_unavailable=0x7f080127;
+        public static final int action_status_unavailable=0x7f080128;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_status_xa=0x7f080128;
+        public static final int action_status_xa=0x7f080129;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_status.png 
          */
-        public static final int action_subject=0x7f080129;
-        public static final int actual_pass=0x7f080434;
-        public static final int actualizando=0x7f08042b;
-        public static final int add_contact=0x7f0803f1;
-        public static final int administrator=0x7f0803fa;
-        public static final int agenda=0x7f08036c;
-        public static final int al=0x7f0803ce;
-        public static final int alert_dialog_password=0x7f0803b4;
-        public static final int alert_dialog_username=0x7f0803b3;
-        public static final int altitude=0x7f08039b;
+        public static final int action_subject=0x7f08012a;
+        public static final int actual_pass=0x7f080436;
+        public static final int actualizando=0x7f08042d;
+        public static final int add_contact=0x7f0803f3;
+        public static final int administrator=0x7f0803fc;
+        public static final int agenda=0x7f08036e;
+        public static final int al=0x7f0803d0;
+        public static final int alert_dialog_password=0x7f0803b6;
+        public static final int alert_dialog_username=0x7f0803b5;
+        public static final int altitude=0x7f08039d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer_status.png 
          */
-        public static final int always=0x7f0804f1;
-        public static final int apellidos=0x7f080420;
-        public static final int app_name=0x7f080353;
+        public static final int always=0x7f0804f4;
+        public static final int apellidos=0x7f080422;
+        public static final int app_name=0x7f080355;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_add_account.png 
          */
-        public static final int application_action_disabled=0x7f080181;
+        public static final int application_action_disabled=0x7f080183;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_add_account.png 
          */
-        public static final int application_action_empty=0x7f080182;
+        public static final int application_action_empty=0x7f080184;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int application_action_no_contacts=0x7f080183;
+        public static final int application_action_no_contacts=0x7f080185;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int application_action_no_online=0x7f080184;
+        public static final int application_action_no_online=0x7f080186;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int application_action_offline=0x7f080185;
+        public static final int application_action_offline=0x7f080187;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int application_action_waiting=0x7f080186;
-        public static final int application_name=0x7f080456;
-        public static final int application_package=0x7f080458;
+        public static final int application_action_waiting=0x7f080188;
+        public static final int application_name=0x7f080459;
+        public static final int application_package=0x7f08045b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_closing.png 
          */
-        public static final int application_state_closing=0x7f0801a9;
+        public static final int application_state_closing=0x7f0801ab;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int application_state_connecting=0x7f080187;
+        public static final int application_state_connecting=0x7f080189;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_add_account.png 
          */
-        public static final int application_state_disabled=0x7f080188;
+        public static final int application_state_disabled=0x7f08018a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int application_state_empty=0x7f080189;
+        public static final int application_state_empty=0x7f08018b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int application_state_no_contacts=0x7f08018a;
+        public static final int application_state_no_contacts=0x7f08018c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int application_state_no_online=0x7f08018b;
+        public static final int application_state_no_online=0x7f08018d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int application_state_offline=0x7f08018c;
+        public static final int application_state_offline=0x7f08018e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int application_state_roster=0x7f08018d;
+        public static final int application_state_roster=0x7f08018f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_loading.png 
          */
-        public static final int application_state_starting=0x7f08018e;
+        public static final int application_state_starting=0x7f080190;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_suggestion.png 
          */
-        public static final int application_state_waiting=0x7f08018f;
-        public static final int application_version=0x7f080457;
+        public static final int application_state_waiting=0x7f080191;
+        public static final int application_version=0x7f08045a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/message_archive.png 
          */
-        public static final int archive_available_request_message=0x7f080242;
+        public static final int archive_available_request_message=0x7f080244;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_archive.png 
          */
-        public static final int archive_available_request_title=0x7f080243;
-        public static final int audioguias=0x7f080369;
+        public static final int archive_available_request_title=0x7f080245;
+        public static final int audioguias=0x7f08036b;
         /**   Title for notification shown when GooglePlayServices needs to be
         enabled for a application to work. [CHAR LIMIT=70] 
          */
@@ -1860,241 +1860,241 @@ containing a value of this type.
         public static final int auth_client_using_bad_version_title=0x7f080014;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_security_otr.png 
          */
-        public static final int auto=0x7f0804f6;
+        public static final int auto=0x7f0804f9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor_status.png 
          */
-        public static final int available=0x7f080343;
-        public static final int avatar_change=0x7f080404;
+        public static final int available=0x7f080345;
+        public static final int avatar_change=0x7f080406;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor_status.png 
          */
-        public static final int away=0x7f080344;
+        public static final int away=0x7f080346;
         /**  Descarga de títulos 
          */
-        public static final int back_ra=0x7f0803df;
-        public static final int biblioteca=0x7f08040c;
-        public static final int biblioteca_=0x7f08040d;
-        public static final int boot_count_key=0x7f080339;
-        public static final int borrando=0x7f08044a;
-        public static final int boton_ayuda=0x7f080406;
-        public static final int boton_guardar=0x7f080408;
-        public static final int boton_soporte=0x7f080407;
-        public static final int buscando=0x7f080450;
-        public static final int buscar=0x7f08040e;
+        public static final int back_ra=0x7f0803e1;
+        public static final int biblioteca=0x7f08040e;
+        public static final int biblioteca_=0x7f08040f;
+        public static final int boot_count_key=0x7f08033b;
+        public static final int borrando=0x7f08044c;
+        public static final int boton_ayuda=0x7f080408;
+        public static final int boton_guardar=0x7f08040a;
+        public static final int boton_soporte=0x7f080409;
+        public static final int buscando=0x7f080452;
+        public static final int buscar=0x7f080410;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_debug.png 
          */
-        public static final int cache_clear=0x7f080254;
+        public static final int cache_clear=0x7f080256;
         /**  preference_cache 
          */
-        public static final int cache_clear_key=0x7f080309;
+        public static final int cache_clear_key=0x7f08030b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_debug_cache.png 
          */
-        public static final int cache_clear_warning=0x7f080255;
+        public static final int cache_clear_warning=0x7f080257;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_extra.png 
          */
-        public static final int call_attention=0x7f08012b;
-        public static final int call_to=0x7f08017c;
-        public static final int camera=0x7f08043d;
-        public static final int cancelar=0x7f080410;
-        public static final int cancell_download=0x7f080411;
-        public static final int cargando=0x7f080449;
-        public static final int castillo_san_jorge=0x7f080368;
+        public static final int call_attention=0x7f08012c;
+        public static final int call_to=0x7f08017e;
+        public static final int camera=0x7f08043f;
+        public static final int cancelar=0x7f080412;
+        public static final int cancell_download=0x7f080413;
+        public static final int cargando=0x7f08044b;
+        public static final int castillo_san_jorge=0x7f08036a;
         /**  Categorías 
          */
-        public static final int cat_1=0x7f0803e3;
-        public static final int cat_10=0x7f0803ec;
-        public static final int cat_2=0x7f0803e4;
-        public static final int cat_3=0x7f0803e5;
-        public static final int cat_4=0x7f0803e6;
-        public static final int cat_5=0x7f0803e7;
-        public static final int cat_6=0x7f0803e8;
-        public static final int cat_7=0x7f0803e9;
-        public static final int cat_8=0x7f0803ea;
-        public static final int cat_9=0x7f0803eb;
-        public static final int categorias=0x7f080357;
+        public static final int cat_1=0x7f0803e5;
+        public static final int cat_10=0x7f0803ee;
+        public static final int cat_2=0x7f0803e6;
+        public static final int cat_3=0x7f0803e7;
+        public static final int cat_4=0x7f0803e8;
+        public static final int cat_5=0x7f0803e9;
+        public static final int cat_6=0x7f0803ea;
+        public static final int cat_7=0x7f0803eb;
+        public static final int cat_8=0x7f0803ec;
+        public static final int cat_9=0x7f0803ed;
+        public static final int categorias=0x7f080359;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/certificate_check.png 
          */
-        public static final int certificate_confirmation=0x7f0801aa;
+        public static final int certificate_confirmation=0x7f0801ac;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/certificate_check_details.png 
          */
-        public static final int certificate_details=0x7f0801ab;
+        public static final int certificate_details=0x7f0801ad;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/certificate_check.png 
          */
-        public static final int certificate_invalid_chane=0x7f0801ac;
+        public static final int certificate_invalid_chane=0x7f0801ae;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/certificate_check.png 
          */
-        public static final int certificate_invalid_target=0x7f0801ad;
+        public static final int certificate_invalid_target=0x7f0801af;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/certificate_check.png 
          */
-        public static final int certificate_self_signed=0x7f0801ae;
+        public static final int certificate_self_signed=0x7f0801b0;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/certificate_check.png 
          */
-        public static final int certificate_show_details=0x7f0801af;
-        public static final int change=0x7f08036e;
+        public static final int certificate_show_details=0x7f0801b1;
+        public static final int change=0x7f080370;
         public static final int change_error=0x7f08008d;
         public static final int change_succeful=0x7f08008c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor_status.png 
          */
-        public static final int chat=0x7f080345;
+        public static final int chat=0x7f080347;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_message.png 
          */
-        public static final int chat_contact_quantity_1=0x7f080231;
+        public static final int chat_contact_quantity_1=0x7f080233;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_message.png 
          */
-        public static final int chat_contact_quantity_2=0x7f080232;
+        public static final int chat_contact_quantity_2=0x7f080234;
         /**  Used for plural form in russian. http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_message.png 
          */
-        public static final int chat_contact_quantity_5=0x7f080233;
+        public static final int chat_contact_quantity_5=0x7f080235;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer.png 
          */
-        public static final int chat_delay=0x7f0800fd;
-        public static final int chat_events_show_text_key=0x7f080333;
-        public static final int chat_events_sound_key=0x7f080332;
-        public static final int chat_events_vibro_key=0x7f080334;
-        public static final int chat_events_visible_chat_key=0x7f080335;
+        public static final int chat_delay=0x7f0800fe;
+        public static final int chat_events_show_text_key=0x7f080335;
+        public static final int chat_events_sound_key=0x7f080334;
+        public static final int chat_events_vibro_key=0x7f080336;
+        public static final int chat_events_visible_chat_key=0x7f080337;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer.png 
          */
-        public static final int chat_input_hint=0x7f0800fe;
+        public static final int chat_input_hint=0x7f0800ff;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_option_menu_extra.png 
          */
-        public static final int chat_list=0x7f080190;
+        public static final int chat_list=0x7f080192;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_error.png 
          */
-        public static final int chat_list_is_empty=0x7f080191;
+        public static final int chat_list_is_empty=0x7f080193;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_message.png 
          */
-        public static final int chat_message_quantity_1=0x7f080234;
+        public static final int chat_message_quantity_1=0x7f080236;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_message.png 
          */
-        public static final int chat_message_quantity_2=0x7f080235;
+        public static final int chat_message_quantity_2=0x7f080237;
         /**  Used for plural form in russian. http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_message.png 
          */
-        public static final int chat_message_quantity_5=0x7f080236;
+        public static final int chat_message_quantity_5=0x7f080238;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_switch.png 
          */
-        public static final int chat_page=0x7f0800ff;
+        public static final int chat_page=0x7f080100;
         /**  preference_chat 
          */
-        public static final int chat_save_history_key=0x7f080331;
+        public static final int chat_save_history_key=0x7f080333;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer.png 
          */
-        public static final int chat_send=0x7f080100;
+        public static final int chat_send=0x7f080101;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu.png 
          */
-        public static final int chat_settings=0x7f08012c;
+        public static final int chat_settings=0x7f08012d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_typing.png 
          */
-        public static final int chat_state_composing=0x7f08012d;
+        public static final int chat_state_composing=0x7f08012e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_paused.png 
          */
-        public static final int chat_state_paused=0x7f08012e;
+        public static final int chat_state_paused=0x7f08012f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_message.png 
          */
-        public static final int chat_status=0x7f080237;
-        public static final int chat_th=0x7f08040a;
+        public static final int chat_status=0x7f080239;
+        public static final int chat_th=0x7f08040c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer.png 
          */
-        public static final int chat_typed=0x7f08012f;
+        public static final int chat_typed=0x7f080130;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int chat_viewer=0x7f080192;
-        public static final int chats_attention=0x7f0802a3;
-        public static final int chats_attention_key=0x7f0802f3;
-        public static final int chats_attention_sound=0x7f0802a4;
-        public static final int chats_attention_sound_default=0x7f0802f5;
-        public static final int chats_attention_sound_key=0x7f0802f4;
+        public static final int chat_viewer=0x7f080194;
+        public static final int chats_attention=0x7f0802a5;
+        public static final int chats_attention_key=0x7f0802f5;
+        public static final int chats_attention_sound=0x7f0802a6;
+        public static final int chats_attention_sound_default=0x7f0802f7;
+        public static final int chats_attention_sound_key=0x7f0802f6;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer.png 
          */
-        public static final int chats_divide=0x7f08027d;
-        public static final int chats_divide_always_value=0x7f0802ee;
-        public static final int chats_divide_default=0x7f0802f1;
-        public static final int chats_divide_key=0x7f0802ed;
-        public static final int chats_divide_never_value=0x7f0802f0;
+        public static final int chats_divide=0x7f08027f;
+        public static final int chats_divide_always_value=0x7f0802f0;
+        public static final int chats_divide_default=0x7f0802f3;
+        public static final int chats_divide_key=0x7f0802ef;
+        public static final int chats_divide_never_value=0x7f0802f2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer_new_line.png 
          */
-        public static final int chats_divide_portrait=0x7f08027e;
-        public static final int chats_divide_portrait_value=0x7f0802ef;
+        public static final int chats_divide_portrait=0x7f080280;
+        public static final int chats_divide_portrait_value=0x7f0802f1;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer.png 
          */
-        public static final int chats_font_size=0x7f08027f;
-        public static final int chats_font_size_default=0x7f0802ec;
-        public static final int chats_font_size_key=0x7f0802e7;
+        public static final int chats_font_size=0x7f080281;
+        public static final int chats_font_size_default=0x7f0802ee;
+        public static final int chats_font_size_key=0x7f0802e9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer_font_size.png 
          */
-        public static final int chats_font_size_large=0x7f080280;
-        public static final int chats_font_size_large_value=0x7f0802ea;
+        public static final int chats_font_size_large=0x7f080282;
+        public static final int chats_font_size_large_value=0x7f0802ec;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer_font_size.png 
          */
-        public static final int chats_font_size_normal=0x7f080281;
-        public static final int chats_font_size_normal_value=0x7f0802e9;
+        public static final int chats_font_size_normal=0x7f080283;
+        public static final int chats_font_size_normal_value=0x7f0802eb;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer_font_size.png 
          */
-        public static final int chats_font_size_small=0x7f080282;
-        public static final int chats_font_size_small_value=0x7f0802e8;
+        public static final int chats_font_size_small=0x7f080284;
+        public static final int chats_font_size_small_value=0x7f0802ea;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer_font_size.png 
          */
-        public static final int chats_font_size_xlarge=0x7f080283;
-        public static final int chats_font_size_xlarge_value=0x7f0802eb;
+        public static final int chats_font_size_xlarge=0x7f080285;
+        public static final int chats_font_size_xlarge_value=0x7f0802ed;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer.png 
          */
-        public static final int chats_hide_keyboard=0x7f080284;
-        public static final int chats_hide_keyboard_always_value=0x7f0802e3;
-        public static final int chats_hide_keyboard_default=0x7f0802e6;
-        public static final int chats_hide_keyboard_key=0x7f0802e2;
+        public static final int chats_hide_keyboard=0x7f080286;
+        public static final int chats_hide_keyboard_always_value=0x7f0802e5;
+        public static final int chats_hide_keyboard_default=0x7f0802e8;
+        public static final int chats_hide_keyboard_key=0x7f0802e4;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer_keyboard.png 
          */
-        public static final int chats_hide_keyboard_landscape=0x7f080285;
-        public static final int chats_hide_keyboard_landscape_value=0x7f0802e4;
-        public static final int chats_hide_keyboard_never_value=0x7f0802e5;
+        public static final int chats_hide_keyboard_landscape=0x7f080287;
+        public static final int chats_hide_keyboard_landscape_value=0x7f0802e6;
+        public static final int chats_hide_keyboard_never_value=0x7f0802e7;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer_02.png 
          */
-        public static final int chats_receipt=0x7f080286;
+        public static final int chats_receipt=0x7f080288;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer.png 
          */
-        public static final int chats_send_by_enter=0x7f080256;
-        public static final int chats_send_by_enter_key=0x7f0802dc;
+        public static final int chats_send_by_enter=0x7f080258;
+        public static final int chats_send_by_enter_key=0x7f0802de;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer.png 
          */
-        public static final int chats_show_avatars=0x7f080287;
-        public static final int chats_show_avatars_key=0x7f0802da;
+        public static final int chats_show_avatars=0x7f080289;
+        public static final int chats_show_avatars_key=0x7f0802dc;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer.png 
          */
-        public static final int chats_show_status_change=0x7f080288;
-        public static final int chats_show_status_change_always_value=0x7f0802de;
-        public static final int chats_show_status_change_default=0x7f0802e1;
-        public static final int chats_show_status_change_key=0x7f0802dd;
+        public static final int chats_show_status_change=0x7f08028a;
+        public static final int chats_show_status_change_always_value=0x7f0802e0;
+        public static final int chats_show_status_change_default=0x7f0802e3;
+        public static final int chats_show_status_change_key=0x7f0802df;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer_status.png 
          */
-        public static final int chats_show_status_change_muc=0x7f080289;
-        public static final int chats_show_status_change_muc_value=0x7f0802df;
-        public static final int chats_show_status_change_never_value=0x7f0802e0;
+        public static final int chats_show_status_change_muc=0x7f08028b;
+        public static final int chats_show_status_change_muc_value=0x7f0802e1;
+        public static final int chats_show_status_change_never_value=0x7f0802e2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer.png 
          */
-        public static final int chats_state_notification=0x7f08028a;
-        public static final int chats_state_notification_key=0x7f0802f2;
+        public static final int chats_state_notification=0x7f08028c;
+        public static final int chats_state_notification_key=0x7f0802f4;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png 
          */
-        public static final int choose_account=0x7f080170;
-        public static final int choose_file=0x7f080440;
-        public static final int cif=0x7f080431;
+        public static final int choose_account=0x7f080171;
+        public static final int choose_file=0x7f080442;
+        public static final int cif=0x7f080433;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_extra.png 
          */
-        public static final int clear_history=0x7f080101;
+        public static final int clear_history=0x7f080102;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_extra.png 
          */
-        public static final int clear_message=0x7f080102;
+        public static final int clear_message=0x7f080103;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor.png 
          */
-        public static final int clear_statuses=0x7f080346;
-        public static final int client_name=0x7f080459;
-        public static final int close_button=0x7f080396;
+        public static final int clear_statuses=0x7f080348;
+        public static final int client_name=0x7f08045c;
+        public static final int close_button=0x7f080398;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int close_chat=0x7f080193;
+        public static final int close_chat=0x7f080195;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_option_menu.png 
          */
-        public static final int close_chats=0x7f0801b0;
-        public static final int cod_distri=0x7f080432;
-        public static final int cod_post=0x7f080425;
+        public static final int close_chats=0x7f0801b2;
+        public static final int cod_distri=0x7f080434;
+        public static final int cod_post=0x7f080427;
         public static final int com_xabber_android_ui_ChatViewer=0x7f080086;
         public static final int com_xabber_android_ui_ContactAdd=0x7f080088;
         public static final int com_xabber_android_ui_ContactList=0x7f080085;
@@ -2174,296 +2174,296 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f080013;
-        public static final int como_llegar=0x7f0803b7;
-        public static final int compartir=0x7f0803b0;
-        public static final int conferencias=0x7f0803f6;
-        public static final int configuracion=0x7f080358;
-        public static final int configuracion_=0x7f080359;
+        public static final int como_llegar=0x7f0803b9;
+        public static final int compartir=0x7f0803b2;
+        public static final int conferencias=0x7f0803f8;
+        public static final int configuracion=0x7f08035a;
+        public static final int configuracion_=0x7f08035b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/account_editor_confirm.png 
          */
         public static final int confirm_cancellation=0x7f080069;
-        public static final int connection_GPS_dialog_button1=0x7f080392;
-        public static final int connection_GPS_dialog_button2=0x7f080393;
-        public static final int connection_GPS_dialog_text=0x7f080391;
+        public static final int connection_GPS_dialog_button1=0x7f080394;
+        public static final int connection_GPS_dialog_button2=0x7f080395;
+        public static final int connection_GPS_dialog_text=0x7f080393;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_01.png 
          */
-        public static final int connection_adjust_priority=0x7f08028b;
-        public static final int connection_adjust_priority_key=0x7f0802fd;
-        public static final int connection_error_dialog=0x7f08038d;
-        public static final int connection_error_dialog_button1=0x7f08038e;
-        public static final int connection_error_dialog_button2=0x7f08038f;
-        public static final int connection_error_dialog_button3=0x7f080390;
+        public static final int connection_adjust_priority=0x7f08028d;
+        public static final int connection_adjust_priority_key=0x7f0802ff;
+        public static final int connection_error_dialog=0x7f08038f;
+        public static final int connection_error_dialog_button1=0x7f080390;
+        public static final int connection_error_dialog_button2=0x7f080391;
+        public static final int connection_error_dialog_button3=0x7f080392;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_01.png 
          */
-        public static final int connection_go_away=0x7f080257;
-        public static final int connection_go_away_default=0x7f0802f8;
+        public static final int connection_go_away=0x7f080259;
+        public static final int connection_go_away_default=0x7f0802fa;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_away.png 
          */
-        public static final int connection_go_away_immediately=0x7f08028c;
-        public static final int connection_go_away_key=0x7f0802f7;
+        public static final int connection_go_away_immediately=0x7f08028e;
+        public static final int connection_go_away_key=0x7f0802f9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_01.png 
          */
-        public static final int connection_go_xa=0x7f08028d;
-        public static final int connection_go_xa_default=0x7f0802fa;
-        public static final int connection_go_xa_key=0x7f0802f9;
-        public static final int connection_load_vcard=0x7f0802a5;
-        public static final int connection_load_vcard_key=0x7f080308;
+        public static final int connection_go_xa=0x7f08028f;
+        public static final int connection_go_xa_default=0x7f0802fc;
+        public static final int connection_go_xa_key=0x7f0802fb;
+        public static final int connection_load_vcard=0x7f0802a7;
+        public static final int connection_load_vcard_key=0x7f08030a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_01.png 
          */
-        public static final int connection_priority=0x7f08028e;
-        public static final int connection_priority_available_default=0x7f080305;
-        public static final int connection_priority_available_key=0x7f080304;
-        public static final int connection_priority_away_default=0x7f080303;
-        public static final int connection_priority_away_key=0x7f080302;
-        public static final int connection_priority_chat_default=0x7f080307;
-        public static final int connection_priority_chat_key=0x7f080306;
-        public static final int connection_priority_dnd_default=0x7f0802ff;
-        public static final int connection_priority_dnd_key=0x7f0802fe;
-        public static final int connection_priority_xa_default=0x7f080301;
-        public static final int connection_priority_xa_key=0x7f080300;
+        public static final int connection_priority=0x7f080290;
+        public static final int connection_priority_available_default=0x7f080307;
+        public static final int connection_priority_available_key=0x7f080306;
+        public static final int connection_priority_away_default=0x7f080305;
+        public static final int connection_priority_away_key=0x7f080304;
+        public static final int connection_priority_chat_default=0x7f080309;
+        public static final int connection_priority_chat_key=0x7f080308;
+        public static final int connection_priority_dnd_default=0x7f080301;
+        public static final int connection_priority_dnd_key=0x7f080300;
+        public static final int connection_priority_xa_default=0x7f080303;
+        public static final int connection_priority_xa_key=0x7f080302;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_01.png 
          */
-        public static final int connection_start_at_boot=0x7f08028f;
+        public static final int connection_start_at_boot=0x7f080291;
         /**  preference_connection 
          */
-        public static final int connection_start_at_boot_key=0x7f0802f6;
+        public static final int connection_start_at_boot_key=0x7f0802f8;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_connected.png 
          */
-        public static final int connection_state_connected_1=0x7f080238;
+        public static final int connection_state_connected_1=0x7f08023a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_connected.png 
          */
-        public static final int connection_state_connected_2=0x7f080239;
+        public static final int connection_state_connected_2=0x7f08023b;
         /**  Used for plural form in russian. http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_connected.png 
          */
-        public static final int connection_state_connected_5=0x7f08023a;
+        public static final int connection_state_connected_5=0x7f08023c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_connecting.png 
          */
-        public static final int connection_state_connecting_1=0x7f08023b;
+        public static final int connection_state_connecting_1=0x7f08023d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_connecting.png 
          */
-        public static final int connection_state_connecting_2=0x7f08023c;
+        public static final int connection_state_connecting_2=0x7f08023e;
         /**  Used for plural form in russian. http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_connecting.png 
          */
-        public static final int connection_state_connecting_5=0x7f08023d;
+        public static final int connection_state_connecting_5=0x7f08023f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_offline.png 
          */
-        public static final int connection_state_offline=0x7f080241;
+        public static final int connection_state_offline=0x7f080243;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_waiting.png 
          */
-        public static final int connection_state_waiting_1=0x7f08023e;
+        public static final int connection_state_waiting_1=0x7f080240;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_waiting.png 
          */
-        public static final int connection_state_waiting_2=0x7f08023f;
+        public static final int connection_state_waiting_2=0x7f080241;
         /**  Used for plural form in russian. http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_waiting.png 
          */
-        public static final int connection_state_waiting_5=0x7f080240;
+        public static final int connection_state_waiting_5=0x7f080242;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_01.png 
          */
-        public static final int connection_wake_lock=0x7f080290;
-        public static final int connection_wake_lock_key=0x7f0802fc;
+        public static final int connection_wake_lock=0x7f080292;
+        public static final int connection_wake_lock_key=0x7f0802fe;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_01.png 
          */
-        public static final int connection_wifi_lock=0x7f080291;
-        public static final int connection_wifi_lock_key=0x7f0802fb;
+        public static final int connection_wifi_lock=0x7f080293;
+        public static final int connection_wifi_lock_key=0x7f0802fd;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add.png 
          */
-        public static final int contact_account=0x7f080160;
+        public static final int contact_account=0x7f080161;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_option_menu.png 
          */
-        public static final int contact_add=0x7f080195;
-        public static final int contact_add_chat=0x7f080168;
-        public static final int contact_add_succesful=0x7f080177;
+        public static final int contact_add=0x7f080197;
+        public static final int contact_add_chat=0x7f080169;
+        public static final int contact_add_succesful=0x7f080179;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int contact_call_phone=0x7f080199;
+        public static final int contact_call_phone=0x7f08019b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int contact_delete=0x7f080196;
+        public static final int contact_delete=0x7f080198;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_confirm.png 
          */
-        public static final int contact_delete_confirm=0x7f08019b;
+        public static final int contact_delete_confirm=0x7f08019d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int contact_editor=0x7f08019c;
+        public static final int contact_editor=0x7f08019e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor.png 
          */
-        public static final int contact_editor_title=0x7f080161;
+        public static final int contact_editor_title=0x7f080162;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int contact_email=0x7f080197;
-        public static final int contact_exists=0x7f080173;
+        public static final int contact_email=0x7f080199;
+        public static final int contact_exists=0x7f080174;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor.png 
          */
-        public static final int contact_group=0x7f080162;
+        public static final int contact_group=0x7f080163;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_integration.png 
          */
-        public static final int contact_integration_suggest=0x7f0801b1;
-        public static final int contact_integration_suggested_key=0x7f08033b;
-        public static final int contact_intro=0x7f080169;
+        public static final int contact_integration_suggest=0x7f0801b3;
+        public static final int contact_integration_suggested_key=0x7f08033d;
+        public static final int contact_intro=0x7f08016a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_contact_is_offline.png 
          */
-        public static final int contact_is_offline=0x7f080103;
+        public static final int contact_is_offline=0x7f080104;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list.png 
          */
-        public static final int contact_list=0x7f08019d;
+        public static final int contact_list=0x7f08019f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add.png 
          */
-        public static final int contact_name=0x7f080163;
+        public static final int contact_name=0x7f080164;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add.png 
          */
-        public static final int contact_name_hint=0x7f080165;
-        public static final int contact_pending=0x7f0803f0;
+        public static final int contact_name_hint=0x7f080166;
+        public static final int contact_pending=0x7f0803f2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add.png 
          */
-        public static final int contact_photo=0x7f080164;
+        public static final int contact_photo=0x7f080165;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int contact_see_phones=0x7f080198;
-        public static final int contact_send=0x7f08043c;
+        public static final int contact_see_phones=0x7f08019a;
+        public static final int contact_send=0x7f08043e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int contact_send_email=0x7f08019a;
+        public static final int contact_send_email=0x7f08019c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add_confirm.png 
          */
-        public static final int contact_subscribe_confirm=0x7f080166;
+        public static final int contact_subscribe_confirm=0x7f080167;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add.png 
          */
-        public static final int contact_user=0x7f080167;
+        public static final int contact_user=0x7f080168;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int contact_viewer=0x7f0801bf;
+        public static final int contact_viewer=0x7f0801c1;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_xmpp.png 
          */
-        public static final int contact_viewer_client_info=0x7f0801c6;
+        public static final int contact_viewer_client_info=0x7f0801c8;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_xmpp.png 
          */
-        public static final int contact_viewer_for=0x7f0801c0;
+        public static final int contact_viewer_for=0x7f0801c2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_xmpp.png 
          */
-        public static final int contact_viewer_jid=0x7f0801c2;
-        public static final int contact_viewer_mime_type=0x7f08033d;
+        public static final int contact_viewer_jid=0x7f0801c4;
+        public static final int contact_viewer_mime_type=0x7f08033f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_xmpp.png 
          */
-        public static final int contact_viewer_name=0x7f0801c3;
+        public static final int contact_viewer_name=0x7f0801c5;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_xmpp.png 
          */
-        public static final int contact_viewer_resource_summary=0x7f0801c5;
+        public static final int contact_viewer_resource_summary=0x7f0801c7;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_xmpp.png 
          */
-        public static final int contact_viewer_resources=0x7f0801c4;
+        public static final int contact_viewer_resources=0x7f0801c6;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_xmpp.png 
          */
-        public static final int contact_viewer_xmpp=0x7f0801c1;
+        public static final int contact_viewer_xmpp=0x7f0801c3;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_02.png 
          */
-        public static final int contacts_automatic_download=0x7f08025d;
-        public static final int contacts_automatic_download_key=0x7f0802c1;
-        public static final int contacts_automatic_download_mb=0x7f08025f;
-        public static final int contacts_automatic_download_mb_default=0x7f080260;
-        public static final int contacts_automatic_download_mb_key=0x7f0802c2;
+        public static final int contacts_automatic_download=0x7f08025f;
+        public static final int contacts_automatic_download_key=0x7f0802c3;
+        public static final int contacts_automatic_download_mb=0x7f080261;
+        public static final int contacts_automatic_download_mb_default=0x7f080262;
+        public static final int contacts_automatic_download_mb_key=0x7f0802c4;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_02.png 
          */
-        public static final int contacts_automatic_download_mb_title=0x7f08025e;
-        public static final int contacts_enable_show_accounts_key=0x7f0802c9;
-        public static final int contacts_is_an_invalid_number=0x7f080261;
-        public static final int contacts_is_an_invalid_range=0x7f080262;
+        public static final int contacts_automatic_download_mb_title=0x7f080260;
+        public static final int contacts_enable_show_accounts_key=0x7f0802cb;
+        public static final int contacts_is_an_invalid_number=0x7f080263;
+        public static final int contacts_is_an_invalid_range=0x7f080264;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_02.png 
          */
-        public static final int contacts_order=0x7f080258;
+        public static final int contacts_order=0x7f08025a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_sort.png 
          */
-        public static final int contacts_order_alphabet=0x7f080259;
-        public static final int contacts_order_alphabet_value=0x7f0802c7;
-        public static final int contacts_order_default=0x7f0802c8;
-        public static final int contacts_order_key=0x7f0802c5;
+        public static final int contacts_order_alphabet=0x7f08025b;
+        public static final int contacts_order_alphabet_value=0x7f0802c9;
+        public static final int contacts_order_default=0x7f0802ca;
+        public static final int contacts_order_key=0x7f0802c7;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_sort.png 
          */
-        public static final int contacts_order_status=0x7f08025a;
-        public static final int contacts_order_status_value=0x7f0802c6;
+        public static final int contacts_order_status=0x7f08025c;
+        public static final int contacts_order_status_value=0x7f0802c8;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_01.png 
          */
-        public static final int contacts_reset_offline=0x7f080292;
-        public static final int contacts_reset_offline_key=0x7f0802db;
+        public static final int contacts_reset_offline=0x7f080294;
+        public static final int contacts_reset_offline_key=0x7f0802dd;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_reset_offline.png 
          */
-        public static final int contacts_reset_offline_warning=0x7f080293;
-        public static final int contacts_selected_account_key=0x7f0802ca;
+        public static final int contacts_reset_offline_warning=0x7f080295;
+        public static final int contacts_selected_account_key=0x7f0802cc;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_01.png 
          */
-        public static final int contacts_show_accounts=0x7f08025b;
-        public static final int contacts_show_accounts_key=0x7f0802bf;
+        public static final int contacts_show_accounts=0x7f08025d;
+        public static final int contacts_show_accounts_key=0x7f0802c1;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_02.png 
          */
-        public static final int contacts_show_active_chats=0x7f08025c;
-        public static final int contacts_show_active_chats_key=0x7f0802c0;
+        public static final int contacts_show_active_chats=0x7f08025e;
+        public static final int contacts_show_active_chats_key=0x7f0802c2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_01.png 
          */
-        public static final int contacts_show_avatars=0x7f080263;
-        public static final int contacts_show_avatars_key=0x7f0802bc;
+        public static final int contacts_show_avatars=0x7f080265;
+        public static final int contacts_show_avatars_key=0x7f0802be;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_02.png 
          */
-        public static final int contacts_show_empty_groups=0x7f080264;
-        public static final int contacts_show_empty_groups_key=0x7f0802c4;
+        public static final int contacts_show_empty_groups=0x7f080266;
+        public static final int contacts_show_empty_groups_key=0x7f0802c6;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_01.png 
          */
-        public static final int contacts_show_groups=0x7f080265;
-        public static final int contacts_show_groups_key=0x7f0802be;
+        public static final int contacts_show_groups=0x7f080267;
+        public static final int contacts_show_groups_key=0x7f0802c0;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_01.png 
          */
-        public static final int contacts_show_offline=0x7f080266;
-        public static final int contacts_show_offline_key=0x7f0802bd;
+        public static final int contacts_show_offline=0x7f080268;
+        public static final int contacts_show_offline_key=0x7f0802bf;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_01.png 
          */
-        public static final int contacts_show_panel=0x7f080267;
+        public static final int contacts_show_panel=0x7f080269;
         /**  preference_contacts 
          */
-        public static final int contacts_show_panel_key=0x7f0802bb;
+        public static final int contacts_show_panel_key=0x7f0802bd;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_contact_list_02.png 
          */
-        public static final int contacts_stay_active_chats=0x7f080268;
-        public static final int contacts_stay_active_chats_key=0x7f0802c3;
-        public static final int content_description=0x7f0803ba;
-        public static final int copied=0x7f080155;
-        public static final int copy=0x7f080152;
-        public static final int create_group=0x7f0803f5;
-        public static final int creditos=0x7f08036b;
-        public static final int data_source_change_buzz=0x7f0803a6;
-        public static final int data_source_change_osm=0x7f0803ab;
-        public static final int data_source_change_twitter=0x7f0803a5;
-        public static final int data_source_change_wikipedia=0x7f0803a4;
-        public static final int de=0x7f0803da;
-        public static final int de_=0x7f0803db;
-        public static final int de_ti=0x7f0803d3;
+        public static final int contacts_stay_active_chats=0x7f08026a;
+        public static final int contacts_stay_active_chats_key=0x7f0802c5;
+        public static final int content_description=0x7f0803bc;
+        public static final int copied=0x7f080156;
+        public static final int copy=0x7f080153;
+        public static final int create_group=0x7f0803f7;
+        public static final int creditos=0x7f08036d;
+        public static final int data_source_change_buzz=0x7f0803a8;
+        public static final int data_source_change_osm=0x7f0803ad;
+        public static final int data_source_change_twitter=0x7f0803a7;
+        public static final int data_source_change_wikipedia=0x7f0803a6;
+        public static final int de=0x7f0803dc;
+        public static final int de_=0x7f0803dd;
+        public static final int de_ti=0x7f0803d5;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_debug.png 
          */
-        public static final int debug_log=0x7f080269;
+        public static final int debug_log=0x7f08026b;
         /**  preference_debug 
          */
-        public static final int debug_log_key=0x7f08030a;
-        public static final int default_sound=0x7f0802b1;
-        public static final int del=0x7f0803cd;
-        public static final int delaferia=0x7f080355;
-        public static final int demarcado_fav_ok=0x7f0803bc;
-        public static final int desarrollado_por=0x7f0803e2;
-        public static final int descargando=0x7f08040f;
+        public static final int debug_log_key=0x7f08030c;
+        public static final int default_sound=0x7f0802b3;
+        public static final int del=0x7f0803cf;
+        public static final int delaferia=0x7f080357;
+        public static final int demarcado_fav_ok=0x7f0803be;
+        public static final int desarrollado_por=0x7f0803e4;
+        public static final int descargando=0x7f080411;
         /**  Descarga de títulos 
          */
-        public static final int descargando_titulo=0x7f0803d9;
-        public static final int descargar=0x7f080415;
-        public static final int destroy_body=0x7f0803fd;
-        public static final int destroy_title=0x7f0803fc;
-        public static final int development_changes_1=0x7f0804d7;
-        public static final int development_changes_10=0x7f0804e0;
-        public static final int development_changes_11=0x7f0804e1;
-        public static final int development_changes_12=0x7f0804e2;
-        public static final int development_changes_13=0x7f0804e3;
-        public static final int development_changes_14=0x7f0804e4;
-        public static final int development_changes_15=0x7f0804e5;
-        public static final int development_changes_16=0x7f0804e6;
-        public static final int development_changes_17=0x7f0804e7;
-        public static final int development_changes_18=0x7f0804e8;
-        public static final int development_changes_19=0x7f0804e9;
-        public static final int development_changes_2=0x7f0804d8;
+        public static final int descargando_titulo=0x7f0803db;
+        public static final int descargar=0x7f080417;
+        public static final int destroy_body=0x7f0803ff;
+        public static final int destroy_title=0x7f0803fe;
+        public static final int development_changes_1=0x7f0804da;
+        public static final int development_changes_10=0x7f0804e3;
+        public static final int development_changes_11=0x7f0804e4;
+        public static final int development_changes_12=0x7f0804e5;
+        public static final int development_changes_13=0x7f0804e6;
+        public static final int development_changes_14=0x7f0804e7;
+        public static final int development_changes_15=0x7f0804e8;
+        public static final int development_changes_16=0x7f0804e9;
+        public static final int development_changes_17=0x7f0804ea;
+        public static final int development_changes_18=0x7f0804eb;
+        public static final int development_changes_19=0x7f0804ec;
+        public static final int development_changes_2=0x7f0804db;
         public static final int development_changes_20=0x7f080090;
         public static final int development_changes_21=0x7f080091;
         public static final int development_changes_22=0x7f080092;
@@ -2474,7 +2474,7 @@ containing a value of this type.
         public static final int development_changes_27=0x7f080097;
         public static final int development_changes_28=0x7f080098;
         public static final int development_changes_29=0x7f080099;
-        public static final int development_changes_3=0x7f0804d9;
+        public static final int development_changes_3=0x7f0804dc;
         public static final int development_changes_30=0x7f08009a;
         public static final int development_changes_31=0x7f08009b;
         public static final int development_changes_32=0x7f08009c;
@@ -2485,7 +2485,7 @@ containing a value of this type.
         public static final int development_changes_37=0x7f0800a1;
         public static final int development_changes_38=0x7f0800a2;
         public static final int development_changes_39=0x7f0800a3;
-        public static final int development_changes_4=0x7f0804da;
+        public static final int development_changes_4=0x7f0804dd;
         public static final int development_changes_40=0x7f0800a4;
         public static final int development_changes_41=0x7f0800a5;
         public static final int development_changes_42=0x7f0800a6;
@@ -2496,7 +2496,7 @@ containing a value of this type.
         public static final int development_changes_47=0x7f0800ab;
         public static final int development_changes_48=0x7f0800ac;
         public static final int development_changes_49=0x7f0800ad;
-        public static final int development_changes_5=0x7f0804db;
+        public static final int development_changes_5=0x7f0804de;
         public static final int development_changes_50=0x7f0800ae;
         public static final int development_changes_51=0x7f0800af;
         public static final int development_changes_52=0x7f0800b0;
@@ -2507,7 +2507,7 @@ containing a value of this type.
         public static final int development_changes_57=0x7f0800b5;
         public static final int development_changes_58=0x7f0800b6;
         public static final int development_changes_59=0x7f0800b7;
-        public static final int development_changes_6=0x7f0804dc;
+        public static final int development_changes_6=0x7f0804df;
         public static final int development_changes_60=0x7f0800b8;
         public static final int development_changes_61=0x7f0800b9;
         public static final int development_changes_62=0x7f0800ba;
@@ -2518,7 +2518,7 @@ containing a value of this type.
         public static final int development_changes_67=0x7f0800bf;
         public static final int development_changes_68=0x7f0800c0;
         public static final int development_changes_69=0x7f0800c1;
-        public static final int development_changes_7=0x7f0804dd;
+        public static final int development_changes_7=0x7f0804e0;
         public static final int development_changes_70=0x7f0800c2;
         public static final int development_changes_71=0x7f0800c3;
         public static final int development_changes_72=0x7f0800c4;
@@ -2528,641 +2528,643 @@ containing a value of this type.
         public static final int development_changes_76=0x7f08008e;
         public static final int development_changes_77=0x7f0800c8;
         public static final int development_changes_78=0x7f0800c9;
-        public static final int development_changes_8=0x7f0804de;
-        public static final int development_changes_9=0x7f0804df;
+        public static final int development_changes_8=0x7f0804e1;
+        public static final int development_changes_9=0x7f0804e2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/market.png 
          */
-        public static final int development_description=0x7f08020c;
+        public static final int development_description=0x7f08020e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/market.png 
          */
-        public static final int development_title=0x7f08020f;
-        public static final int development_versions_1=0x7f08045a;
-        public static final int development_versions_10=0x7f080463;
-        public static final int development_versions_11=0x7f080464;
-        public static final int development_versions_12=0x7f080465;
-        public static final int development_versions_13=0x7f080466;
-        public static final int development_versions_14=0x7f080467;
-        public static final int development_versions_15=0x7f080468;
-        public static final int development_versions_16=0x7f080469;
-        public static final int development_versions_17=0x7f08046a;
-        public static final int development_versions_18=0x7f08046b;
-        public static final int development_versions_19=0x7f08046c;
-        public static final int development_versions_2=0x7f08045b;
-        public static final int development_versions_20=0x7f08046d;
-        public static final int development_versions_21=0x7f08046e;
-        public static final int development_versions_22=0x7f08046f;
-        public static final int development_versions_23=0x7f080470;
-        public static final int development_versions_24=0x7f080471;
-        public static final int development_versions_25=0x7f080472;
-        public static final int development_versions_26=0x7f080473;
-        public static final int development_versions_27=0x7f080474;
-        public static final int development_versions_28=0x7f080475;
-        public static final int development_versions_29=0x7f080476;
-        public static final int development_versions_3=0x7f08045c;
-        public static final int development_versions_30=0x7f080477;
-        public static final int development_versions_31=0x7f080478;
-        public static final int development_versions_32=0x7f080479;
-        public static final int development_versions_33=0x7f08047a;
-        public static final int development_versions_34=0x7f08047b;
-        public static final int development_versions_35=0x7f08047c;
-        public static final int development_versions_36=0x7f08047d;
-        public static final int development_versions_37=0x7f08047e;
-        public static final int development_versions_38=0x7f08047f;
-        public static final int development_versions_39=0x7f080480;
-        public static final int development_versions_4=0x7f08045d;
-        public static final int development_versions_40=0x7f080481;
-        public static final int development_versions_41=0x7f080482;
-        public static final int development_versions_42=0x7f080483;
-        public static final int development_versions_43=0x7f080484;
-        public static final int development_versions_44=0x7f080485;
-        public static final int development_versions_45=0x7f080486;
-        public static final int development_versions_46=0x7f080487;
-        public static final int development_versions_47=0x7f080488;
-        public static final int development_versions_48=0x7f080489;
-        public static final int development_versions_49=0x7f08048a;
-        public static final int development_versions_5=0x7f08045e;
-        public static final int development_versions_50=0x7f08048b;
-        public static final int development_versions_51=0x7f08048c;
-        public static final int development_versions_52=0x7f08048d;
-        public static final int development_versions_53=0x7f08048e;
-        public static final int development_versions_54=0x7f08048f;
-        public static final int development_versions_55=0x7f080490;
-        public static final int development_versions_56=0x7f080491;
-        public static final int development_versions_57=0x7f080492;
-        public static final int development_versions_58=0x7f080493;
-        public static final int development_versions_59=0x7f080494;
-        public static final int development_versions_6=0x7f08045f;
-        public static final int development_versions_60=0x7f080495;
-        public static final int development_versions_61=0x7f080496;
-        public static final int development_versions_62=0x7f080497;
-        public static final int development_versions_63=0x7f080498;
-        public static final int development_versions_64=0x7f080499;
-        public static final int development_versions_65=0x7f08049a;
-        public static final int development_versions_66=0x7f08049b;
-        public static final int development_versions_67=0x7f08049c;
-        public static final int development_versions_68=0x7f08049d;
-        public static final int development_versions_69=0x7f08049e;
-        public static final int development_versions_7=0x7f080460;
-        public static final int development_versions_70=0x7f08049f;
-        public static final int development_versions_71=0x7f0804a0;
-        public static final int development_versions_72=0x7f0804a1;
-        public static final int development_versions_73=0x7f0804a2;
-        public static final int development_versions_74=0x7f0804a3;
-        public static final int development_versions_75=0x7f0804a4;
-        public static final int development_versions_76=0x7f0804a5;
-        public static final int development_versions_77=0x7f0804a6;
-        public static final int development_versions_78=0x7f0804a7;
-        public static final int development_versions_79=0x7f0804a8;
-        public static final int development_versions_8=0x7f080461;
-        public static final int development_versions_80=0x7f0804a9;
-        public static final int development_versions_9=0x7f080462;
-        public static final int dialog_desea_descargar_descrip=0x7f0803d8;
-        public static final int dialog_desea_descargar_title=0x7f0803d7;
-        public static final int direccion=0x7f080422;
+        public static final int development_title=0x7f080211;
+        public static final int development_versions_1=0x7f08045d;
+        public static final int development_versions_10=0x7f080466;
+        public static final int development_versions_11=0x7f080467;
+        public static final int development_versions_12=0x7f080468;
+        public static final int development_versions_13=0x7f080469;
+        public static final int development_versions_14=0x7f08046a;
+        public static final int development_versions_15=0x7f08046b;
+        public static final int development_versions_16=0x7f08046c;
+        public static final int development_versions_17=0x7f08046d;
+        public static final int development_versions_18=0x7f08046e;
+        public static final int development_versions_19=0x7f08046f;
+        public static final int development_versions_2=0x7f08045e;
+        public static final int development_versions_20=0x7f080470;
+        public static final int development_versions_21=0x7f080471;
+        public static final int development_versions_22=0x7f080472;
+        public static final int development_versions_23=0x7f080473;
+        public static final int development_versions_24=0x7f080474;
+        public static final int development_versions_25=0x7f080475;
+        public static final int development_versions_26=0x7f080476;
+        public static final int development_versions_27=0x7f080477;
+        public static final int development_versions_28=0x7f080478;
+        public static final int development_versions_29=0x7f080479;
+        public static final int development_versions_3=0x7f08045f;
+        public static final int development_versions_30=0x7f08047a;
+        public static final int development_versions_31=0x7f08047b;
+        public static final int development_versions_32=0x7f08047c;
+        public static final int development_versions_33=0x7f08047d;
+        public static final int development_versions_34=0x7f08047e;
+        public static final int development_versions_35=0x7f08047f;
+        public static final int development_versions_36=0x7f080480;
+        public static final int development_versions_37=0x7f080481;
+        public static final int development_versions_38=0x7f080482;
+        public static final int development_versions_39=0x7f080483;
+        public static final int development_versions_4=0x7f080460;
+        public static final int development_versions_40=0x7f080484;
+        public static final int development_versions_41=0x7f080485;
+        public static final int development_versions_42=0x7f080486;
+        public static final int development_versions_43=0x7f080487;
+        public static final int development_versions_44=0x7f080488;
+        public static final int development_versions_45=0x7f080489;
+        public static final int development_versions_46=0x7f08048a;
+        public static final int development_versions_47=0x7f08048b;
+        public static final int development_versions_48=0x7f08048c;
+        public static final int development_versions_49=0x7f08048d;
+        public static final int development_versions_5=0x7f080461;
+        public static final int development_versions_50=0x7f08048e;
+        public static final int development_versions_51=0x7f08048f;
+        public static final int development_versions_52=0x7f080490;
+        public static final int development_versions_53=0x7f080491;
+        public static final int development_versions_54=0x7f080492;
+        public static final int development_versions_55=0x7f080493;
+        public static final int development_versions_56=0x7f080494;
+        public static final int development_versions_57=0x7f080495;
+        public static final int development_versions_58=0x7f080496;
+        public static final int development_versions_59=0x7f080497;
+        public static final int development_versions_6=0x7f080462;
+        public static final int development_versions_60=0x7f080498;
+        public static final int development_versions_61=0x7f080499;
+        public static final int development_versions_62=0x7f08049a;
+        public static final int development_versions_63=0x7f08049b;
+        public static final int development_versions_64=0x7f08049c;
+        public static final int development_versions_65=0x7f08049d;
+        public static final int development_versions_66=0x7f08049e;
+        public static final int development_versions_67=0x7f08049f;
+        public static final int development_versions_68=0x7f0804a0;
+        public static final int development_versions_69=0x7f0804a1;
+        public static final int development_versions_7=0x7f080463;
+        public static final int development_versions_70=0x7f0804a2;
+        public static final int development_versions_71=0x7f0804a3;
+        public static final int development_versions_72=0x7f0804a4;
+        public static final int development_versions_73=0x7f0804a5;
+        public static final int development_versions_74=0x7f0804a6;
+        public static final int development_versions_75=0x7f0804a7;
+        public static final int development_versions_76=0x7f0804a8;
+        public static final int development_versions_77=0x7f0804a9;
+        public static final int development_versions_78=0x7f0804aa;
+        public static final int development_versions_79=0x7f0804ab;
+        public static final int development_versions_8=0x7f080464;
+        public static final int development_versions_80=0x7f0804ac;
+        public static final int development_versions_9=0x7f080465;
+        public static final int dialog_desea_descargar_descrip=0x7f0803da;
+        public static final int dialog_desea_descargar_title=0x7f0803d9;
+        public static final int direccion=0x7f080424;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_security_otr.png 
          */
-        public static final int disabled=0x7f0804f2;
+        public static final int disabled=0x7f0804f5;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int discard_subscription=0x7f08019e;
-        public static final int dist_solu=0x7f08041b;
+        public static final int discard_subscription=0x7f0801a0;
+        public static final int dist_solu=0x7f08041d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor_status.png 
          */
-        public static final int dnd=0x7f080347;
-        public static final int dni=0x7f080421;
-        public static final int dondesubir=0x7f0803b2;
-        public static final int download=0x7f08014c;
+        public static final int dnd=0x7f080349;
+        public static final int dni=0x7f080423;
+        public static final int dondesubir=0x7f0803b4;
+        public static final int download=0x7f08014d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor_context_menu.png 
          */
-        public static final int edit_status=0x7f080348;
-        public static final int editar_pass=0x7f08042e;
-        public static final int editar_perfil=0x7f08042d;
-        public static final int el=0x7f0803cf;
-        public static final int empresa=0x7f080430;
-        public static final int empty_list=0x7f080384;
+        public static final int edit_status=0x7f08034a;
+        public static final int editar_pass=0x7f080430;
+        public static final int editar_perfil=0x7f08042f;
+        public static final int el=0x7f0803d1;
+        public static final int empresa=0x7f080432;
+        public static final int empty_list=0x7f080386;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor.png 
          */
-        public static final int empty_status=0x7f080349;
-        public static final int entrar=0x7f08041d;
-        public static final int enviando=0x7f080356;
-        public static final int enviar=0x7f080442;
-        public static final int enviar_archivo=0x7f080443;
-        public static final int error_credenciales_incorrectas=0x7f08044f;
-        public static final int error_login=0x7f0803fb;
-        public static final int es_oblig=0x7f080428;
-        public static final int espere=0x7f08044c;
-        public static final int estas_conectado=0x7f080451;
-        public static final int estas_desconectado=0x7f080452;
-        public static final int estoy=0x7f0803b1;
-        public static final int eventos=0x7f08035f;
+        public static final int empty_status=0x7f08034b;
+        public static final int entrar=0x7f08041f;
+        public static final int enviando=0x7f080358;
+        public static final int enviar=0x7f080444;
+        public static final int enviar_archivo=0x7f080445;
+        public static final int error_credenciales_incorrectas=0x7f080451;
+        public static final int error_login=0x7f0803fd;
+        public static final int es_oblig=0x7f08042a;
+        public static final int espere=0x7f08044e;
+        public static final int estas_conectado=0x7f080453;
+        public static final int estas_desconectado=0x7f080454;
+        public static final int estoy=0x7f0803b3;
+        public static final int eventos=0x7f080361;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_02.png 
          */
-        public static final int events_first_only=0x7f080294;
-        public static final int events_first_only_key=0x7f0802d8;
+        public static final int events_first_only=0x7f080296;
+        public static final int events_first_only_key=0x7f0802da;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_01.png 
          */
-        public static final int events_ignore_system_vibro=0x7f080295;
-        public static final int events_ignore_system_vibro_key=0x7f0802ce;
+        public static final int events_ignore_system_vibro=0x7f080297;
+        public static final int events_ignore_system_vibro_key=0x7f0802d0;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_01.png 
          */
-        public static final int events_lightning=0x7f08026a;
-        public static final int events_lightning_key=0x7f0802cf;
+        public static final int events_lightning=0x7f08026c;
+        public static final int events_lightning_key=0x7f0802d1;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_02.png 
          */
-        public static final int events_message=0x7f080296;
+        public static final int events_message=0x7f080298;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_where.png 
          */
-        public static final int events_message_chat=0x7f080297;
+        public static final int events_message_chat=0x7f080299;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_where.png 
          */
-        public static final int events_message_chat_and_muc=0x7f080298;
-        public static final int events_message_chat_and_muc_value=0x7f0802d5;
-        public static final int events_message_chat_value=0x7f0802d4;
-        public static final int events_message_default=0x7f0802d6;
-        public static final int events_message_key=0x7f0802d2;
+        public static final int events_message_chat_and_muc=0x7f08029a;
+        public static final int events_message_chat_and_muc_value=0x7f0802d7;
+        public static final int events_message_chat_value=0x7f0802d6;
+        public static final int events_message_default=0x7f0802d8;
+        public static final int events_message_key=0x7f0802d4;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_where.png 
          */
-        public static final int events_message_none=0x7f080299;
-        public static final int events_message_none_value=0x7f0802d3;
+        public static final int events_message_none=0x7f08029b;
+        public static final int events_message_none_value=0x7f0802d5;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_01.png 
          */
-        public static final int events_persistent=0x7f08026b;
-        public static final int events_persistent_key=0x7f0802d0;
-        public static final int events_phrases=0x7f0802a6;
-        public static final int events_phrases_title=0x7f08024a;
+        public static final int events_persistent=0x7f08026d;
+        public static final int events_persistent_key=0x7f0802d2;
+        public static final int events_phrases=0x7f0802a8;
+        public static final int events_phrases_title=0x7f08024c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_02.png 
          */
-        public static final int events_show_text=0x7f08029a;
-        public static final int events_show_text_key=0x7f0802d1;
+        public static final int events_show_text=0x7f08029c;
+        public static final int events_show_text_key=0x7f0802d3;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_01.png 
          */
-        public static final int events_sound=0x7f08026c;
-        public static final int events_sound_default=0x7f0802cc;
+        public static final int events_sound=0x7f08026e;
+        public static final int events_sound_default=0x7f0802ce;
         /**  preference_events 
          */
-        public static final int events_sound_key=0x7f0802cb;
+        public static final int events_sound_key=0x7f0802cd;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_01.png 
          */
-        public static final int events_vibro=0x7f08026d;
-        public static final int events_vibro_key=0x7f0802cd;
+        public static final int events_vibro=0x7f08026f;
+        public static final int events_vibro_key=0x7f0802cf;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_notifications_02.png 
          */
-        public static final int events_visible_chat=0x7f08029b;
-        public static final int events_visible_chat_key=0x7f0802d7;
+        public static final int events_visible_chat=0x7f08029d;
+        public static final int events_visible_chat_key=0x7f0802d9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_option_menu.png 
          */
-        public static final int exit=0x7f08019f;
+        public static final int exit=0x7f0801a1;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_extra.png 
          */
-        public static final int export_chat=0x7f080130;
+        public static final int export_chat=0x7f080131;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/export_chat_done.png 
          */
-        public static final int export_chat_done=0x7f080132;
+        public static final int export_chat_done=0x7f080133;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/export_chat.png 
          */
-        public static final int export_chat_mask=0x7f080133;
+        public static final int export_chat_mask=0x7f080134;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/export_chat.png 
          */
-        public static final int export_chat_send=0x7f080134;
+        public static final int export_chat_send=0x7f080135;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/export_chat.png 
          */
-        public static final int export_chat_title=0x7f080135;
-        public static final int export_con=0x7f080446;
-        public static final int export_error=0x7f0801f8;
-        public static final int export_location=0x7f0801fb;
-        public static final int export_succesful=0x7f0801fa;
-        public static final int export_title=0x7f0801f9;
-        public static final int facebook=0x7f080372;
-        public static final int faq=0x7f08040b;
-        public static final int favoritos=0x7f08036a;
-        public static final int fecha=0x7f0803cc;
-        public static final int fecha_alta=0x7f080433;
-        public static final int field_pass=0x7f080419;
-        public static final int field_usu=0x7f080418;
-        public static final int file_download=0x7f080412;
-        public static final int file_received=0x7f080150;
-        public static final int forward=0x7f080153;
-        public static final int freq_ask=0x7f08041a;
+        public static final int export_chat_title=0x7f080136;
+        public static final int export_con=0x7f080448;
+        public static final int export_error=0x7f0801fa;
+        public static final int export_location=0x7f0801fd;
+        public static final int export_succesful=0x7f0801fc;
+        public static final int export_title=0x7f0801fb;
+        public static final int facebook=0x7f080374;
+        public static final int faq=0x7f08040d;
+        public static final int favoritos=0x7f08036c;
+        public static final int fecha=0x7f0803ce;
+        public static final int fecha_alta=0x7f080435;
+        public static final int field_pass=0x7f08041b;
+        public static final int field_usu=0x7f08041a;
+        public static final int file_download=0x7f080414;
+        public static final int file_received=0x7f080151;
+        public static final int forward=0x7f080154;
+        public static final int forward_error=0x7f0800f8;
+        public static final int freq_ask=0x7f08041c;
         /**  Replace placeholder ID with your tracking ID 
          */
         public static final int ga_trackingId=0x7f080083;
-        public static final int galeria=0x7f0803c9;
-        public static final int gallery=0x7f08043e;
-        public static final int general_info_text=0x7f080398;
-        public static final int general_info_title=0x7f080397;
-        public static final int gps_last_fix=0x7f08039e;
+        public static final int galeria=0x7f0803cb;
+        public static final int gallery=0x7f080440;
+        public static final int general_info_text=0x7f08039a;
+        public static final int general_info_title=0x7f080399;
+        public static final int gps_last_fix=0x7f0803a0;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list.png 
          */
-        public static final int group_active_chat=0x7f0801a0;
+        public static final int group_active_chat=0x7f0801a2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor.png 
          */
-        public static final int group_add=0x7f08016b;
+        public static final int group_add=0x7f08016c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor.png 
          */
-        public static final int group_default=0x7f08016c;
+        public static final int group_default=0x7f08016d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png 
          */
-        public static final int group_exists=0x7f08016d;
+        public static final int group_exists=0x7f08016e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png 
          */
-        public static final int group_is_empty=0x7f08016e;
+        public static final int group_is_empty=0x7f08016f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/group_add.png 
          */
-        public static final int group_name=0x7f08016f;
+        public static final int group_name=0x7f080170;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list.png 
          */
-        public static final int group_none=0x7f0801a1;
+        public static final int group_none=0x7f0801a3;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_group_context_menu.png 
          */
-        public static final int group_remove=0x7f0801a2;
+        public static final int group_remove=0x7f0801a4;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_group_confirm.png 
          */
-        public static final int group_remove_confirm=0x7f0801a3;
+        public static final int group_remove_confirm=0x7f0801a5;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_group_context_menu.png 
          */
-        public static final int group_rename=0x7f0801a4;
+        public static final int group_rename=0x7f0801a6;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list.png 
          */
-        public static final int group_room=0x7f0801b2;
-        public static final int guard_corre=0x7f08042a;
-        public static final int guardando=0x7f08044b;
-        public static final int guardar=0x7f080429;
-        public static final int hello_world=0x7f08035c;
-        public static final int horario=0x7f0803be;
-        public static final int if_you_wish=0x7f080379;
-        public static final int import_alert=0x7f0801ff;
-        public static final int import_atention=0x7f0801fe;
-        public static final int import_error=0x7f0801fc;
-        public static final int import_succesful=0x7f0801fd;
+        public static final int group_room=0x7f0801b4;
+        public static final int guard_corre=0x7f08042c;
+        public static final int guardando=0x7f08044d;
+        public static final int guardar=0x7f08042b;
+        public static final int hello_world=0x7f08035e;
+        public static final int horario=0x7f0803c0;
+        public static final int if_you_wish=0x7f08037b;
+        public static final int import_alert=0x7f080201;
+        public static final int import_atention=0x7f080200;
+        public static final int import_error=0x7f0801fe;
+        public static final int import_succesful=0x7f0801ff;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_away.png 
          */
-        public static final int in10m=0x7f0804ea;
+        public static final int in10m=0x7f0804ed;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_away.png 
          */
-        public static final int in15m=0x7f0804eb;
+        public static final int in15m=0x7f0804ee;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_away.png 
          */
-        public static final int in1h=0x7f0804ec;
+        public static final int in1h=0x7f0804ef;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_away.png 
          */
-        public static final int in1m=0x7f0804ed;
+        public static final int in1m=0x7f0804f0;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_away.png 
          */
-        public static final int in2m=0x7f0804ee;
+        public static final int in2m=0x7f0804f1;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_away.png 
          */
-        public static final int in30m=0x7f0804ef;
+        public static final int in30m=0x7f0804f2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_away.png 
          */
-        public static final int in5m=0x7f0804f0;
-        public static final int in_10m_value=0x7f0802ad;
-        public static final int in_15m_value=0x7f0802ae;
-        public static final int in_1h_value=0x7f0802b0;
-        public static final int in_1m_value=0x7f0802aa;
-        public static final int in_2m_value=0x7f0802ab;
-        public static final int in_30m_value=0x7f0802af;
-        public static final int in_5m_value=0x7f0802ac;
-        public static final int in_immediately_value=0x7f0802a9;
-        public static final int in_never_value=0x7f0802a8;
-        public static final int info=0x7f080361;
-        public static final int info_turismo=0x7f080362;
-        public static final int informacion=0x7f0803b8;
-        public static final int init_record_time=0x7f08014b;
-        public static final int install_manager_file=0x7f080441;
+        public static final int in5m=0x7f0804f3;
+        public static final int in_10m_value=0x7f0802af;
+        public static final int in_15m_value=0x7f0802b0;
+        public static final int in_1h_value=0x7f0802b2;
+        public static final int in_1m_value=0x7f0802ac;
+        public static final int in_2m_value=0x7f0802ad;
+        public static final int in_30m_value=0x7f0802b1;
+        public static final int in_5m_value=0x7f0802ae;
+        public static final int in_immediately_value=0x7f0802ab;
+        public static final int in_never_value=0x7f0802aa;
+        public static final int info=0x7f080363;
+        public static final int info_turismo=0x7f080364;
+        public static final int informacion=0x7f0803ba;
+        public static final int init_record_time=0x7f08014c;
+        public static final int install_manager_file=0x7f080443;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_appearance.png 
          */
-        public static final int interface_smiles=0x7f080272;
+        public static final int interface_smiles=0x7f080274;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_appearance_smiles.png 
          */
-        public static final int interface_smiles_android=0x7f080273;
-        public static final int interface_smiles_android_value=0x7f0802b8;
-        public static final int interface_smiles_default=0x7f0802ba;
-        public static final int interface_smiles_key=0x7f0802b7;
+        public static final int interface_smiles_android=0x7f080275;
+        public static final int interface_smiles_android_value=0x7f0802ba;
+        public static final int interface_smiles_default=0x7f0802bc;
+        public static final int interface_smiles_key=0x7f0802b9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_appearance_smiles.png 
          */
-        public static final int interface_smiles_none=0x7f080274;
-        public static final int interface_smiles_none_value=0x7f0802b9;
+        public static final int interface_smiles_none=0x7f080276;
+        public static final int interface_smiles_none_value=0x7f0802bb;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_appearance.png 
          */
-        public static final int interface_theme=0x7f08026e;
+        public static final int interface_theme=0x7f080270;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_appearance_skin.png 
          */
-        public static final int interface_theme_dark=0x7f08026f;
-        public static final int interface_theme_dark_value=0x7f0802b4;
-        public static final int interface_theme_default=0x7f0802b6;
+        public static final int interface_theme_dark=0x7f080271;
+        public static final int interface_theme_dark_value=0x7f0802b6;
+        public static final int interface_theme_default=0x7f0802b8;
         /**  preference_interface 
          */
-        public static final int interface_theme_key=0x7f0802b2;
+        public static final int interface_theme_key=0x7f0802b4;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_appearance_skin.png 
          */
-        public static final int interface_theme_light=0x7f080270;
-        public static final int interface_theme_light_value=0x7f0802b5;
+        public static final int interface_theme_light=0x7f080272;
+        public static final int interface_theme_light_value=0x7f0802b7;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_appearance_skin.png 
          */
-        public static final int interface_theme_normal=0x7f080271;
-        public static final int interface_theme_normal_value=0x7f0802b3;
+        public static final int interface_theme_normal=0x7f080273;
+        public static final int interface_theme_normal_value=0x7f0802b5;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor_status.png 
          */
-        public static final int invisible=0x7f08034a;
-        public static final int ir=0x7f0803af;
-        public static final int latitude=0x7f08039a;
-        public static final int license=0x7f080383;
-        public static final int license_title=0x7f080395;
-        public static final int list_cont=0x7f080403;
-        public static final int load=0x7f080378;
-        public static final int localidad=0x7f080423;
+        public static final int invisible=0x7f08034c;
+        public static final int ir=0x7f0803b1;
+        public static final int latitude=0x7f08039c;
+        public static final int license=0x7f080385;
+        public static final int license_title=0x7f080397;
+        public static final int list_cont=0x7f080405;
+        public static final int load=0x7f08037a;
+        public static final int localidad=0x7f080425;
         /**  Location client code resources (prefix with location_client) 
          */
         public static final int location_client_powered_by_google=0x7f08001a;
-        public static final int log_out=0x7f08043b;
-        public static final int longitude=0x7f080399;
+        public static final int log_out=0x7f08043d;
+        public static final int longitude=0x7f08039b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_security_otr.png 
          */
-        public static final int manual=0x7f0804f3;
-        public static final int map_current_location_click=0x7f0803a3;
-        public static final int map_menu_cam_mode=0x7f0803a1;
-        public static final int map_menu_normal_mode=0x7f08039f;
-        public static final int map_menu_satellite_mode=0x7f0803a0;
-        public static final int map_my_location=0x7f0803a2;
-        public static final int mapa=0x7f080374;
-        public static final int marcado_fav_error=0x7f0803bd;
-        public static final int marcado_fav_ok=0x7f0803bb;
-        public static final int men_inst=0x7f0803ed;
-        public static final int mens_insta=0x7f080453;
-        public static final int menu_item_1=0x7f080386;
-        public static final int menu_item_2=0x7f080387;
-        public static final int menu_item_3=0x7f080388;
-        public static final int menu_item_4=0x7f080389;
-        public static final int menu_item_5=0x7f08038a;
-        public static final int menu_item_6=0x7f08038b;
-        public static final int menu_item_7=0x7f08038c;
-        public static final int menu_settings=0x7f08035d;
+        public static final int manual=0x7f0804f6;
+        public static final int map_current_location_click=0x7f0803a5;
+        public static final int map_menu_cam_mode=0x7f0803a3;
+        public static final int map_menu_normal_mode=0x7f0803a1;
+        public static final int map_menu_satellite_mode=0x7f0803a2;
+        public static final int map_my_location=0x7f0803a4;
+        public static final int mapa=0x7f080376;
+        public static final int marcado_fav_error=0x7f0803bf;
+        public static final int marcado_fav_ok=0x7f0803bd;
+        public static final int men_inst=0x7f0803ef;
+        public static final int mens_insta=0x7f080455;
+        public static final int menu_item_1=0x7f080388;
+        public static final int menu_item_2=0x7f080389;
+        public static final int menu_item_3=0x7f08038a;
+        public static final int menu_item_4=0x7f08038b;
+        public static final int menu_item_5=0x7f08038c;
+        public static final int menu_item_6=0x7f08038d;
+        public static final int menu_item_7=0x7f08038e;
+        public static final int menu_settings=0x7f08035f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_context_menu.png 
          */
-        public static final int message_copy=0x7f080106;
+        public static final int message_copy=0x7f080107;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_context_menu.png 
          */
-        public static final int message_quote=0x7f080107;
+        public static final int message_quote=0x7f080108;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_context_menu.png 
          */
-        public static final int message_remove=0x7f080108;
+        public static final int message_remove=0x7f080109;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_context_menu.png 
          */
-        public static final int message_repeat=0x7f080109;
-        public static final int min_carac=0x7f080439;
-        public static final int miubicacion=0x7f0803c0;
+        public static final int message_repeat=0x7f08010a;
+        public static final int min_carac=0x7f08043b;
+        public static final int miubicacion=0x7f0803c2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png 
          */
-        public static final int muc_add=0x7f08021d;
+        public static final int muc_add=0x7f08021f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png 
          */
-        public static final int muc_create=0x7f080228;
+        public static final int muc_create=0x7f08022a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_conference_context_menu.png 
          */
-        public static final int muc_delete=0x7f08021e;
+        public static final int muc_delete=0x7f080220;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_conference_confirm.png 
          */
-        public static final int muc_delete_confirm=0x7f080220;
-        public static final int muc_delete_owner=0x7f08021f;
+        public static final int muc_delete_confirm=0x7f080222;
+        public static final int muc_delete_owner=0x7f080221;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_conference_context_menu.png 
          */
-        public static final int muc_edit=0x7f080223;
+        public static final int muc_edit=0x7f080225;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_conference.png 
          */
-        public static final int muc_invite=0x7f080136;
+        public static final int muc_invite=0x7f080137;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_invite.png 
          */
-        public static final int muc_invite_confirm=0x7f080224;
+        public static final int muc_invite_confirm=0x7f080226;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_invite.png 
          */
-        public static final int muc_invite_confirm_reason=0x7f080225;
-        public static final int muc_invite_custom=0x7f080229;
+        public static final int muc_invite_confirm_reason=0x7f080227;
+        public static final int muc_invite_custom=0x7f08022b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_invite.png 
          */
-        public static final int muc_invite_message=0x7f080245;
+        public static final int muc_invite_message=0x7f080247;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_leaved.png 
          */
-        public static final int muc_is_unavailable=0x7f080137;
+        public static final int muc_is_unavailable=0x7f080138;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_conference_context_menu.png 
          */
-        public static final int muc_join=0x7f080212;
+        public static final int muc_join=0x7f080214;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_conference_context_menu.png 
          */
-        public static final int muc_leave=0x7f080226;
-        public static final int muc_leave_confirm=0x7f080221;
+        public static final int muc_leave=0x7f080228;
+        public static final int muc_leave_confirm=0x7f080223;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png 
          */
-        public static final int muc_nick=0x7f080213;
+        public static final int muc_nick=0x7f080215;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png 
          */
-        public static final int muc_nick_hint=0x7f080214;
+        public static final int muc_nick_hint=0x7f080216;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png 
          */
-        public static final int muc_password=0x7f080215;
+        public static final int muc_password=0x7f080217;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png 
          */
-        public static final int muc_password_hint=0x7f080216;
-        public static final int muc_remove_confirm=0x7f080222;
+        public static final int muc_password_hint=0x7f080218;
+        public static final int muc_remove_confirm=0x7f080224;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png 
          */
-        public static final int muc_room=0x7f080217;
+        public static final int muc_room=0x7f080219;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png 
          */
-        public static final int muc_save=0x7f080227;
+        public static final int muc_save=0x7f080229;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png 
          */
-        public static final int muc_server=0x7f080218;
+        public static final int muc_server=0x7f08021a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png 
          */
-        public static final int muc_server_hint=0x7f080219;
+        public static final int muc_server_hint=0x7f08021b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_connection_02.png 
          */
-        public static final int negative_priotiry_summary=0x7f08029c;
+        public static final int negative_priotiry_summary=0x7f08029e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer_status.png 
          */
-        public static final int never=0x7f0804f4;
-        public static final int new_event_create=0x7f0803c3;
-        public static final int new_event_create_error=0x7f0803c4;
-        public static final int new_event_descrip=0x7f0803c2;
+        public static final int never=0x7f0804f7;
+        public static final int new_event_create=0x7f0803c5;
+        public static final int new_event_create_error=0x7f0803c6;
+        public static final int new_event_descrip=0x7f0803c4;
         /**   
          */
-        public static final int new_event_title=0x7f0803c1;
-        public static final int new_pass=0x7f080435;
-        public static final int nick=0x7f08042f;
-        public static final int no=0x7f08044e;
-        public static final int no_audio_des=0x7f0803dc;
-        public static final int no_direccion_evento=0x7f0803c5;
-        public static final int no_direccion_pois=0x7f0803c6;
-        public static final int no_disponible=0x7f0803de;
-        public static final int no_elems=0x7f0803d5;
-        public static final int no_facebook=0x7f0803b6;
-        public static final int no_giroscopio_avalible=0x7f0803dd;
-        public static final int no_imagenes=0x7f0803ca;
-        public static final int no_phone=0x7f080179;
-        public static final int no_result=0x7f080447;
-        public static final int no_silence=0x7f080148;
-        public static final int no_twitter=0x7f0803b5;
-        public static final int no_user_exist=0x7f080176;
-        public static final int no_version_android=0x7f080146;
-        public static final int no_website_available=0x7f080394;
-        public static final int nombre=0x7f08041f;
-        public static final int nombre_aplicacion=0x7f08035b;
-        public static final int noti_completed=0x7f080400;
-        public static final int noti_envoy=0x7f080402;
-        public static final int noti_progress=0x7f080401;
-        public static final int noticias=0x7f080365;
-        public static final int noticias_fav=0x7f080366;
-        public static final int numero=0x7f0803ad;
-        public static final int occupant_list=0x7f080138;
-        public static final int offline=0x7f0803ef;
-        public static final int ok=0x7f08036d;
-        public static final int online=0x7f0803ee;
-        public static final int opciones=0x7f0803b9;
-        public static final int open=0x7f08014e;
-        public static final int option_not_available=0x7f080385;
+        public static final int new_event_title=0x7f0803c3;
+        public static final int new_pass=0x7f080437;
+        public static final int nick=0x7f080431;
+        public static final int no=0x7f080450;
+        public static final int no_audio_des=0x7f0803de;
+        public static final int no_conex_server=0x7f080178;
+        public static final int no_direccion_evento=0x7f0803c7;
+        public static final int no_direccion_pois=0x7f0803c8;
+        public static final int no_disponible=0x7f0803e0;
+        public static final int no_elems=0x7f0803d7;
+        public static final int no_facebook=0x7f0803b8;
+        public static final int no_giroscopio_avalible=0x7f0803df;
+        public static final int no_imagenes=0x7f0803cc;
+        public static final int no_phone=0x7f08017b;
+        public static final int no_result=0x7f080449;
+        public static final int no_silence=0x7f080149;
+        public static final int no_twitter=0x7f0803b7;
+        public static final int no_user_exist=0x7f080177;
+        public static final int no_version_android=0x7f080147;
+        public static final int no_website_available=0x7f080396;
+        public static final int nombre=0x7f080421;
+        public static final int nombre_aplicacion=0x7f08035d;
+        public static final int noti_completed=0x7f080402;
+        public static final int noti_envoy=0x7f080404;
+        public static final int noti_progress=0x7f080403;
+        public static final int noticias=0x7f080367;
+        public static final int noticias_fav=0x7f080368;
+        public static final int numero=0x7f0803af;
+        public static final int occupant_list=0x7f080139;
+        public static final int offline=0x7f0803f1;
+        public static final int ok=0x7f08036f;
+        public static final int online=0x7f0803f0;
+        public static final int opciones=0x7f0803bb;
+        public static final int open=0x7f08014f;
+        public static final int option_not_available=0x7f080387;
         public static final int orbot_required_message=0x7f080078;
         public static final int orbot_required_title=0x7f080077;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_question.png 
          */
-        public static final int otr_answer=0x7f08033e;
+        public static final int otr_answer=0x7f080340;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_fingerprint.png 
          */
-        public static final int otr_copy_fingerprint=0x7f080208;
+        public static final int otr_copy_fingerprint=0x7f08020a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_extra.png 
          */
-        public static final int otr_encryption=0x7f080139;
+        public static final int otr_encryption=0x7f08013a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_otr_02.png 
          */
-        public static final int otr_end=0x7f08013a;
+        public static final int otr_end=0x7f08013b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_fingerprint.png 
          */
-        public static final int otr_fingerprint_description=0x7f080200;
+        public static final int otr_fingerprint_description=0x7f080202;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_fingerprint.png 
          */
-        public static final int otr_is_verified=0x7f080201;
+        public static final int otr_is_verified=0x7f080203;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_fingerprint.png 
          */
-        public static final int otr_local_fingerprint=0x7f080202;
+        public static final int otr_local_fingerprint=0x7f080204;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_question.png 
          */
-        public static final int otr_question=0x7f08033f;
+        public static final int otr_question=0x7f080341;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_question.png 
          */
-        public static final int otr_question_description=0x7f080340;
+        public static final int otr_question_description=0x7f080342;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_otr_02.png 
          */
-        public static final int otr_refresh=0x7f08013b;
+        public static final int otr_refresh=0x7f08013c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_fingerprint.png 
          */
-        public static final int otr_remote_fingerprint=0x7f080203;
+        public static final int otr_remote_fingerprint=0x7f080205;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int otr_request=0x7f08013c;
+        public static final int otr_request=0x7f08013d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_fingerprint.png 
          */
-        public static final int otr_scan_fingerprint=0x7f080204;
+        public static final int otr_scan_fingerprint=0x7f080206;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_secret.png 
          */
-        public static final int otr_secret=0x7f080341;
+        public static final int otr_secret=0x7f080343;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_secret.png 
          */
-        public static final int otr_secret_description=0x7f080342;
+        public static final int otr_secret_description=0x7f080344;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_fingerprint.png 
          */
-        public static final int otr_show_fingerprint=0x7f080205;
+        public static final int otr_show_fingerprint=0x7f080207;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_otr_01.png 
          */
-        public static final int otr_start=0x7f08013d;
+        public static final int otr_start=0x7f08013e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int otr_unencrypted_message=0x7f08013e;
+        public static final int otr_unencrypted_message=0x7f08013f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_otr_status.png 
          */
-        public static final int otr_unreadable_message=0x7f08013f;
+        public static final int otr_unreadable_message=0x7f080140;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_otr_progress.png 
          */
-        public static final int otr_verification=0x7f080140;
+        public static final int otr_verification=0x7f080141;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_otr_progress.png 
          */
-        public static final int otr_verification_in_progress=0x7f080246;
+        public static final int otr_verification_in_progress=0x7f080248;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_otr_02.png 
          */
-        public static final int otr_verify_fingerprint=0x7f080141;
+        public static final int otr_verify_fingerprint=0x7f080142;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_otr_02.png 
          */
-        public static final int otr_verify_question=0x7f080142;
+        public static final int otr_verify_question=0x7f080143;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_otr_02.png 
          */
-        public static final int otr_verify_secret=0x7f080143;
-        public static final int own_account=0x7f080172;
-        public static final int pais=0x7f080424;
-        public static final int pass=0x7f080417;
-        public static final int pass_act_corr=0x7f08043a;
-        public static final int patrocinadores=0x7f0803e1;
-        public static final int pay_attention=0x7f080248;
-        public static final int pending_notification=0x7f0803e0;
-        public static final int perfil=0x7f08041e;
-        public static final int phones=0x7f08017b;
-        public static final int phrase_add=0x7f08024b;
-        public static final int phrase_delete=0x7f08024c;
-        public static final int phrase_delete_confirm=0x7f08024d;
-        public static final int phrase_empty=0x7f08024e;
-        public static final int phrase_group=0x7f080252;
-        public static final int phrase_group_key=0x7f08032e;
-        public static final int phrase_regexp=0x7f08024f;
-        public static final int phrase_regexp_key=0x7f08032f;
-        public static final int phrase_sound=0x7f080250;
-        public static final int phrase_sound_key=0x7f080330;
-        public static final int phrase_text=0x7f080251;
+        public static final int otr_verify_secret=0x7f080144;
+        public static final int own_account=0x7f080173;
+        public static final int pais=0x7f080426;
+        public static final int pass=0x7f080419;
+        public static final int pass_act_corr=0x7f08043c;
+        public static final int patrocinadores=0x7f0803e3;
+        public static final int pay_attention=0x7f08024a;
+        public static final int pending_notification=0x7f0803e2;
+        public static final int perfil=0x7f080420;
+        public static final int phones=0x7f08017d;
+        public static final int phrase_add=0x7f08024d;
+        public static final int phrase_delete=0x7f08024e;
+        public static final int phrase_delete_confirm=0x7f08024f;
+        public static final int phrase_empty=0x7f080250;
+        public static final int phrase_group=0x7f080254;
+        public static final int phrase_group_key=0x7f080330;
+        public static final int phrase_regexp=0x7f080251;
+        public static final int phrase_regexp_key=0x7f080331;
+        public static final int phrase_sound=0x7f080252;
+        public static final int phrase_sound_key=0x7f080332;
+        public static final int phrase_text=0x7f080253;
         /**  preference_phrase 
          */
-        public static final int phrase_text_key=0x7f08032c;
-        public static final int phrase_user=0x7f080253;
-        public static final int phrase_user_key=0x7f08032d;
+        public static final int phrase_text_key=0x7f08032e;
+        public static final int phrase_user=0x7f080255;
+        public static final int phrase_user_key=0x7f08032f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_xmpp.png 
          */
-        public static final int please_wait=0x7f0801f6;
-        public static final int pois=0x7f08035e;
+        public static final int please_wait=0x7f0801f8;
+        public static final int pois=0x7f080360;
         /**  preference_about 
          */
-        public static final int preference_about=0x7f08030b;
-        public static final int preference_about_key=0x7f08030c;
+        public static final int preference_about=0x7f08030d;
+        public static final int preference_about_key=0x7f08030e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_01.png 
          */
-        public static final int preference_accounts=0x7f08029d;
+        public static final int preference_accounts=0x7f08029f;
         /**  preference_account 
          */
-        public static final int preference_accounts_key=0x7f08030d;
+        public static final int preference_accounts_key=0x7f08030f;
         /**  preference_chats 
          */
-        public static final int preference_chats=0x7f0802d9;
+        public static final int preference_chats=0x7f0802db;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_01.png 
          */
-        public static final int preference_connection=0x7f080275;
+        public static final int preference_connection=0x7f080277;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_01.png 
          */
-        public static final int preference_contacts=0x7f080276;
+        public static final int preference_contacts=0x7f080278;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_02.png 
          */
-        public static final int preference_debug=0x7f080278;
+        public static final int preference_debug=0x7f08027a;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_02.png 
          */
-        public static final int preference_downloads=0x7f080277;
+        public static final int preference_downloads=0x7f080279;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_option_menu.png 
          */
-        public static final int preference_editor=0x7f080279;
+        public static final int preference_editor=0x7f08027b;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_01.png 
          */
-        public static final int preference_events=0x7f08027a;
+        public static final int preference_events=0x7f08027c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_01.png 
          */
-        public static final int preference_interface=0x7f08027b;
+        public static final int preference_interface=0x7f08027d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_02.png 
          */
-        public static final int preference_security=0x7f08029e;
+        public static final int preference_security=0x7f0802a0;
         /**  preference_xabber 
          */
-        public static final int preference_xabber_key=0x7f080336;
+        public static final int preference_xabber_key=0x7f080338;
         public static final int production_changes_1=0x7f0800ca;
         public static final int production_changes_10=0x7f0800d3;
         public static final int production_changes_11=0x7f0800d4;
@@ -3212,378 +3214,379 @@ containing a value of this type.
         public static final int production_changes_9=0x7f0800d2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/market.png 
          */
-        public static final int production_description=0x7f080209;
+        public static final int production_description=0x7f08020b;
         /**  Can be used for Google Play promotion 
          */
-        public static final int production_promo=0x7f08020a;
+        public static final int production_promo=0x7f08020c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/market.png 
          */
-        public static final int production_title=0x7f08020b;
-        public static final int production_versions_1=0x7f0804aa;
-        public static final int production_versions_10=0x7f0804b3;
-        public static final int production_versions_11=0x7f0804b4;
-        public static final int production_versions_12=0x7f0804b5;
-        public static final int production_versions_13=0x7f0804b6;
-        public static final int production_versions_14=0x7f0804b7;
-        public static final int production_versions_15=0x7f0804b8;
-        public static final int production_versions_16=0x7f0804b9;
-        public static final int production_versions_17=0x7f0804ba;
-        public static final int production_versions_18=0x7f0804bb;
-        public static final int production_versions_19=0x7f0804bc;
-        public static final int production_versions_2=0x7f0804ab;
-        public static final int production_versions_20=0x7f0804bd;
-        public static final int production_versions_21=0x7f0804be;
-        public static final int production_versions_22=0x7f0804bf;
-        public static final int production_versions_23=0x7f0804c0;
-        public static final int production_versions_24=0x7f0804c1;
-        public static final int production_versions_25=0x7f0804c2;
-        public static final int production_versions_26=0x7f0804c3;
-        public static final int production_versions_27=0x7f0804c4;
-        public static final int production_versions_28=0x7f0804c5;
-        public static final int production_versions_29=0x7f0804c6;
-        public static final int production_versions_3=0x7f0804ac;
-        public static final int production_versions_30=0x7f0804c7;
-        public static final int production_versions_31=0x7f0804c8;
-        public static final int production_versions_34=0x7f0804c9;
-        public static final int production_versions_35=0x7f0804ca;
-        public static final int production_versions_36=0x7f0804cb;
-        public static final int production_versions_37=0x7f0804cc;
-        public static final int production_versions_38=0x7f0804cd;
-        public static final int production_versions_39=0x7f0804ce;
-        public static final int production_versions_4=0x7f0804ad;
-        public static final int production_versions_40=0x7f0804cf;
-        public static final int production_versions_41=0x7f0804d0;
-        public static final int production_versions_42=0x7f0804d1;
-        public static final int production_versions_43=0x7f0804d2;
-        public static final int production_versions_44=0x7f0804d3;
-        public static final int production_versions_45=0x7f0804d4;
-        public static final int production_versions_46=0x7f0804d5;
-        public static final int production_versions_47=0x7f0804d6;
-        public static final int production_versions_5=0x7f0804ae;
-        public static final int production_versions_6=0x7f0804af;
-        public static final int production_versions_7=0x7f0804b0;
-        public static final int production_versions_8=0x7f0804b1;
-        public static final int production_versions_9=0x7f0804b2;
-        public static final int proximamente=0x7f0803f3;
-        public static final int pulsa_para_ver=0x7f0803d4;
-        public static final int puntos_interes=0x7f080375;
-        public static final int puntos_transportes=0x7f0803d6;
-        public static final int push_to_record_pull_to_send=0x7f080151;
-        public static final int qr=0x7f080363;
-        public static final int que_hacer=0x7f080360;
-        public static final int que_hacer_1=0x7f080367;
-        public static final int quequieres=0x7f0803ae;
-        /**      <string name="tresm_central">Sandetel Central</string> 
+        public static final int production_title=0x7f08020d;
+        public static final int production_versions_1=0x7f0804ad;
+        public static final int production_versions_10=0x7f0804b6;
+        public static final int production_versions_11=0x7f0804b7;
+        public static final int production_versions_12=0x7f0804b8;
+        public static final int production_versions_13=0x7f0804b9;
+        public static final int production_versions_14=0x7f0804ba;
+        public static final int production_versions_15=0x7f0804bb;
+        public static final int production_versions_16=0x7f0804bc;
+        public static final int production_versions_17=0x7f0804bd;
+        public static final int production_versions_18=0x7f0804be;
+        public static final int production_versions_19=0x7f0804bf;
+        public static final int production_versions_2=0x7f0804ae;
+        public static final int production_versions_20=0x7f0804c0;
+        public static final int production_versions_21=0x7f0804c1;
+        public static final int production_versions_22=0x7f0804c2;
+        public static final int production_versions_23=0x7f0804c3;
+        public static final int production_versions_24=0x7f0804c4;
+        public static final int production_versions_25=0x7f0804c5;
+        public static final int production_versions_26=0x7f0804c6;
+        public static final int production_versions_27=0x7f0804c7;
+        public static final int production_versions_28=0x7f0804c8;
+        public static final int production_versions_29=0x7f0804c9;
+        public static final int production_versions_3=0x7f0804af;
+        public static final int production_versions_30=0x7f0804ca;
+        public static final int production_versions_31=0x7f0804cb;
+        public static final int production_versions_34=0x7f0804cc;
+        public static final int production_versions_35=0x7f0804cd;
+        public static final int production_versions_36=0x7f0804ce;
+        public static final int production_versions_37=0x7f0804cf;
+        public static final int production_versions_38=0x7f0804d0;
+        public static final int production_versions_39=0x7f0804d1;
+        public static final int production_versions_4=0x7f0804b0;
+        public static final int production_versions_40=0x7f0804d2;
+        public static final int production_versions_41=0x7f0804d3;
+        public static final int production_versions_42=0x7f0804d4;
+        public static final int production_versions_43=0x7f0804d5;
+        public static final int production_versions_44=0x7f0804d6;
+        public static final int production_versions_45=0x7f0804d7;
+        public static final int production_versions_46=0x7f0804d8;
+        public static final int production_versions_47=0x7f0804d9;
+        public static final int production_versions_5=0x7f0804b1;
+        public static final int production_versions_6=0x7f0804b2;
+        public static final int production_versions_7=0x7f0804b3;
+        public static final int production_versions_8=0x7f0804b4;
+        public static final int production_versions_9=0x7f0804b5;
+        public static final int proximamente=0x7f0803f5;
+        public static final int pulsa_para_ver=0x7f0803d6;
+        public static final int puntos_interes=0x7f080377;
+        public static final int puntos_transportes=0x7f0803d8;
+        public static final int push_to_record_pull_to_send=0x7f080152;
+        public static final int qr=0x7f080365;
+        public static final int que_hacer=0x7f080362;
+        public static final int que_hacer_1=0x7f080369;
+        public static final int quequieres=0x7f0803b0;
+        /**  <string name="tresm_central">Sandetel Central</string> 
          */
-        public static final int quieres_desc=0x7f080413;
-        public static final int re_send=0x7f08014d;
-        public static final int rechazar_contacto=0x7f0803f2;
-        public static final int record_txt=0x7f08014a;
-        public static final int reme_pass=0x7f08041c;
+        public static final int quieres_desc=0x7f080415;
+        public static final int re_send=0x7f08014e;
+        public static final int rechazar_contacto=0x7f0803f4;
+        public static final int record_txt=0x7f08014b;
+        public static final int reme_pass=0x7f08041e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor_context_menu.png 
          */
-        public static final int remove_status=0x7f08034b;
-        public static final int rep_new_pass=0x7f080436;
-        public static final int reproducir_audioguia=0x7f0803cb;
+        public static final int remove_status=0x7f08034d;
+        public static final int rep_new_pass=0x7f080438;
+        public static final int reproducir_audioguia=0x7f0803cd;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_contact_context_menu.png 
          */
-        public static final int request_subscription=0x7f0801a7;
+        public static final int request_subscription=0x7f0801a9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_security_otr.png 
          */
-        public static final int required=0x7f0804f5;
-        public static final int result_null=0x7f080448;
-        public static final int salir=0x7f08044d;
-        public static final int save_contact=0x7f08017d;
+        public static final int required=0x7f0804f8;
+        public static final int result_null=0x7f08044a;
+        public static final int salir=0x7f08044f;
+        public static final int save_contact=0x7f08017f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_settings.png 
          */
-        public static final int save_history=0x7f08010a;
-        public static final int search_active_1=0x7f0803a9;
-        public static final int search_active_2=0x7f0803aa;
-        public static final int search_failed_notification=0x7f0803a7;
+        public static final int save_history=0x7f08010b;
+        public static final int search_active_1=0x7f0803ab;
+        public static final int search_active_2=0x7f0803ac;
+        public static final int search_failed_notification=0x7f0803a9;
         /**  Realidad Aumentada 
          */
-        public static final int search_hint=0x7f08037a;
+        public static final int search_hint=0x7f08037c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_security.png 
          */
-        public static final int security_check_certificate=0x7f08029f;
+        public static final int security_check_certificate=0x7f0802a1;
         /**  preference_security 
          */
-        public static final int security_check_certificate_key=0x7f080323;
+        public static final int security_check_certificate_key=0x7f080325;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_security.png 
          */
-        public static final int security_clear_certificate=0x7f0802a0;
-        public static final int security_clear_certificate_key=0x7f080324;
+        public static final int security_clear_certificate=0x7f0802a2;
+        public static final int security_clear_certificate_key=0x7f080326;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_security_remove.png 
          */
-        public static final int security_clear_certificate_warning=0x7f0802a7;
+        public static final int security_clear_certificate_warning=0x7f0802a9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_security.png 
          */
-        public static final int security_otr_history=0x7f0802a1;
-        public static final int security_otr_history_key=0x7f08032b;
+        public static final int security_otr_history=0x7f0802a3;
+        public static final int security_otr_history_key=0x7f08032d;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_security.png 
          */
-        public static final int security_otr_mode=0x7f0802a2;
-        public static final int security_otr_mode_auto_value=0x7f080328;
-        public static final int security_otr_mode_default=0x7f08032a;
-        public static final int security_otr_mode_disabled_value=0x7f080326;
-        public static final int security_otr_mode_key=0x7f080325;
-        public static final int security_otr_mode_manual_value=0x7f080327;
-        public static final int security_otr_mode_required_value=0x7f080329;
-        public static final int see_phones=0x7f08017a;
-        public static final int sele_tu_esta=0x7f080377;
-        public static final int selecciona=0x7f0803ac;
-        public static final int seleccionar_al_menos_una=0x7f08036f;
+        public static final int security_otr_mode=0x7f0802a4;
+        public static final int security_otr_mode_auto_value=0x7f08032a;
+        public static final int security_otr_mode_default=0x7f08032c;
+        public static final int security_otr_mode_disabled_value=0x7f080328;
+        public static final int security_otr_mode_key=0x7f080327;
+        public static final int security_otr_mode_manual_value=0x7f080329;
+        public static final int security_otr_mode_required_value=0x7f08032b;
+        public static final int see_phones=0x7f08017c;
+        public static final int sele_tu_esta=0x7f080379;
+        public static final int selecciona=0x7f0803ae;
+        public static final int seleccionar_al_menos_una=0x7f080371;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_conference_invite.png 
          */
-        public static final int select_contact=0x7f0801b4;
+        public static final int select_contact=0x7f0801b6;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor_context_menu.png 
          */
-        public static final int select_status=0x7f08034c;
-        public static final int select_user_to_send=0x7f0801bd;
+        public static final int select_status=0x7f08034e;
+        public static final int select_user_to_send=0x7f0801bf;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu_extra.png 
          */
-        public static final int send_chat=0x7f080131;
-        public static final int send_email=0x7f080178;
-        public static final int send_file_error_sala=0x7f0801be;
-        public static final int setting=0x7f080444;
-        public static final int setting_con=0x7f080445;
-        public static final int share_facebook=0x7f080373;
-        public static final int share_twitter=0x7f080371;
-        public static final int share_ver_mapa=0x7f0803c8;
+        public static final int send_chat=0x7f080132;
+        public static final int send_email=0x7f08017a;
+        public static final int send_file_error_sala=0x7f0801c0;
+        public static final int setting=0x7f080446;
+        public static final int setting_con=0x7f080447;
+        public static final int share_facebook=0x7f080375;
+        public static final int share_twitter=0x7f080373;
+        public static final int share_ver_mapa=0x7f0803ca;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/chat_viewer_option_menu.png 
          */
-        public static final int show_history=0x7f08010b;
+        public static final int show_history=0x7f08010c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_group_show_offline.png 
          */
-        public static final int show_offline_always=0x7f0801b5;
+        public static final int show_offline_always=0x7f0801b7;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_group_show_offline.png 
          */
-        public static final int show_offline_never=0x7f0801b6;
+        public static final int show_offline_never=0x7f0801b8;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_group_show_offline.png 
          */
-        public static final int show_offline_normal=0x7f0801b7;
+        public static final int show_offline_normal=0x7f0801b9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_group_context_menu.png 
          */
-        public static final int show_offline_settings=0x7f0801b8;
-        public static final int si=0x7f080414;
-        public static final int silence=0x7f080147;
-        public static final int sobre_manilva=0x7f080376;
-        public static final int source_openstreetmap=0x7f0803a8;
-        public static final int speed=0x7f08039c;
+        public static final int show_offline_settings=0x7f0801ba;
+        public static final int si=0x7f080416;
+        public static final int silence=0x7f080148;
+        public static final int sobre_manilva=0x7f080378;
+        public static final int source_openstreetmap=0x7f0803aa;
+        public static final int speed=0x7f08039e;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_boot.png 
          */
-        public static final int start_at_boot_suggest=0x7f0801b9;
-        public static final int start_at_boot_suggested_key=0x7f08033a;
+        public static final int start_at_boot_suggest=0x7f0801bb;
+        public static final int start_at_boot_suggested_key=0x7f08033c;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor.png 
          */
-        public static final int status_editor=0x7f08034d;
+        public static final int status_editor=0x7f08034f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor.png 
          */
-        public static final int status_editor_for=0x7f08034e;
-        public static final int status_mode_key=0x7f080337;
+        public static final int status_editor_for=0x7f080350;
+        public static final int status_mode_key=0x7f080339;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor.png 
          */
-        public static final int status_text_hint=0x7f08034f;
-        public static final int status_text_key=0x7f080338;
-        public static final int subject_email=0x7f08014f;
+        public static final int status_text_hint=0x7f080351;
+        public static final int status_text_key=0x7f08033a;
+        public static final int subject_email=0x7f080150;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/notification_bar_subscription.png 
          */
-        public static final int subscription_request_message=0x7f080249;
-        public static final int sure_add_contact=0x7f0801ba;
-        public static final int sure_clear_history=0x7f080149;
-        public static final int sure_close_chat=0x7f0801bc;
-        public static final int sure_close_chats=0x7f0801bb;
-        public static final int sure_exit=0x7f080455;
-        public static final int sure_log_out=0x7f080454;
-        public static final int sure_save_contact=0x7f08017e;
-        public static final int sync_account_type=0x7f08033c;
-        public static final int talk_to_tres_m=0x7f080145;
-        public static final int tel_1=0x7f080426;
-        public static final int tel_2=0x7f080427;
-        public static final int telefono=0x7f0803bf;
-        public static final int terminos_login=0x7f0803ff;
-        public static final int transportes=0x7f080364;
-        public static final int tres_m=0x7f080144;
-        public static final int tu_pass_error=0x7f080437;
-        public static final int twitter=0x7f080370;
-        public static final int two_pass_error=0x7f080438;
-        public static final int txt_login=0x7f0803fe;
-        public static final int txt_salir=0x7f08035a;
-        public static final int uid_user=0x7f080174;
-        public static final int uid_user_expl=0x7f080175;
+        public static final int subscription_request_message=0x7f08024b;
+        public static final int sure_add_contact=0x7f0801bc;
+        public static final int sure_clear_history=0x7f08014a;
+        public static final int sure_close_chat=0x7f0801be;
+        public static final int sure_close_chats=0x7f0801bd;
+        public static final int sure_exit=0x7f080457;
+        public static final int sure_log_out=0x7f080456;
+        public static final int sure_save_contact=0x7f080180;
+        public static final int sync_account_type=0x7f08033e;
+        public static final int talk_to_tres_m=0x7f080146;
+        public static final int tel_1=0x7f080428;
+        public static final int tel_2=0x7f080429;
+        public static final int telefono=0x7f0803c1;
+        public static final int terminos_login=0x7f080401;
+        public static final int transportes=0x7f080366;
+        public static final int tres_m=0x7f080145;
+        public static final int tu_pass_error=0x7f080439;
+        public static final int twitter=0x7f080372;
+        public static final int two_pass_error=0x7f08043a;
+        public static final int txt_login=0x7f080400;
+        public static final int txt_salir=0x7f08035c;
+        public static final int uid_user=0x7f080175;
+        public static final int uid_user_expl=0x7f080176;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor_status.png 
          */
-        public static final int unavailable=0x7f080350;
+        public static final int unavailable=0x7f080352;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_xmpp.png 
          */
-        public static final int unknown=0x7f0801f7;
+        public static final int unknown=0x7f0801f9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor_status.png 
          */
-        public static final int unsubscribed=0x7f080351;
-        public static final int usu=0x7f080416;
+        public static final int unsubscribed=0x7f080353;
+        public static final int usu=0x7f080418;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_address=0x7f0801d8;
+        public static final int vcard_address=0x7f0801da;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_address_ctry=0x7f0801df;
+        public static final int vcard_address_ctry=0x7f0801e1;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_address_extadr=0x7f0801da;
+        public static final int vcard_address_extadr=0x7f0801dc;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_address_locality=0x7f0801dc;
+        public static final int vcard_address_locality=0x7f0801de;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_address_pcode=0x7f0801de;
+        public static final int vcard_address_pcode=0x7f0801e0;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_address_pobox=0x7f0801d9;
+        public static final int vcard_address_pobox=0x7f0801db;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_address_region=0x7f0801dd;
+        public static final int vcard_address_region=0x7f0801df;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_address_street=0x7f0801db;
+        public static final int vcard_address_street=0x7f0801dd;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_personal.png 
          */
-        public static final int vcard_birth_date=0x7f0801cf;
+        public static final int vcard_birth_date=0x7f0801d1;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_common.png 
          */
-        public static final int vcard_categories=0x7f0801d5;
+        public static final int vcard_categories=0x7f0801d7;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_common.png 
          */
-        public static final int vcard_decsription=0x7f0801d6;
+        public static final int vcard_decsription=0x7f0801d8;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_email=0x7f0801e1;
+        public static final int vcard_email=0x7f0801e3;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_name.png 
          */
-        public static final int vcard_family_name=0x7f0801cd;
+        public static final int vcard_family_name=0x7f0801cf;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_personal.png 
          */
-        public static final int vcard_formatted_name=0x7f0801c9;
+        public static final int vcard_formatted_name=0x7f0801cb;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_name.png 
          */
-        public static final int vcard_given_name=0x7f0801cb;
+        public static final int vcard_given_name=0x7f0801cd;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_name.png 
          */
-        public static final int vcard_middle_name=0x7f0801cc;
+        public static final int vcard_middle_name=0x7f0801ce;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_personal.png 
          */
-        public static final int vcard_nick_name=0x7f0801c8;
+        public static final int vcard_nick_name=0x7f0801ca;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_common.png 
          */
-        public static final int vcard_note=0x7f0801d7;
+        public static final int vcard_note=0x7f0801d9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_personal.png 
          */
-        public static final int vcard_organization=0x7f0801d1;
+        public static final int vcard_organization=0x7f0801d3;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_common.png 
          */
-        public static final int vcard_other=0x7f0801d4;
+        public static final int vcard_other=0x7f0801d6;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_personal.png 
          */
-        public static final int vcard_person=0x7f0801c7;
+        public static final int vcard_person=0x7f0801c9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_name.png 
          */
-        public static final int vcard_prefix_name=0x7f0801ca;
+        public static final int vcard_prefix_name=0x7f0801cc;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_personal.png 
          */
-        public static final int vcard_role=0x7f0801d3;
+        public static final int vcard_role=0x7f0801d5;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_name.png 
          */
-        public static final int vcard_suffix_name=0x7f0801ce;
+        public static final int vcard_suffix_name=0x7f0801d0;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_telephone=0x7f0801e0;
+        public static final int vcard_telephone=0x7f0801e2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_personal.png 
          */
-        public static final int vcard_title=0x7f0801d2;
+        public static final int vcard_title=0x7f0801d4;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type=0x7f0801e2;
+        public static final int vcard_type=0x7f0801e4;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_bbs=0x7f0801ef;
+        public static final int vcard_type_bbs=0x7f0801f1;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_cell=0x7f0801ed;
+        public static final int vcard_type_cell=0x7f0801ef;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_dom=0x7f0801e7;
+        public static final int vcard_type_dom=0x7f0801e9;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_fax=0x7f0801eb;
+        public static final int vcard_type_fax=0x7f0801ed;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_home=0x7f0801e3;
+        public static final int vcard_type_home=0x7f0801e5;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_internet=0x7f0801f4;
+        public static final int vcard_type_internet=0x7f0801f6;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_intl=0x7f0801e8;
+        public static final int vcard_type_intl=0x7f0801ea;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_isdn=0x7f0801f2;
+        public static final int vcard_type_isdn=0x7f0801f4;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_modem=0x7f0801f0;
+        public static final int vcard_type_modem=0x7f0801f2;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_msg=0x7f0801f1;
+        public static final int vcard_type_msg=0x7f0801f3;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_pager=0x7f0801ec;
+        public static final int vcard_type_pager=0x7f0801ee;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_parcel=0x7f0801e6;
+        public static final int vcard_type_parcel=0x7f0801e8;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_pcs=0x7f0801f3;
+        public static final int vcard_type_pcs=0x7f0801f5;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_postal=0x7f0801e5;
+        public static final int vcard_type_postal=0x7f0801e7;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_pref=0x7f0801e9;
+        public static final int vcard_type_pref=0x7f0801eb;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_video=0x7f0801ee;
+        public static final int vcard_type_video=0x7f0801f0;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_voice=0x7f0801ea;
+        public static final int vcard_type_voice=0x7f0801ec;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_work=0x7f0801e4;
+        public static final int vcard_type_work=0x7f0801e6;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_contact.png 
          */
-        public static final int vcard_type_x400=0x7f0801f5;
+        public static final int vcard_type_x400=0x7f0801f7;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/contact_viewer_common.png 
          */
-        public static final int vcard_url=0x7f0801d0;
-        public static final int ver_mapa=0x7f0803c7;
-        public static final int ver_perfil=0x7f08042c;
-        public static final int version_number=0x7f080354;
+        public static final int vcard_url=0x7f0801d2;
+        public static final int ver_mapa=0x7f0803c9;
+        public static final int ver_perfil=0x7f08042e;
+        public static final int version_number=0x7f080356;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/market.png 
      <string name="development_title">3M Distribuidores</string> 
  http://dl.dropbox.com/u/1029995/com.xabber.android/market.png 
          */
-        public static final int vip_description=0x7f08020d;
+        public static final int vip_description=0x7f08020f;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/market.png 
          */
-        public static final int vip_title=0x7f08020e;
-        public static final int what_to_do=0x7f080154;
-        public static final int where_choose=0x7f08043f;
+        public static final int vip_title=0x7f080210;
+        public static final int wait_please=0x7f080458;
+        public static final int what_to_do=0x7f080155;
+        public static final int where_choose=0x7f080441;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/status_editor_status.png 
          */
-        public static final int xa=0x7f080352;
+        public static final int xa=0x7f080354;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_fingerprint_play.png 
          */
-        public static final int zxing_install_fail=0x7f080206;
+        public static final int zxing_install_fail=0x7f080208;
         /**  http://dl.dropbox.com/u/1029995/com.xabber.android/otr_fingerprint_scanner.png 
          */
-        public static final int zxing_install_message=0x7f080207;
+        public static final int zxing_install_message=0x7f080209;
     }
     public static final class style {
         /** 

@@ -53,6 +53,7 @@ import com.xabber.android.data.Application;
 import com.xabber.android.data.ContactManager;
 import com.xabber.android.data.NetworkException;
 import com.xabber.android.data.account.AccountManager;
+import com.xabber.android.data.connection.ConnectionThread;
 import com.xabber.android.data.intent.EntityIntentBuilder;
 import com.xabber.android.data.message.AbstractChat;
 import com.xabber.android.data.message.MessageManager;
@@ -315,13 +316,6 @@ public class ContactAdd extends GroupListActivity implements
 				result = true;
 			}
 
-			return result;
-		}
-
-		@Override
-		protected void onPostExecute(Boolean result) {
-			super.onPostExecute(result);
-
 			if (result) {
 
 				ContactManager contactManager = new ContactManager(
@@ -332,6 +326,16 @@ public class ContactAdd extends GroupListActivity implements
 						+ AccountManager.getInstance().getAccount(account)
 								.getConnectionSettings().getServerName());
 				contactManager.syncroContacts(contact);
+			}
+
+			return result;
+		}
+
+		@Override
+		protected void onPostExecute(Boolean result) {
+			super.onPostExecute(result);
+
+			if (result) {
 
 				pbAdd.setVisibility(View.GONE);
 				button.setOnClickListener(ContactAdd.this);
@@ -485,24 +489,30 @@ public class ContactAdd extends GroupListActivity implements
 			String userAdd = userView.getText().toString();
 			for (RosterContact rosterContact : contacts) {
 
-				String userDDBB = rosterContact.getUser();
-				if (userDDBB != null) {
-					userDDBB = userDDBB.split("@")[0];
-				}
+				String userFrom = rosterContact.getAccount();
 
-				if (userAdd != null && userDDBB != null
-						&& userAdd.equalsIgnoreCase(userDDBB)) {
-					runOnUiThread(new Runnable() {
+				if (userFrom != null && account != null
+						&& userFrom.split("@")[0].equals(account.split("@")[0])) {
 
-						@Override
-						public void run() {
-							Toast.makeText(ContactAdd.this,
-									getString(R.string.contact_exists),
-									Toast.LENGTH_LONG).show();
-						}
-					});
+					String userDDBB = rosterContact.getUser();
+					if (userDDBB != null) {
+						userDDBB = userDDBB.split("@")[0];
+					}
 
-					return false;
+					if (userAdd != null && userDDBB != null
+							&& userAdd.equalsIgnoreCase(userDDBB)) {
+						runOnUiThread(new Runnable() {
+
+							@Override
+							public void run() {
+								Toast.makeText(ContactAdd.this,
+										getString(R.string.contact_exists),
+										Toast.LENGTH_LONG).show();
+							}
+						});
+
+						return false;
+					}
 				}
 
 			}
@@ -657,59 +667,66 @@ public class ContactAdd extends GroupListActivity implements
 	}
 
 	private boolean userExist(String usuario) {
-		XMPPConnection mXMPPConnection = AccountManager.getInstance()
-				.getAccount(account).getConnectionThread().getXMPPConnection();
 
-		UserSearchManager search = new UserSearchManager(mXMPPConnection);
-		Form searchForm = null;
-		try {
-			searchForm = search.getSearchForm("vjud."
-					+ mXMPPConnection.getServiceName());
-		} catch (XMPPException e) {
-			e.printStackTrace();
-		}
-		if (searchForm != null) {
+		ConnectionThread connectionThread = AccountManager.getInstance()
+				.getAccount(account).getConnectionThread();
 
-			String searchUser = usuario + "@"
-					+ mXMPPConnection.getServiceName();
-			Form answerForm = searchForm.createAnswerForm();
-			answerForm.setAnswer("uid", usuario);
-			org.jivesoftware.smackx.ReportedData data = null;
+		if (connectionThread != null) {
+			XMPPConnection mXMPPConnection = connectionThread
+					.getXMPPConnection();
+
+			UserSearchManager search = new UserSearchManager(mXMPPConnection);
+			Form searchForm = null;
 			try {
-				data = search.getSearchResults(answerForm, "vjud."
+				searchForm = search.getSearchForm("vjud."
 						+ mXMPPConnection.getServiceName());
 			} catch (XMPPException e) {
 				e.printStackTrace();
 			}
-			if (data.getRows() != null) {
-				Iterator<Row> it = data.getRows();
-				while (it.hasNext()) {
-					Row row = it.next();
-					Iterator iterator = row.getValues("jid");
-					if (iterator.hasNext()) {
-						String element = iterator.next().toString();
+			if (searchForm != null) {
 
-						if (element != null && searchUser != null
-								&& element.equals(searchUser)) {
-							return true;
+				String searchUser = usuario + "@"
+						+ mXMPPConnection.getServiceName();
+				Form answerForm = searchForm.createAnswerForm();
+				answerForm.setAnswer("uid", usuario);
+				org.jivesoftware.smackx.ReportedData data = null;
+				try {
+					data = search.getSearchResults(answerForm, "vjud."
+							+ mXMPPConnection.getServiceName());
+				} catch (XMPPException e) {
+					e.printStackTrace();
+				}
+				if (data.getRows() != null) {
+					Iterator<Row> it = data.getRows();
+					while (it.hasNext()) {
+						Row row = it.next();
+						Iterator iterator = row.getValues("jid");
+						if (iterator.hasNext()) {
+							String element = iterator.next().toString();
+
+							if (element != null && searchUser != null
+									&& element.equals(searchUser)) {
+								return true;
+							}
+
 						}
 
 					}
 
 				}
 
+				runOnUiThread(new Runnable() {
+
+					@Override
+					public void run() {
+						Toast.makeText(getApplicationContext(),
+								R.string.no_user_exist, Toast.LENGTH_LONG)
+								.show();
+					}
+				});
+
+				return false;
 			}
-
-			runOnUiThread(new Runnable() {
-
-				@Override
-				public void run() {
-					Toast.makeText(getApplicationContext(),
-							R.string.no_user_exist, Toast.LENGTH_LONG).show();
-				}
-			});
-
-			return false;
 		}
 
 		runOnUiThread(new Runnable() {
@@ -717,7 +734,7 @@ public class ContactAdd extends GroupListActivity implements
 			@Override
 			public void run() {
 				Toast.makeText(getApplicationContext(),
-						"sin conexion servidor", Toast.LENGTH_LONG).show();
+						R.string.no_conex_server, Toast.LENGTH_LONG).show();
 			}
 		});
 

@@ -106,6 +106,7 @@ import com.xabber.android.utils.dialogs.DialogGeneric;
 import com.xabber.android.utils.dialogs.IDialogAction;
 import com.xabber.android.utils.file.RealPathUtil;
 import com.xabber.android.utils.rounded.RoundedUtil;
+import com.xabber.android.utils.share.email.EmailManager;
 import com.xabber.androiddev.async.AsyncTask;
 import com.xabber.xmpp.muc.Role;
 
@@ -1949,19 +1950,23 @@ public class ChatViewer extends ManagedActivity implements
 		@Override
 		public void onPostExecute(File result) {
 			if (result != null) {
-				Intent intent = new Intent(android.content.Intent.ACTION_SENDTO);
-				intent.setType("text/plain");
-				intent.putExtra(Intent.EXTRA_SUBJECT,
-						getString(R.string.subject_email));
-				intent.setData(Uri.parse("mailto:")); // only email apps should
-														// handle this
+				// Intent intent = new
+				// Intent(android.content.Intent.ACTION_SENDTO);
+				// intent.setType("text/plain");
+				// intent.putExtra(Intent.EXTRA_SUBJECT,
+				// getString(R.string.subject_email));
+				// intent.setData(Uri.parse("mailto:")); // only email apps
+				// should
+				// // handle this
 				Uri uri = Uri.fromFile(result);
-				intent.putExtra(android.content.Intent.EXTRA_STREAM, uri);
-				startActivity(Intent.createChooser(intent,
-						getString(R.string.export_chat)));
+				// intent.putExtra(android.content.Intent.EXTRA_STREAM, uri);
+				// startActivity(Intent.createChooser(intent,
+				// getString(R.string.export_chat)));
+
+				EmailManager.sendFile(getApplicationContext(),
+						getString(R.string.subject_email), uri.getPath());
 			}
 		}
-
 	}
 
 	// @Override
@@ -2893,7 +2898,7 @@ public class ChatViewer extends ManagedActivity implements
 
 		Boolean result = false;
 		// if (!(abstractChat instanceof RoomChat)) {
-		if (currentapiVersion >= android.os.Build.VERSION_CODES.GINGERBREAD_MR1) {
+		if (currentapiVersion > android.os.Build.VERSION_CODES.GINGERBREAD_MR1) {
 			String txt = getTextWrite();
 			if (txt == null || txt.equalsIgnoreCase("")) {
 				result = true;

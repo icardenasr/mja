@@ -69,6 +69,8 @@ public class LoginAct extends ManagedActivity implements OnClickListener {
 	private UsuarioDTO usuarioDTO;
 	private TextView terminosTV;
 
+	private ProgressDialog dialog;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// Remove title bar
@@ -114,6 +116,8 @@ public class LoginAct extends ManagedActivity implements OnClickListener {
 		}
 
 		loadWidgets();
+
+		createDialog();
 
 		// startActivity(AccountEditor.createIntent(this, ""));
 	}
@@ -179,6 +183,8 @@ public class LoginAct extends ManagedActivity implements OnClickListener {
 
 		switch (v.getId()) {
 		case R.id.ok:
+
+			showDialog();
 			if (prepareCall()) {
 
 				// HashMap<Integer, Object> paramsWS = new HashMap<Integer,
@@ -236,6 +242,13 @@ public class LoginAct extends ManagedActivity implements OnClickListener {
 
 					@Override
 					public void actionAlreadyLoad() {
+
+						Application application = Application.getInstance();
+						if (application != null) {
+							application.setWaitForLogin(true);
+							application.setLoginAct(LoginAct.this);
+						}
+
 						actionAddContact(usu, usuario, pass);
 					}
 				});
@@ -350,9 +363,9 @@ public class LoginAct extends ManagedActivity implements OnClickListener {
 
 			// System.exit(0);
 
-			Intent i = new Intent(this, ContactList.class);
-			startActivity(i);
-			finish();
+			// Intent i = new Intent(this, ContactList.class);
+			// startActivity(i);
+			// finish();
 			//
 			// setResult(RESULT_OK, createAuthenticatorResult(this, account));
 
@@ -477,14 +490,12 @@ public class LoginAct extends ManagedActivity implements OnClickListener {
 
 	@Override
 	protected void onStart() {
-		// TODO Auto-generated method stub
 		super.onStart();
 		((Application) getApplication()).setLoginAct(this);
 	}
 
 	@Override
 	protected void onDestroy() {
-		// TODO Auto-generated method stub
 		super.onDestroy();
 
 		((Application) getApplication()).setLoginAct(null);
@@ -540,4 +551,27 @@ public class LoginAct extends ManagedActivity implements OnClickListener {
 		}
 
 	}
+
+	private void createDialog() {
+
+		dialog = new ProgressDialog(this);
+		dialog.setMessage(getString(R.string.wait_please));
+
+	}
+
+	private void showDialog() {
+
+		if (dialog != null && !dialog.isShowing()) {
+			dialog.show();
+		}
+	}
+
+	public void dissmissDialog() {
+
+		if (dialog != null && dialog.isShowing()) {
+			dialog.dismiss();
+		}
+
+	}
+
 }

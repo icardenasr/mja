@@ -22,7 +22,6 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.CompressFormat;
 import android.net.Uri;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
@@ -77,6 +76,8 @@ public class SendFileAsync extends AsyncTask<Void, Void, Consigna> {
 	private UsuarioDTO usuario;
 	// private ChatViewerAdapter chatViewerAdapter;
 	private String path, from, to;
+
+	private FilePacketDTO respuesta;
 
 	// private int progress = 0;
 
@@ -231,8 +232,7 @@ public class SendFileAsync extends AsyncTask<Void, Void, Consigna> {
 		if (salida != null && !salida.equalsIgnoreCase("")) {
 			try {
 
-				FilePacketDTO respuesta = gson.fromJson(salida,
-						FilePacketDTO.class);
+				respuesta = gson.fromJson(salida, FilePacketDTO.class);
 
 				if (respuesta != null && respuesta.getCode() != null
 						&& respuesta.getCode().equals("200")) {
@@ -246,29 +246,12 @@ public class SendFileAsync extends AsyncTask<Void, Void, Consigna> {
 
 					result = sendMessage(respuesta, path);
 
-				} else {
-					// Error subiendo archivo
-					if (respuesta != null && respuesta.getErr() != null
-							&& !respuesta.getErr().equalsIgnoreCase("")) {
-						// mBuilder.setContentText(respuesta.getErr())
-						// // Removes the progress bar
-						// .setProgress(0, 0, false);
-						Toast.makeText(context, respuesta.getErr(),
-								Toast.LENGTH_SHORT).show();
-					} else {
-						// When the loop is finished, updates the notification
-						// mBuilder.setContentText("Error")
-						// // Removes the progress bar
-						// .setProgress(0, 0, false);
-
-						Toast.makeText(context, "Error", Toast.LENGTH_SHORT)
-								.show();
-					}
 				}
 
 				// mNotifyManager.notify(ID.intValue(), mBuilder.build());
 
 			} catch (Exception e) {
+				e.printStackTrace();
 			}
 
 		}
@@ -378,6 +361,26 @@ public class SendFileAsync extends AsyncTask<Void, Void, Consigna> {
 	@Override
 	protected void onPostExecute(Consigna result) {
 		super.onPostExecute(result);
+
+		if (respuesta != null && respuesta.getCode() != null
+				&& !respuesta.getCode().equals("200")) {
+			// Error subiendo archivo
+			if (respuesta.getErr() != null
+					&& !respuesta.getErr().equalsIgnoreCase("")) {
+				// mBuilder.setContentText(respuesta.getErr())
+				// // Removes the progress bar
+				// .setProgress(0, 0, false);
+				Toast.makeText(context, respuesta.getErr(), Toast.LENGTH_SHORT)
+						.show();
+			} else {
+				// When the loop is finished, updates the notification
+				// mBuilder.setContentText("Error")
+				// // Removes the progress bar
+				// .setProgress(0, 0, false);
+
+				Toast.makeText(context, "Error", Toast.LENGTH_SHORT).show();
+			}
+		}
 
 		if (result != null && iUploadFile != null) {
 			iUploadFile.onResultCorrectWS(result);

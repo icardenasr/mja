@@ -234,6 +234,11 @@ public class NotificationManager implements OnInitializedListener,
 				top = notify;
 				ticker = top.getTitle();
 			}
+
+			if (ticker != null) {
+				ticker = ticker.split("@")[0];
+			}
+
 			Intent intent = top.getIntent();
 			NotificationCompat.Builder notification = new NotificationCompat.Builder(
 					application.getApplicationContext());
@@ -247,7 +252,13 @@ public class NotificationManager implements OnInitializedListener,
 
 			notification.setContentIntent(PendingIntent.getActivity(
 					application, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT));
-			notification.setContentTitle(top.getTitle());
+
+			String title = top.getTitle();
+			if (title != null) {
+				title = title.split("@")[0];
+			}
+
+			notification.setContentTitle(title);
 			notification.setContentText(top.getText());
 			if (ticker != null) {
 				setNotificationDefaults(notification,
@@ -407,7 +418,8 @@ public class NotificationManager implements OnInitializedListener,
 			}
 
 			chatViews.setTextViewText(R.id.title, RosterManager.getInstance()
-					.getName(message.getAccount(), message.getUser()).split("@")[0]);
+					.getName(message.getAccount(), message.getUser())
+					.split("@")[0]);
 			String text;
 			if (ChatManager.getInstance().isShowText(message.getAccount(),
 					message.getUser())) {
@@ -503,8 +515,9 @@ public class NotificationManager implements OnInitializedListener,
 					AudioManager.STREAM_NOTIFICATION);
 
 			notification.setContentText(text);
-			notification.setContentTitle(RosterManager.getInstance().getName(
-					message.getAccount(), message.getUser()).split("@")[0]);
+			notification.setContentTitle(RosterManager.getInstance()
+					.getName(message.getAccount(), message.getUser())
+					.split("@")[0]);
 
 			Notification not;
 			if (Application.SDK_INT >= 11) {

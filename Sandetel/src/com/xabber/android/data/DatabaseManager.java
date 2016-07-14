@@ -311,7 +311,9 @@ public class DatabaseManager extends SQLiteOpenHelper implements
 				if (!directory.exists()) {
 					directory.mkdirs();
 				}
-				File backupDB = new File(sd, Urls.LOCAL_CONSIGNA + backupDBPath);
+				File backupDBDirectory = new File(sd + Urls.LOCAL_CONSIGNA);
+				backupDBDirectory.mkdirs();
+				File backupDB = new File(backupDBDirectory, backupDBPath);
 
 				if (currentDB.exists()) {
 					FileChannel src = new FileInputStream(currentDB)

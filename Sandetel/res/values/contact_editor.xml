@@ -52,6 +52,7 @@
     <string name="uid_user">UID del usuario</string>
     <string name="uid_user_expl">El UID del usuario es su dirección de Correo Corporativo sin @juntadeandalucia.es</string>
     <string name="no_user_exist">El usuario que busca no existe.</string>
+    <string name="no_conex_server">Sin conexión con el servidor.</string>
     <string name="contact_add_succesful">Contacto añadido correctamente</string>
     <string name="send_email">Enviar correo</string>
     <string name="no_phone">Sin teléfono</string>

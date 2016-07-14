@@ -688,8 +688,9 @@ public class ChatMessageAdapter extends BaseAdapter implements UpdatableAdapter 
 					.findViewById(R.id.img_consigna);
 
 			// Si la imagen de consigna viene, consigna es un archivo de imagen
-			// ya descargada y no se está enviando
-			if (imgConsigna != null) {
+			// ya descargada y no se está enviando, pero si no tiene url de
+			// consigna es que no se ha subido bien
+			if (imgConsigna != null && consigna.getUrlConsigna() != null) {
 
 				loadRowConsignaImage(consigna, imgConsigna, onLongClickListener);
 
@@ -702,9 +703,23 @@ public class ChatMessageAdapter extends BaseAdapter implements UpdatableAdapter 
 
 					if (consigna.getError() != null && consigna.getError()) {
 						imgType.setImageResource(R.drawable.ic_adjunto_warning);
+
 					} else {
-						imgType.setImageResource(getImagefromMimeTypeFile(consigna
-								.getName()));
+
+						// si es un mensaje saliente, no está preparado para
+						// subir, y la url de consigna es inexistente ha
+						// ocurrido algún error
+						if (!incoming
+								&& (consigna.getToUpLoad() == null || !consigna
+										.getToUpLoad())
+								&& consigna.getUrlConsigna() == null) {
+							imgType.setImageResource(R.drawable.ic_adjunto_warning);
+							consigna.setError(true);
+						} else {
+
+							imgType.setImageResource(getImagefromMimeTypeFile(consigna
+									.getName()));
+						}
 					}
 				}
 
@@ -735,7 +750,7 @@ public class ChatMessageAdapter extends BaseAdapter implements UpdatableAdapter 
 								position);
 					} else if (!incoming) {
 
-						// Si el arachivo es enviado y se está subiendo
+						// Si el archivo es enviado y se está subiendo
 						// comenzará la
 						// acción de subida
 
@@ -756,7 +771,7 @@ public class ChatMessageAdapter extends BaseAdapter implements UpdatableAdapter 
 		}
 	}
 
-	private void prepareToSend(Consigna consigna, final int position,
+	private void prepareToSend(final Consigna consigna, final int position,
 			final View rlIcon, final View rlState, final TextView tvState) {
 		final MessageItem message = (MessageItem) getItem(position);
 		if (message != null && message.getConsigna() != null) {
@@ -1037,7 +1052,8 @@ public class ChatMessageAdapter extends BaseAdapter implements UpdatableAdapter 
 			if (checkIfExistfile(consigna.getUrlLocal())
 					&& consignaFileIsImage(consigna.getName())
 					&& !consigna.getToUpLoad() && !consigna.getUplaoding()
-					&& (consigna.getError() == null || !consigna.getError())) {
+					&& (consigna.getError() == null || !consigna.getError())
+					&& consigna.getUrlConsigna() != null) {
 				resource2 = R.layout.chat_viewer_message_consigna_image;
 			} else {
 				resource2 = R.layout.chat_viewer_message_consigna;
@@ -1102,13 +1118,23 @@ public class ChatMessageAdapter extends BaseAdapter implements UpdatableAdapter 
 			rlState.setBackgroundResource(R.drawable.back_message_state_consigna_re_send);
 			tvState.setText(activity.getString(R.string.re_send));
 		} else if (exist) {
-			// Si el archivo existe, se le pondrá la vista de abrir archivo
+			// Si el archivo existe y tiene url de consigna, se le pondrá la
+			// vista de abrir archivo
 			rlState.setBackgroundResource(R.drawable.back_message_state_consigna_open);
 			tvState.setText(activity.getString(R.string.open));
 		} else {
-			// Si el archivo no existe, se le pondrá la vista para descargar
-			rlState.setBackgroundResource(R.drawable.back_message_state_consigna_download);
-			tvState.setText(activity.getString(R.string.download));
+
+			// Si el archivo viene sin url de consigna quiere decir que no se ha
+			// subido de manera correcta
+
+			if (consigna.getUrlConsigna() == null) {
+				rlState.setBackgroundResource(R.drawable.back_message_state_consigna_re_send);
+				tvState.setText(activity.getString(R.string.re_send));
+			} else {
+				// Si el archivo no existe, se le pondrá la vista para descargar
+				rlState.setBackgroundResource(R.drawable.back_message_state_consigna_download);
+				tvState.setText(activity.getString(R.string.download));
+			}
 		}
 
 		if (consigna.getUplaoding()) {

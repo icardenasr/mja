@@ -29,7 +29,6 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
-import com.xabber.android.service.ws_client.service_ws.UsuarioWS;
 import com.xabber.android.utils.gson.GsonUtil;
 import com.xabber.android.utils.preferences.UtilPreferences;
 
@@ -127,8 +126,8 @@ public class TareaRegistroGCM extends AsyncTask<String, Integer, String> {
 				url += "&red=" + red;
 
 				url += "&passphrase=" + passphrase;
-				
-				Log.d("URL REGISTER", "URL REGISTER " +url);
+
+				Log.d("URL REGISTER", "URL REGISTER " + url);
 
 				res = callServicePost(context, UtilNotification.URL_BASE, url,
 						params, null);

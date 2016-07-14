@@ -39,6 +39,7 @@ import android.widget.TextView;
 import com.xabber.android.data.SettingsManager;
 import com.xabber.android.data.account.StatusMode;
 import com.xabber.android.data.extension.cs.ChatStateManager;
+import com.xabber.android.data.extension.muc.MUCManager;
 import com.xabber.android.data.extension.muc.RoomContact;
 import com.xabber.android.data.message.chat.ChatManager;
 import com.xabber.android.data.roster.AbstractContact;
@@ -169,7 +170,9 @@ public abstract class BaseContactInflater {
 				tv.setText(text);
 			}
 		} else {
-			tv.setText(activity.getString(ac.getStatusMode().getStringID()));
+			if (ac != null) {
+				tv.setText(activity.getString(ac.getStatusMode().getStringID()));
+			}
 		}
 
 		if (ac != null) {
@@ -331,21 +334,39 @@ public abstract class BaseContactInflater {
 			viewHolder.iconLine.setImageResource(R.drawable.chat_bola_roja);
 		} else {
 
-			Boolean exist = false;
-			// Obtenemos todos los contactos del usuario
-			Collection<RosterContact> contacts = RosterManager.getInstance()
-					.getContacts();
+			if (abstractContact != null
+					&& abstractContact.getAccount() != null
+					&& abstractContact.getUser() != null
+					&& !MUCManager.getInstance().hasRoom(
+							abstractContact.getAccount(),
+							abstractContact.getUser())) {
+				Boolean exist = false;
+				// Obtenemos todos los contactos del usuario
+				Collection<RosterContact> contacts = RosterManager
+						.getInstance().getContacts();
 
-			// Comparamos con el nuevo usuario para comprobar si ya está en la
-			// lista
-			String userAdd = abstractContact.getName();
-			for (RosterContact rosterContact : contacts) {
+				// Comparamos con el nuevo usuario para comprobar si ya está en
+				// la
+				// lista
+				String userAdd = abstractContact.getName();
+				for (RosterContact rosterContact : contacts) {
 
-				if (userAdd.equalsIgnoreCase(rosterContact.getName())) {
-					exist = true;
-					break;
+					if (userAdd.equalsIgnoreCase(rosterContact.getName())) {
+						exist = true;
+						break;
+					}
+
 				}
 
+				if (!exist) {
+					viewHolder.status.setText(activity
+							.getString(R.string.unsubscribed));
+					viewHolder.status.setTextColor(activity.getResources()
+							.getColor(R.color.offline));
+					viewHolder.iconLine
+							.setImageResource(R.drawable.chat_bola_roja);
+					abstractContact = null;
+				}
 			}
 
 			setStatusUser(activity, abstractContact, viewHolder.status,

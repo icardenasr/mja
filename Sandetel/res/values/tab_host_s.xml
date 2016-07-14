@@ -10,7 +10,7 @@
     <string name="cancelar">Cancelar</string>
     <string name="cancell_download">descarga cancelada</string>
     <string name="file_download">Archivo descargado en</string>
-<!--     <string name="tresm_central">Sandetel Central</string> -->
+    <!-- <string name="tresm_central">Sandetel Central</string> -->
     <string name="quieres_desc">¿Quieres descargarte el archivo %1$s?</string>
     <string name="si">Si</string>
     <string name="descargar">Descargar.</string>
@@ -78,5 +78,6 @@
     <string name="mens_insta">Mensajería Instantánea</string>
     <string name="sure_log_out">¿Estás seguro que desea cerrar la sesión?</string>
     <string name="sure_exit">¿Estás seguro que desea cerrar la aplicación?</string>
+    <string name="wait_please">Espere por favor...</string>
 
 </resources>

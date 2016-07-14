@@ -21,8 +21,8 @@ import org.jivesoftware.smack.packet.Presence;
 import org.jivesoftware.smack.packet.Presence.Type;
 
 import android.app.Activity;
+import android.content.Intent;
 
-import com.xabber.android.data.ActivityManager;
 import com.xabber.android.data.Application;
 import com.xabber.android.data.NetworkException;
 import com.xabber.android.data.SettingsManager;
@@ -33,6 +33,8 @@ import com.xabber.android.data.connection.ProxyType;
 import com.xabber.android.data.connection.TLSMode;
 import com.xabber.android.service.dto.UsuarioDTO;
 import com.xabber.android.service.ws_client.service_ws.UsuarioWS;
+import com.xabber.android.ui.ContactList;
+import com.xabber.android.ui.own.LoginAct;
 import com.xabber.android.utils.notification.UtilNotification;
 import com.xabber.android.utils.preferences.UtilPreferences;
 
@@ -423,19 +425,30 @@ public class AccountItem extends ConnectionItem {
 		// al login
 		// Application application = Application.getInstance();
 
-		Activity activity = ActivityManager.getInstance().getRootActivity();
+		Application application = Application.getInstance();
 
-		if (activity != null) {
+		if (application != null) {
 
 			UsuarioDTO user = (UsuarioDTO) UtilPreferences.getPreferences(
-					activity, UsuarioWS.KEY_USUARIO, UsuarioDTO.class);
+					application.getApplicationContext(), UsuarioWS.KEY_USUARIO,
+					UsuarioDTO.class);
 			if (user != null && user.getNick() != null) {
 				Application.getInstance().onError(R.string.error_login);
-				
+
 				AccountManager.getInstance().removeAccount(account);
-				
-				UtilNotification.unregister(activity, user.getNick());
+
+				UtilNotification.unregister(
+						application.getApplicationContext(), user.getNick());
 			}
+
+			UtilPreferences.setPreferences(application.getApplicationContext(),
+					UsuarioWS.KEY_USUARIO, null);
+			UtilPreferences.removePreference(
+					application.getApplicationContext(), UsuarioWS.KEY_USUARIO);
+
+			Activity loginAct = application.getLoginAct();
+			((LoginAct) loginAct).dissmissDialog();
+			application.setWaitForLogin(false);
 
 			// ProgressDialog progressDialog = new ProgressDialog(context);
 			// progressDialog
@@ -471,6 +484,24 @@ public class AccountItem extends ConnectionItem {
 	protected void onAuthorized(ConnectionThread connectionThread) {
 		super.onAuthorized(connectionThread);
 		AccountManager.getInstance().onAccountChanged(account);
+
+		Application application = Application.getInstance();
+		if (application != null) {
+			Boolean waitingForLogin = application.getWaitForLogin();
+			if (waitingForLogin != null && waitingForLogin) {
+				Activity loginAct = application.getLoginAct();
+				if (loginAct != null && loginAct instanceof LoginAct) {
+
+					((LoginAct) loginAct).dissmissDialog();
+
+					Intent i = new Intent(loginAct, ContactList.class);
+					loginAct.startActivity(i);
+					loginAct.finish();
+
+					application.setWaitForLogin(false);
+				}
+			}
+		}
 	}
 
 	@Override

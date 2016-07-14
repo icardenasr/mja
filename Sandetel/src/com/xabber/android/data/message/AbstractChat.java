@@ -460,7 +460,12 @@ public abstract class AbstractChat extends BaseEntity implements Serializable {
 		boolean visible = MessageManager.getInstance().isVisibleChat(this);
 		boolean read = incoming ? visible : true;
 		boolean send = incoming;
-		if (action == null && text == null)
+
+		if (text == null && consigna != null) {
+			text = consigna.getName();
+		}
+
+		if (action == null && text == null && consigna == null)
 			throw new IllegalArgumentException();
 		if (resource == null)
 			resource = "";

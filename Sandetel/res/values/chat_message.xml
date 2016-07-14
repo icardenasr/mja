@@ -6,4 +6,7 @@
         <item>@string/forward</item>
     </array>
     
+     
+     <string name="forward_error">No se puede reenviar este mensaje</string>
+    
 </resources>

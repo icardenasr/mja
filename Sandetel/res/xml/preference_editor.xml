@@ -40,7 +40,7 @@
     <!-- android:key="@string/preference_contacts" -->
     <!-- android:title="@string/preference_contacts" > -->
 
-    <PreferenceCategory
+    <com.xabber.android.utils.font.PreferenceCategoryCustom
         android:key="@string/preference_contacts"
         android:title="@string/preference_contacts" >
 
@@ -79,13 +79,10 @@
             android:dependency="@string/contacts_show_active_chats_key"
             android:key="@string/contacts_stay_active_chats_key"
             android:title="@string/contacts_stay_active_chats" />
-        
-    </PreferenceCategory>
-        
-    <PreferenceCategory
+    </com.xabber.android.utils.font.PreferenceCategoryCustom>
+    <com.xabber.android.utils.font.PreferenceCategoryCustom
         android:key="@string/preference_downloads"
         android:title="@string/preference_downloads" >
-    
         <com.xabber.android.utils.font.CheckBoxPreferenceCustom
             android:defaultValue="@bool/contacts_automatic_download_default"
             android:key="@string/contacts_automatic_download_key"
@@ -158,8 +155,8 @@
         <!-- android:key="@string/chats_divide_key" -->
         <!-- android:title="@string/chats_divide" /> -->
 
-    </PreferenceCategory>
-    <PreferenceCategory
+    </com.xabber.android.utils.font.PreferenceCategoryCustom>
+    <com.xabber.android.utils.font.PreferenceCategoryCustom
         android:key="@string/preference_events"
         android:title="@string/preference_events" >
 
@@ -241,7 +238,7 @@
         <!-- android:key="@string/events_first_only_key" -->
         <!-- android:title="@string/events_first_only" /> -->
 
-    </PreferenceCategory>
+    </com.xabber.android.utils.font.PreferenceCategoryCustom>
 
     <!-- <PreferenceScreen -->
     <!-- android:key="@string/events_phrases" -->

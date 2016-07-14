@@ -3,9 +3,7 @@ package com.xabber.android.utils.share;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.View.OnLongClickListener;
+import android.widget.Toast;
 
 import com.xabber.android.data.message.MessageItem;
 import com.xabber.android.ui.ContactList;
@@ -46,7 +44,14 @@ public class ChatMessageManager {
 							actionCopy(context, messageItem);
 							break;
 						case ACTION_FORWARD:
-							actionForward(context, messageItem);
+							if (checkConsignaState(messageItem)) {
+								actionForward(context, messageItem);
+							} else {
+								Toast.makeText(
+										context,
+										context.getString(R.string.forward_error),
+										Toast.LENGTH_SHORT).show();
+							}
 							break;
 
 						default:
@@ -71,6 +76,21 @@ public class ChatMessageManager {
 		context.startActivity(ContactList.createForwardIntent(context,
 				sendMessage));
 
+	}
+
+	private Boolean checkConsignaState(MessageItem messageItem) {
+
+		Boolean result = true;
+		if (messageItem != null
+				&& messageItem.getConsigna() != null
+				&& (messageItem.getConsigna().getAvailableToSend() == null || !messageItem
+						.getConsigna().getAvailableToSend())
+				&& (messageItem.getConsigna().getError() == null || messageItem
+						.getConsigna().getError())) {
+			result = false;
+
+		}
+		return result;
 	}
 
 }

@@ -604,6 +604,7 @@ public class Application extends android.app.Application {
 	// return iUploadFile;
 	// }
 
+	private Boolean waitForLogin = false;
 	private LoginAct loginAct;
 
 	public void setLoginAct(LoginAct loginAct) {
@@ -620,6 +621,14 @@ public class Application extends android.app.Application {
 
 	public void setvCardPending(boolean vCardPending) {
 		this.vCardPending = vCardPending;
+	}
+
+	public void setWaitForLogin(Boolean waitForLogin) {
+		this.waitForLogin = waitForLogin;
+	}
+
+	public Boolean getWaitForLogin() {
+		return waitForLogin;
 	}
 
 }
