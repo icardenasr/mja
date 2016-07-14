@@ -1,0 +1,29 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    
+    <style name="DiaDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+
+        <!-- Fill the screen -->
+        <!-- <item name="android:layout_width">match_parent</item> -->
+        <!-- <item name="android:layout_height">match_parent</item> -->
+        <!-- <item name="android:padding">12dp</item> -->
+
+
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Just to prove it's working -->
+        <!-- <item name="android:background">@drawable/inset_fondo_popup</item> -->
+
+    </style>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray">#DFDFDF</color>
+    <color name="transparent_menu">#99000000</color>
+    <color name="black_transparent_75">#C0000000</color>
+    <color name="black_transparent_20">#33000000</color>
+    <color name="white_transparent_75">#C0FFFFFF</color>
+    <color name="red_home">#E50019</color>
+    <color name="fondo_detalle">#DFDFD0</color>
+    <color name="red_cabecera_cat_poi">#8A000E</color>
+    <color name="gray_cuerpo_cat_poi">#B9BBA8</color>
+    <color name="gray_separacion_poi">#525252</color>
+    <color name="gray_separacion_poi_text">#79796A</color>
+    <color name="gray_fondo_barra">#BDBDAE</color>
+    <color name="gray_fondo_row_poi">#8A8A7B</color>
+    <color name="gray_separador_footer">#CBCBCB</color>
+
+    <color name="azul_separador">#891566</color>
+    <color name="separador_horizontal">#80B8C7DF</color>
+    <color name="separador_lista_pois">#C9C9C9</color>
+    <color name="azul_fondo_cabecera">#891566</color>
+    <color name="separador_cabecera">#CED9E8</color>
+    <color name="fondo_titulo_pois_detalle">#2D2D2D</color>
+    <drawable name="azul_over_menu">#CADBEE</drawable>
+    <drawable name="transparent">#00FFFFFF</drawable>
+    <drawable name="transparent_aa">#EEFFFFFF</drawable>
+    <drawable name="azul_transparente_row">#EEBCCCE3</drawable>
+    
+    <color name="bg_login">#F6F6F6</color>
+    <color name="green_login">#087021</color>
+    <color name="separate_list">#E3E3E3</color>
+    <color name="bg_ab">#DDDDDD</color>
+    <color name="text_gray_title">#2B2B2B</color>
+    <color name="text_green_title">#47D11D</color>
+    <color name="text_gray_hint">#A6A6A6</color>
+    <color name="text_black_title">#2E2E2E</color>
+    <color name="online">#47D11D</color>
+    <color name="offline">#EF3916</color>
+    <color name="away">#FD9828</color>
+    
+    <color name="gray_acount_add_et">#6D6D6D</color>
+    <color name="gray_dark_acount_add_title">#2B2B2B</color>
+
+</resources>

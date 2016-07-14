@@ -1,0 +1,71 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xabber="http://schemas.android.com/apk/res-auto" >
+
+    <!-- <item -->
+    <!-- android:id="@+id/action_send" -->
+    <!-- android:icon="@android:drawable/ic_menu_send" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:title="@string/enviar" -->
+    <!-- xabber:showAsAction="ifRoom"/> -->
+    <!-- <item -->
+    <!-- android:id="@+id/action_setting" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:title="@string/setting" -->
+    <!-- xabber:showAsAction="never"/> -->
+
+    <item
+        android:id="@+id/action_edit_contact"
+        android:icon="@drawable/ico_editar_contacto"
+        android:orderInCategory="100"
+        android:title="@string/contact_editor"/>
+    <item
+        android:id="@+id/action_send_file"
+        android:icon="@drawable/menu_icono_enviar_archivo"
+        android:orderInCategory="100"
+        android:title="@string/enviar_archivo"/>
+    <!-- <item -->
+    <!-- android:id="@+id/action_setting_con" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:title="@string/setting_con"/> -->
+    <item
+        android:id="@+id/action_show_history"
+        android:icon="@drawable/menu_icono_mostrar_historial"
+        android:orderInCategory="100"
+        android:title="@string/show_history"/>
+    <item
+        android:id="@+id/action_clear_history"
+        android:icon="@drawable/menu_icono_limpiar_historial"
+        android:orderInCategory="100"
+        android:title="@string/clear_history"/>
+    <item
+        android:id="@+id/action_send_con"
+        android:icon="@drawable/menu_icono_enviar_archivo"
+        android:orderInCategory="100"
+        android:title="@string/send_chat"/>
+    <item
+        android:id="@+id/action_call_phones"
+        android:icon="@drawable/menu_icono_enviar_archivo"
+        android:orderInCategory="100"
+        android:title="@string/contact_call_phone"/>
+    <item
+        android:id="@+id/action_send_email"
+        android:icon="@drawable/menu_icono_enviar_archivo"
+        android:orderInCategory="100"
+        android:title="@string/send_email"/>
+    <item
+        android:id="@+id/silence"
+        android:icon="@drawable/menu_icono_config"
+        android:orderInCategory="100"
+        android:title="@string/chat_settings"/>
+    <item
+        android:id="@+id/close_chat"
+        android:icon="@drawable/menu_icono_bloquear_sala"
+        android:orderInCategory="100"
+        android:title="@string/close_chat"/>
+
+    <!-- <item -->
+    <!-- android:id="@+id/action_export_con" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:title="@string/export_con"/> -->
+
+</menu>

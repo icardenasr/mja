@@ -1,0 +1,87 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xabber="http://schemas.android.com/apk/res-auto" >
+
+    <!-- <item -->
+    <!-- android:id="@+id/action_send" -->
+    <!-- android:icon="@android:drawable/ic_menu_send" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:title="@string/enviar" -->
+    <!-- xabber:showAsAction="ifRoom"/> -->
+    <!-- <item -->
+    <!-- android:id="@+id/action_setting" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:title="@string/setting" -->
+    <!-- xabber:showAsAction="never"/> -->
+    <!-- <item -->
+    <!-- android:id="@+id/action_see_perfil" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:title="@string/ver_perfil" -->
+    <!-- /> -->
+    <!-- <item -->
+    <!-- android:id="@+id/action_edit_perfil" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:title="@string/editar_perfil" -->
+    <!-- /> -->
+    <!-- <item -->
+    <!-- android:id="@+id/action_edit_pass" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:title="@string/editar_pass" -->
+    <!-- /> -->
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/menu_icono_usuario"
+        android:orderInCategory="100"
+        android:title="@string/add_contact"/>
+    <!-- <item -->
+    <!-- android:id="@+id/action_create_group" -->
+    <!-- android:icon="@drawable/menu_icono_grupo" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:title="@string/create_group"/> -->
+    <item
+        android:id="@+id/action_join_conf"
+        android:icon="@drawable/menu_icono_conferencia"
+        android:orderInCategory="100"
+        android:title="@string/conferencias"/>
+    <item
+        android:id="@+id/action_state"
+        android:icon="@drawable/menu_icono_estado"
+        android:orderInCategory="100"
+        android:title="@string/status_editor"/>
+    <item
+        android:id="@+id/action_close_chats"
+        android:icon="@drawable/menu_icono_conversacion"
+        android:orderInCategory="100"
+        android:title="@string/close_chats"/>
+    <item
+        android:id="@+id/action_export_ddbb"
+        android:icon="@drawable/menu_exportar_bbdd"
+        android:orderInCategory="100"
+        android:title="@string/action_export_ddbb"/>
+    <item
+        android:id="@+id/action_list_contacts"
+        android:icon="@drawable/menu_icono_config"
+        android:orderInCategory="100"
+        android:title="@string/list_cont"/>
+    <!-- <item
+        android:id="@+id/action_avatar_change"
+        android:icon="@drawable/menu_icono_editar_perfil"
+        android:orderInCategory="100"
+        android:title="@string/avatar_change"/>  -->
+    <item
+        android:id="@+id/action_about_ne"
+        android:icon="@drawable/menu_icono_acerca"
+        android:orderInCategory="100"
+        android:title="@string/acerca_de_opciones"/>
+    <item
+        android:id="@+id/action_log_out"
+        android:icon="@drawable/menu_icono_sesion"
+        android:orderInCategory="100"
+        android:title="@string/log_out"/>
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/menu_icono_sesion"
+        android:orderInCategory="100"
+        android:title="@string/exit"/>
+
+</menu>

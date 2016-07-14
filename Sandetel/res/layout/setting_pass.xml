@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E5E5E5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/ll_icons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.xabber.android.utils.font.tvRobotoRegular
+                    android:id="@+id/tv_top_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/perfil"
+                    android:textColor="@color/gray_top_bar"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.xabber.android.utils.font.tvRobotoRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/actual_pass"
+                android:textColor="@color/red_row_list"
+                android:textSize="15sp" />
+
+            <com.xabber.android.utils.font.etRobotoRegular
+                android:id="@+id/et_actual_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="end"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:tag="@string/actual_pass"
+                android:textColor="@android:color/black" />
+
+            <com.xabber.android.utils.font.tvRobotoRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/new_pass"
+                android:textColor="@color/red_row_list"
+                android:textSize="15sp" />
+
+            <com.xabber.android.utils.font.etRobotoRegular
+                android:id="@+id/et_new_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="end"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:tag="@string/new_pass"
+                android:textColor="@android:color/black" />
+
+            <com.xabber.android.utils.font.tvRobotoRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/rep_new_pass"
+                android:textColor="@color/red_row_list"
+                android:textSize="15sp" />
+
+            <com.xabber.android.utils.font.etRobotoRegular
+                android:id="@+id/et_rep_new_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="end"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:tag="@string/rep_new_pass"
+                android:textColor="@android:color/black" />
+
+            <com.xabber.android.utils.font.btnRobotoRegular
+                android:id="@+id/ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btn_chat"
+                android:text="@string/guardar"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

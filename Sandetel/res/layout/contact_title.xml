@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_ab"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/title_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingBottom="7dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="7dp" >
+
+        <!-- <ImageButton -->
+        <!-- android:id="@+id/back_button" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="fill_parent" -->
+        <!-- android:background="@drawable/title_logo" -->
+        <!-- android:src="@drawable/btn_title_back" -->
+        <!-- android:visibility="gone" /> -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_border"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <include
+                layout="@layout/contact_title_avatar"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/security"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="6dip"
+            android:src="@drawable/ic_security"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/topbar_icono" />
+
+        <LinearLayout
+            android:id="@+id/name_holder"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="6dip" >
+
+            <com.xabber.android.utils.font.tvRobotoRegular
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:singleLine="true"
+                android:textColor="@color/text_gray_title"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_status_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <!-- <ImageView -->
+                <!-- android:id="@+id/iv_state" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginRight="5dp" -->
+                <!-- android:adjustViewBounds="true" -->
+                <!-- android:scaleType="centerInside" /> -->
+
+                <ImageView
+                    android:id="@+id/status_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_status" />
+
+                <com.xabber.android.utils.font.tvRobotoRegular
+                    android:id="@+id/status_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:gravity="center_vertical"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_options"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:maxHeight="55dp"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_adjunto" />
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/status_mode" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="fill_parent" -->
+        <!-- android:background="@drawable/btn_status_mode" -->
+        <!-- android:paddingLeft="@dimen/active_chat_padding_right" -->
+        <!-- android:paddingRight="@dimen/active_chat_padding_right" -->
+        <!-- android:src="@drawable/ic_status" -->
+        <!-- android:visibility="gone" /> -->
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/shadow"
+        android:visibility="gone" />
+
+</RelativeLayout>

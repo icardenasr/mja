@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="2dp" >
+
+    <ImageView
+        android:id="@+id/imagen"
+        style="@style/row_cat_poi"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="3dp"
+        android:layout_weight="0"
+        android:clickable="false"
+        android:contentDescription="@string/content_description" />
+
+    <es.sdos.common.font.MontserratBoldTextView
+        android:id="@+id/tv_nombre"
+        style="@style/row_cabecera_17_bold_tipo_poi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_color_white75_white"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:padding="10dp" />
+
+    <ImageView
+        android:id="@+id/img_imagen"
+        style="@style/row_cat_poi"
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/flecha_off" />
+
+</LinearLayout>

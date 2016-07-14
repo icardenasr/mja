@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="export_error">Ha ocurrido un error con la exportación. Inténtelo de nuevo.</string>
+    <string name="export_title">Exportación</string>
+    <string name="export_succesful">La exportación se ha realizado con éxito. ¿Deseas enviarla?</string>
+    <string name="export_location">La exportación ha sido guardada en %1$s</string>
+    <string name="import_error">Ha ocurrido un error con la importación. Inténtelo de nuevo.</string>
+    <string name="import_succesful">La importación se ha realizado con éxito.</string>
+   	<string name="import_atention">¡Atención!</string>
+   	<string name="import_alert">¿Estás seguro que deseas importar la base de datos? Una vez realizada, se perderán todos los datos de la aplicación.</string> 
+   
+
+</resources>

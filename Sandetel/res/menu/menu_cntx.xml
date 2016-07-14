@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/twiter"
+        android:title="@string/twitter">
+    </item>
+    
+    <item
+        android:id="@+id/facebook"
+        android:title="@string/facebook">
+    </item>
+    
+    <item
+        android:id="@+id/ver_mapa"
+        android:title="@string/ver_mapa">
+    </item>   
+</menu>

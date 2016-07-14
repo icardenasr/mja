@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <com.xabber.android.utils.font.tvRobotoRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/contact_account"
+        android:visibility="gone" />
+
+    <com.xabber.android.ui.widget.NoDefaultSpinner
+        android:id="@+id/contact_account"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:prompt="@string/choose_account"
+        android:visibility="gone" />
+
+    <com.xabber.android.utils.font.tvRobotoRegular
+        android:id="@+id/tv_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/contact_add_chat"
+        android:textColor="@color/text_gray_title"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_add_user"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#cccccc"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="1dp" >
+
+        <com.xabber.android.utils.font.etRobotoRegular
+            android:id="@+id/contact_user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="@string/uid_user"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="" />
+    </LinearLayout>
+
+    <com.xabber.android.utils.font.tvRobotoRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/uid_user_expl"
+        android:textColor="@color/text_gray_title"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_contact_user"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="@dimen/avatar_size"
+            android:layout_height="@dimen/avatar_size"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ico_user" />
+
+        <com.xabber.android.utils.font.tvRobotoRegular
+            android:id="@+id/tv_contact_user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Hola"
+            android:textColor="#515151"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <com.xabber.android.utils.font.tvRobotoRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/contact_name"
+        android:visibility="gone" />
+
+    <com.xabber.android.utils.font.etRobotoRegular
+        android:id="@+id/contact_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:text=""
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#cccccc"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="1dp" >
+
+            <com.xabber.android.utils.font.btnRobotoRegular
+                android:id="@+id/ok"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_chat"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/contact_add"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.xabber.android.utils.font.tvRobotoRegular
+        android:id="@+id/tv_rechazar_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/rechazar_contacto"
+        android:textColor="#e53b1f"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="60dp"
+        android:background="#cccccc"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f7f7f7"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp" >
+
+        <com.xabber.android.utils.font.tvRobotoRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_group"
+            android:textColor="@color/text_gray_title"
+            android:textSize="20sp" />
+
+        <com.xabber.android.utils.font.tvRobotoRegular
+            android:id="@android:id/message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/group_add"
+            android:textColor="#4B945C"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

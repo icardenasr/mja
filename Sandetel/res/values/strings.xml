@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mensajería Junta</string>
+    
+    <string name="version_number">Versión 1.1.3</string>
+    
+    <string name="delaferia">de la Feria de Sevilla</string>
+    <string name="enviando">Enviando...</string>
+    <string name="categorias">Categorías</string>
+    <string name="configuracion">CONFIGURACIÓN</string>
+    <string name="configuracion_">Configuración</string>
+    <string name="txt_salir">¿Desea salir de la aplicación?</string>
+    <string name="nombre_aplicacion">Visita Jaén</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pois">Pois</string>
+    <string name="eventos">Eventos</string>
+    <string name="que_hacer">QUÉ HACER</string>
+    <string name="info">Info in situ</string>
+    <string name="info_turismo">INFO IN SITU</string>
+    <string name="qr">QR</string>
+    <string name="transportes">Transportes</string>
+    <string name="noticias">NOTICIAS</string>
+    <string name="noticias_fav">Noticias</string>
+    <string name="que_hacer_1">Qué Hacer</string>
+    <string name="castillo_san_jorge">Castillo San Jorge</string>
+    <string name="audioguias">Audioguias</string>
+    <string name="favoritos">FAVORITOS</string>
+    <string name="creditos">CREDITOS</string>
+    <string name="agenda">AGENDA</string>
+    <string name="ok">Ok</string>
+    <string name="change">Change</string>
+    <string name="seleccionar_al_menos_una">Debe seleccionar al menos una categoría.</string>
+    <string name="twitter">Twitter</string>
+    <string name="share_twitter">Compartir en Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="share_facebook">Compartir en Facebook</string>
+    <string name="mapa">Mapa</string>
+    <string name="puntos_interes">Puntos de interés</string>
+    <string name="sobre_manilva">SOBRE MANILVA</string>
+    <string name="sele_tu_esta">Seleciona tu estado</string>
+    <string name="load">Guardar</string>
+    <string name="if_you_wish">Si lo deseas puedes escribir tu estado</string>
+
+    <!-- Realidad Aumentada -->
+    <string name="search_hint">Suche Ort</string>
+    <string name="N">N</string>
+    <string name="NE">NE</string>
+    <string name="E">E</string>
+    <string name="SE">SE</string>
+    <string name="S">S</string>
+    <string name="SW">SO</string>
+    <string name="W">O</string>
+    <string name="NW">NO</string>
+    <string name="license">Copyright (C) 2010- Peer internet solutions 
+		\n\nEste programa es software libre: usted puede redistribuirlo y/o modificarlo 
+    bajo los términos de la Licencia Pública General GNU publicada 
+    por la Fundación para el Software Libre, ya sea la versión 3 
+    de la Licencia, o (a su elección) cualquier versión posterior.
+		\n\nEste programa se distribuye con la esperanza de que sea útil, pero 
+    SIN GARANTÍA ALGUNA; ni siquiera la garantía implícita 
+    MERCANTIL o de APTITUD PARA UN PROPÓSITO DETERMINADO. 
+    Consulte los detalles de la Licencia Pública General GNU para obtener 
+    una información más detallada.
+		\n\n Usted debería haber recibido una copia de la Licencia Pública General GNU 
+    junto a este programa. 
+    En caso contrario, consulte &lt;http://www.gnu.org/&gt;</string>
+    <string name="empty_list">Lo sentimos, \nNo existe información \nDisponible para este radio.\nPor favor trata de buscar en un radio más grande</string>
+    <string name="option_not_available">Lo sentimos, estamos trabajando en ello... \nEsta opción estará disponible pronto!</string>
+    <string name="menu_item_1">Fuente de datos</string>
+    <string name="menu_item_2">Lista</string>
+    <string name="menu_item_3">Mapa</string>
+    <string name="menu_item_4">Zoom</string>
+    <string name="menu_item_5">Búsqueda</string>
+    <string name="menu_item_6">Información</string>
+    <string name="menu_item_7">Licencia</string>
+    <string name="connection_error_dialog">Lo sentimos, un error de conexión a ocurrido! \nPor favor chequea si estas conectado a Internet.</string>
+    <string name="connection_error_dialog_button1">Repetir</string>
+    <string name="connection_error_dialog_button2">Abrir opciones</string>
+    <string name="connection_error_dialog_button3">Cerrar la app</string>
+    <string name="connection_GPS_dialog_text">La localización del GPS no puede ser actualizada... \nSi continuas, la información
+		\nno será mostrada en los lugares precisos.</string>
+    <string name="connection_GPS_dialog_button1">Continuar</string>
+    <string name="connection_GPS_dialog_button2">Cerrar</string>
+    <string name="no_website_available">Lo sentimos, no hay más información \ndisponible.</string>
+    <string name="license_title">Licenciae</string>
+    <string name="close_button">Cerrar</string>
+    <string name="general_info_title">Información general</string>
+    <string name="general_info_text">GPS info: </string>
+    <string name="longitude">Longitud: </string>
+    <string name="latitude">Latitud: </string>
+    <string name="altitude">Altitud: </string>
+    <string name="speed">Velocidad: </string>
+    <string name="accuracy">Presición: </string>
+    <string name="gps_last_fix">Última posición: </string>
+    <string name="map_menu_normal_mode">Mapa</string>
+    <string name="map_menu_satellite_mode">Satelite</string>
+    <string name="map_menu_cam_mode">Cámara</string>
+    <string name="map_my_location">Mi localización</string>
+    <string name="map_current_location_click">Tu localización actual</string>
+    <string name="data_source_change_wikipedia">Se ha cambiado a Wikipedia como fuente de datos</string>
+    <string name="data_source_change_twitter">Se ha cambiado a Twitter como fuente de datos</string>
+    <string name="data_source_change_buzz">Se ha cambiado a Buzz como fuente de datos</string>
+    <string name="search_failed_notification">No hay resultados de búsqueda</string>
+    <string name="source_openstreetmap">estaciones de tren en la zona</string>
+    <string name="search_active_1">Search on data source</string>
+    <string name="search_active_2">. Touch to terminate search</string>
+    <string name="data_source_change_osm">Cambiado a OpenStreetMap como fuente de datos</string>
+    <string name="selecciona">Selecciona el Servicio Público o la Calle</string>
+    <string name="numero">Número de Caseta:</string>
+    <string name="quequieres">¿Qué quieres hacer?</string>
+    <string name="ir">Ir hasta allí</string>
+    <string name="compartir">Compartir en</string>
+    <string name="estoy">Estoy en la</string>
+    <string name="dondesubir">¿Dónde la subimos?</string>
+    <string name="alert_dialog_username">Usuario</string>
+    <string name="alert_dialog_password">Contraseña</string>
+    <string name="no_twitter">No tiene instalada la aplicación de Twitter</string>
+    <string name="no_facebook">No tiene instalada la aplicación de Facebook Messenger</string>
+    <string name="como_llegar">Cómo llegar</string>
+    <string name="informacion">Información</string>
+    <string name="opciones">Opciones</string>
+    <string name="content_description">Content</string>
+    <string name="marcado_fav_ok">Marcado como favorito correctamente</string>
+    <string name="demarcado_fav_ok">Desmarcado como favorito correctamente</string>
+    <string name="marcado_fav_error">Ha ocurrido un error, inténtelo de nuevo.</string>
+    <string name="horario">HORARIO</string>
+    <string name="telefono">TELÉFONO</string>
+    <string name="miubicacion">Mi Ubicación</string>
+
+    <!--  -->
+    <string name="new_event_title">Añadir al calendario</string>
+    <string name="new_event_descrip">Va a añadir a su calendario el evento. ¿Está seguro?</string>
+    <string name="new_event_create">Evento añadido con éxito</string>
+    <string name="new_event_create_error">Ocurrió un error mientras se añadía el evento a su calendario</string>
+    <string name="no_direccion_evento">El evento no dispone de dirección</string>
+    <string name="no_direccion_pois">El Punto de Interés no dispone de dirección</string>
+    <string name="ver_mapa">Ver mapa</string>
+    <string name="share_ver_mapa">Como llegar</string>
+    <string name="galeria">Galería</string>
+    <string name="no_imagenes">La galería de imágenes está vacía.</string>
+    <string name="reproducir_audioguia">Reproducir audioguía</string>
+    <string name="fecha">FECHA</string>
+    <string name="del">Del</string>
+    <string name="al">al</string>
+    <string name="el">El</string>
+    <string name="a_las">A las</string>
+    <string name="a">a</string>
+    <string name="A">A</string>
+    <string name="de_ti">de tí</string>
+    <string name="pulsa_para_ver">Pincha sobre los icono para ver las opciones</string>
+    <string name="no_elems">No existen elementos que mostrar.</string>
+    <string name="puntos_transportes">Puntos de transportes.</string>
+    <string name="dialog_desea_descargar_title">Descarga de audioguías.</string>
+    <string name="dialog_desea_descargar_descrip">Aún no dispone de las audio guías de \'%1$s\' descargas.\n ¿Desea descargar %2$d audioguías con un tamaño total de %3$s Mbs?</string>
+
+    <!-- Descarga de títulos -->
+    <string name="descargando_titulo">Descargando, por favor espere.</string>
+    <string name="de">de</string>
+    <string name="de_">De</string>
+    <string name="no_audio_des">No dispone de la audio descripción descargada.</string>
+    <string name="no_giroscopio_avalible">El giroscopio no está disponible</string>
+    <string name="no_disponible">No disponible</string>
+
+    <!-- Descarga de títulos -->
+    <string name="back_ra">Gira el móvil para ir atrás</string>
+    <string name="pending_notification">notificaciones pendientes.</string>
+    <string name="patrocinadores">Patrocinadores</string>
+    <string name="desarrollado_por">Desarrollado por</string>
+
+    <!-- Categorías -->
+    <string name="cat_1">Categoría 1</string>
+    <string name="cat_2">Categoría 2</string>
+    <string name="cat_3">Categoría 3</string>
+    <string name="cat_4">Categoría 4</string>
+    <string name="cat_5">Categoría 5</string>
+    <string name="cat_6">Categoría 6</string>
+    <string name="cat_7">Categoría 7</string>
+    <string name="cat_8">Categoría 8</string>
+    <string name="cat_9">Categoría 9</string>
+    <string name="cat_10">Categoría 10</string>
+    <string name="men_inst">Mensajería instatánea</string>
+    <string name="online">En línea</string>
+    <string name="offline">Desconcectado</string>
+    <string name="contact_pending">Contacto pendiente</string>
+    <string name="add_contact">Añadir contacto</string>
+    <string name="rechazar_contacto"><u>RECHAZAR CONTACTO</u></string>
+    <string name="proximamente">Próximamente</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="create_group">Crear grupo</string>
+    <string name="conferencias">Salas de charla</string>
+    <string name="acerca_de">Aplicación corporativa de la Junta de Andalucía</string>
+    <string name="acerca_de_titulo">Acerca de Mensajería Junta</string>
+    <string name="acerca_de_opciones">Acerca de</string>
+    <string name="administrator">Administrador</string>
+    <string name="error_login">Usuario y/o contraseña erróneas.</string>
+    <string name="destroy_title">Sala eliminada</string>
+    <string name="destroy_body">La sala \"%1$s\" ha sido eliminada.</string>
+    <string name="txt_login">Utilice su usuario (sin @juntadeandalucia.es) y contraseña del Correo Corporativo</string>
+    <string name="terminos_login">TÉRMINOS DE USO</string>
+    <string name="noti_completed">Archivo enviado</string>
+    <string name="noti_progress">Subida en progreso</string>
+    <string name="noti_envoy">Archivo enviado</string>
+    <string name="list_cont">Preferencias</string>
+    <string name="avatar_change">Cambiar avatar</string>
+    <string name="NOT_SUPPORTED_ROOM_NAME">El nombre de la sala contiene caracteres no soportados. Únicamente pueden usarse letras (sin ñ) y números en el nombre.</string>
+    <string name="boton_ayuda">VER AYUDA</string>
+    <string name="boton_soporte">SOPORTE</string>
+	<string name="boton_guardar">GUARDAR</string>
+	<string name="action_export_ddbb">Exportar mensajes</string>
+	
+</resources>

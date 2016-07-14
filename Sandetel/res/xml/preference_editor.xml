@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@string/preference_contacts"
+    android:title="@string/preference_contacts" >
+
+    <!-- <PreferenceScreen -->
+    <!-- android:key="@string/preference_accounts_key" -->
+    <!-- android:title="@string/preference_accounts" /> -->
+    <!-- <PreferenceScreen -->
+    <!-- android:key="@string/preference_interface" -->
+    <!-- android:title="@string/preference_interface" > -->
+    <!-- <ListPreference -->
+    <!-- android:defaultValue="@string/interface_theme_default" -->
+    <!-- android:entries="@array/interface_theme_entries" -->
+    <!-- android:entryValues="@array/interface_theme_entryvalues" -->
+    <!-- android:key="@string/interface_theme_key" -->
+    <!-- android:title="@string/interface_theme" /> -->
+    <!-- <ListPreference -->
+    <!-- android:defaultValue="@string/interface_smiles_default" -->
+    <!-- android:entries="@array/interface_smiles_entries" -->
+    <!-- android:entryValues="@array/interface_smiles_entryvalues" -->
+    <!-- android:key="@string/interface_smiles_key" -->
+    <!-- android:title="@string/interface_smiles" /> -->
+    <!-- </PreferenceScreen> -->
+    <!-- <PreferenceScreen -->
+    <!-- android:key="@string/preference_contacts" -->
+    <!-- android:title="@string/preference_contacts" > -->
+
+    <PreferenceCategory
+        android:key="@string/preference_contacts"
+        android:title="@string/preference_contacts" >
+
+        <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+        <!-- android:defaultValue="@bool/contacts_show_panel_default" -->
+        <!-- android:key="@string/contacts_show_panel_key" -->
+        <!-- android:title="@string/contacts_show_panel" /> -->
+        <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+        <!-- android:defaultValue="@bool/contacts_show_avatars_default" -->
+        <!-- android:key="@string/contacts_show_avatars_key" -->
+        <!-- android:title="@string/contacts_show_avatars" /> -->
+        <com.xabber.android.utils.font.CheckBoxPreferenceCustom
+            android:defaultValue="@bool/contacts_show_offline_default"
+            android:key="@string/contacts_show_offline_key"
+            android:title="@string/contacts_show_offline" />
+
+        <!-- <PreferenceScreen -->
+        <!-- android:key="@string/contacts_reset_offline_key" -->
+        <!-- android:title="@string/contacts_reset_offline" /> -->
+
+
+        <!-- <CheckBoxPreference -->
+        <!-- android:defaultValue="@bool/contacts_show_groups_default" -->
+        <!-- android:key="@string/contacts_show_groups_key" -->
+        <!-- android:title="@string/contacts_show_groups" /> -->
+        <!-- <CheckBoxPreference -->
+        <!-- android:defaultValue="@bool/contacts_show_accounts_default" -->
+        <!-- android:key="@string/contacts_show_accounts_key" -->
+        <!-- android:title="@string/contacts_show_accounts" /> -->
+        <com.xabber.android.utils.font.CheckBoxPreferenceCustom
+            android:defaultValue="@bool/contacts_show_active_chats_default"
+            android:key="@string/contacts_show_active_chats_key"
+            android:title="@string/contacts_show_active_chats" />
+        <com.xabber.android.utils.font.CheckBoxPreferenceCustom
+            android:defaultValue="@bool/contacts_stay_active_chats_default"
+            android:dependency="@string/contacts_show_active_chats_key"
+            android:key="@string/contacts_stay_active_chats_key"
+            android:title="@string/contacts_stay_active_chats" />
+        
+    </PreferenceCategory>
+        
+    <PreferenceCategory
+        android:key="@string/preference_downloads"
+        android:title="@string/preference_downloads" >
+    
+        <com.xabber.android.utils.font.CheckBoxPreferenceCustom
+            android:defaultValue="@bool/contacts_automatic_download_default"
+            android:key="@string/contacts_automatic_download_key"
+            android:title="@string/contacts_automatic_download" />
+
+        <com.xabber.android.utils.font.EditTextPreferenceCustom
+            android:defaultValue="@string/contacts_automatic_download_mb_default"
+            android:dependency="@string/contacts_automatic_download_key"
+            android:key="@string/contacts_automatic_download_mb_default"
+            android:title="@string/contacts_automatic_download_mb" />
+
+        <!-- <com.xabber.android.utils.font.EditTextPreferenceCustom -->
+        <!-- android:defaultValue="50 MB" -->
+
+
+        <!-- android:dependency="@string/contacts_automatic_download_key" -->
+        <!-- android:key="@string/contacts_automatic_download_mb_key" -->
+        <!-- android:title="@string/contacts_automatic_download_mb" /> -->
+
+
+        <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+        <!-- android:defaultValue="@bool/contacts_show_empty_groups_default" -->
+        <!-- android:key="@string/contacts_show_empty_groups_key" -->
+        <!-- android:title="@string/contacts_show_empty_groups" /> -->
+
+
+        <!-- <ListPreference -->
+        <!-- android:defaultValue="@string/contacts_order_default" -->
+        <!-- android:entries="@array/contacts_order_entries" -->
+        <!-- android:entryValues="@array/contacts_order_entryvalues" -->
+        <!-- android:key="@string/contacts_order_key" -->
+        <!-- android:title="@string/contacts_order" /> -->
+        <!-- </PreferenceScreen> -->
+        <!-- <PreferenceScreen -->
+        <!-- android:key="@string/preference_chats" -->
+        <!-- android:title="@string/preference_chats" > -->
+        <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+        <!-- android:defaultValue="@bool/chats_show_avatars_default" -->
+        <!-- android:key="@string/chats_show_avatars_key" -->
+        <!-- android:title="@string/chats_show_avatars" /> -->
+        <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+        <!-- android:defaultValue="@bool/chats_send_by_enter_default" -->
+        <!-- android:key="@string/chats_send_by_enter_key" -->
+        <!-- android:title="@string/chats_send_by_enter" /> -->
+
+
+        <!-- <ListPreference -->
+        <!-- android:defaultValue="@string/chats_show_status_change_default" -->
+        <!-- android:entries="@array/chats_show_status_change_entries" -->
+        <!-- android:entryValues="@array/chats_show_status_change_entryvalues" -->
+        <!-- android:key="@string/chats_show_status_change_key" -->
+        <!-- android:summary="@string/chats_show_status_change" -->
+        <!-- android:title="@string/chats_show_status_change" /> -->
+        <!-- <ListPreference -->
+        <!-- android:defaultValue="@string/chats_hide_keyboard_default" -->
+        <!-- android:entries="@array/chats_hide_keyboard_entries" -->
+        <!-- android:entryValues="@array/chats_hide_keyboard_entryvalues" -->
+        <!-- android:key="@string/chats_hide_keyboard_key" -->
+        <!-- android:title="@string/chats_hide_keyboard" /> -->
+        <!-- <ListPreference -->
+        <!-- android:defaultValue="@string/chats_font_size_default" -->
+        <!-- android:entries="@array/chats_font_size_entries" -->
+        <!-- android:entryValues="@array/chats_font_size_entryvalues" -->
+        <!-- android:key="@string/chats_font_size_key" -->
+        <!-- android:title="@string/chats_font_size" /> -->
+        <!-- <ListPreference -->
+        <!-- android:defaultValue="@string/chats_divide_default" -->
+        <!-- android:entries="@array/chats_divide_entries" -->
+        <!-- android:entryValues="@array/chats_divide_entryvalues" -->
+        <!-- android:key="@string/chats_divide_key" -->
+        <!-- android:title="@string/chats_divide" /> -->
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/preference_events"
+        android:title="@string/preference_events" >
+
+        <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+        <!-- android:defaultValue="@bool/chats_state_notification_default" -->
+        <!-- android:key="@string/chats_state_notification_key" -->
+        <!-- android:title="@string/chats_state_notification" /> -->
+
+        <com.xabber.android.utils.font.CheckBoxPreferenceCustom
+            android:defaultValue="@bool/chats_attention_default"
+            android:key="@string/chats_attention_key"
+            android:title="@string/chats_attention" />
+
+        <com.xabber.android.utils.font.RingTonePreferenceCustom
+            android:defaultValue="@string/chats_attention_sound_default"
+            android:dependency="@string/chats_attention_key"
+            android:key="@string/chats_attention_sound_key"
+            android:ringtoneType="ringtone"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:title="@string/chats_attention_sound" />
+        <!-- </PreferenceScreen> -->
+
+
+        <!-- <PreferenceScreen -->
+        <!-- android:key="@string/preference_events" -->
+        <!-- android:title="@string/preference_events" > -->
+
+        <com.xabber.android.utils.font.RingTonePreferenceCustom
+            android:defaultValue="@string/events_sound_default"
+            android:key="@string/events_sound_key"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:title="@string/events_sound" />
+
+        <com.xabber.android.utils.font.CheckBoxPreferenceCustom
+            android:defaultValue="@bool/events_vibro_default"
+            android:key="@string/events_vibro_key"
+            android:title="@string/events_vibro" />
+
+        <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+        <!-- android:defaultValue="@bool/events_ignore_system_vibro_default" -->
+        <!-- android:dependency="@string/events_vibro_key" -->
+        <!-- android:key="@string/events_ignore_system_vibro_key" -->
+        <!-- android:title="@string/events_ignore_system_vibro" /> -->
+
+        <com.xabber.android.utils.font.CheckBoxPreferenceCustom
+            android:defaultValue="@bool/events_lightning_default"
+            android:key="@string/events_lightning_key"
+            android:title="@string/events_lightning" />
+
+        <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+        <!-- android:defaultValue="@bool/events_persistent_default" -->
+        <!-- android:key="@string/events_persistent_key" -->
+        <!-- android:title="@string/events_persistent" /> -->
+
+
+        <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+        <!-- android:defaultValue="@bool/events_show_text_default" -->
+        <!-- android:key="@string/events_show_text_key" -->
+        <!-- android:title="@string/events_show_text" /> -->
+
+
+        <!-- <ListPreference -->
+        <!-- android:defaultValue="@string/events_message_default" -->
+        <!-- android:entries="@array/events_message_entries" -->
+        <!-- android:entryValues="@array/events_message_entryvalues" -->
+        <!-- android:key="@string/events_message_key" -->
+        <!-- android:title="@string/events_message" /> -->
+
+
+        <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+        <!-- android:defaultValue="@bool/events_visible_chat_default" -->
+        <!-- android:key="@string/events_visible_chat_key" -->
+        <!-- android:title="@string/events_visible_chat" /> -->
+        <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+        <!-- android:defaultValue="@bool/events_first_only_default" -->
+        <!-- android:key="@string/events_first_only_key" -->
+        <!-- android:title="@string/events_first_only" /> -->
+
+    </PreferenceCategory>
+
+    <!-- <PreferenceScreen -->
+    <!-- android:key="@string/events_phrases" -->
+    <!-- android:title="@string/events_phrases" /> -->
+    <!-- </PreferenceScreen> -->
+    <!-- <PreferenceScreen -->
+    <!-- android:key="@string/preference_connection" -->
+    <!-- android:title="@string/preference_connection" > -->
+    <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+    <!-- android:defaultValue="@bool/connection_start_at_boot_default" -->
+    <!-- android:key="@string/connection_start_at_boot_key" -->
+    <!-- android:title="@string/connection_start_at_boot" /> -->
+
+
+    <!-- <ListPreference -->
+    <!-- android:defaultValue="@string/connection_go_away_default" -->
+    <!-- android:entries="@array/connection_go_away_entries" -->
+    <!-- android:entryValues="@array/connection_go_away_entryvalues" -->
+    <!-- android:key="@string/connection_go_away_key" -->
+    <!-- android:title="@string/connection_go_away" /> -->
+    <!-- <ListPreference -->
+    <!-- android:defaultValue="@string/connection_go_xa_default" -->
+    <!-- android:entries="@array/connection_go_xa_entries" -->
+    <!-- android:entryValues="@array/connection_go_xa_entryvalues" -->
+    <!-- android:key="@string/connection_go_xa_key" -->
+    <!-- android:title="@string/connection_go_xa" /> -->
+
+
+    <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+    <!-- android:defaultValue="@bool/connection_wifi_lock_default" -->
+    <!-- android:key="@string/connection_wifi_lock_key" -->
+    <!-- android:title="@string/connection_wifi_lock" /> -->
+    <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+    <!-- android:defaultValue="@bool/connection_wake_lock_default" -->
+    <!-- android:key="@string/connection_wake_lock_key" -->
+    <!-- android:title="@string/connection_wake_lock" /> -->
+    <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+    <!-- android:defaultValue="@bool/connection_load_vcard_default" -->
+    <!-- android:key="@string/connection_load_vcard_key" -->
+    <!-- android:title="@string/connection_load_vcard" /> -->
+
+
+    <!-- <PreferenceCategory android:title="@string/connection_priority" > -->
+    <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+    <!-- android:defaultValue="@bool/connection_adjust_priority_default" -->
+    <!-- android:key="@string/connection_adjust_priority_key" -->
+    <!-- android:title="@string/connection_adjust_priority" /> -->
+
+
+    <!-- <com.xabber.android.ui.widget.PriorityPreference -->
+    <!-- android:defaultValue="@string/connection_priority_chat_default" -->
+    <!-- android:dependency="@string/connection_adjust_priority_key" -->
+    <!-- android:key="@string/connection_priority_chat_key" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:title="@string/chat" /> -->
+    <!-- <com.xabber.android.ui.widget.PriorityPreference -->
+    <!-- android:defaultValue="@string/connection_priority_available_default" -->
+    <!-- android:dependency="@string/connection_adjust_priority_key" -->
+    <!-- android:key="@string/connection_priority_available_key" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:title="@string/available" /> -->
+    <!-- <com.xabber.android.ui.widget.PriorityPreference -->
+    <!-- android:defaultValue="@string/connection_priority_away_default" -->
+    <!-- android:dependency="@string/connection_adjust_priority_key" -->
+    <!-- android:key="@string/connection_priority_away_key" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:title="@string/away" /> -->
+    <!-- <com.xabber.android.ui.widget.PriorityPreference -->
+    <!-- android:defaultValue="@string/connection_priority_xa_default" -->
+    <!-- android:dependency="@string/connection_adjust_priority_key" -->
+    <!-- android:key="@string/connection_priority_xa_key" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:title="@string/xa" /> -->
+    <!-- <com.xabber.android.ui.widget.PriorityPreference -->
+    <!-- android:defaultValue="@string/connection_priority_dnd_default" -->
+    <!-- android:dependency="@string/connection_adjust_priority_key" -->
+    <!-- android:key="@string/connection_priority_dnd_key" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:title="@string/dnd" /> -->
+    <!-- </PreferenceCategory> -->
+    <!-- </PreferenceScreen> -->
+    <!-- <PreferenceScreen -->
+    <!-- android:key="@string/preference_security" -->
+    <!-- android:title="@string/preference_security" > -->
+    <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+    <!-- android:defaultValue="@bool/security_check_certificate_default" -->
+    <!-- android:key="@string/security_check_certificate_key" -->
+    <!-- android:title="@string/security_check_certificate" /> -->
+
+
+    <!-- <PreferenceScreen -->
+    <!-- android:key="@string/security_clear_certificate_key" -->
+    <!-- android:title="@string/security_clear_certificate" /> -->
+
+
+    <!-- <ListPreference -->
+    <!-- android:defaultValue="@string/security_otr_mode_default" -->
+    <!-- android:entries="@array/security_otr_mode_entries" -->
+    <!-- android:entryValues="@array/security_otr_mode_entryvalues" -->
+    <!-- android:key="@string/security_otr_mode_key" -->
+    <!-- android:title="@string/security_otr_mode" /> -->
+
+
+    <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+    <!-- android:defaultValue="@bool/security_otr_history_default" -->
+    <!-- android:key="@string/security_otr_history_key" -->
+    <!-- android:title="@string/security_otr_history" /> -->
+    <!-- </PreferenceScreen> -->
+    <!-- <PreferenceScreen -->
+    <!-- android:key="@string/preference_debug" -->
+    <!-- android:title="@string/preference_debug" > -->
+    <!-- <com.xabber.android.utils.font.CheckBoxPreferenceCustom -->
+    <!-- android:defaultValue="@bool/debug_log_default" -->
+    <!-- android:key="@string/debug_log_key" -->
+    <!-- android:title="@string/debug_log" /> -->
+
+
+    <!-- <PreferenceScreen -->
+    <!-- android:key="@string/cache_clear_key" -->
+    <!-- android:title="@string/cache_clear" /> -->
+    <!-- </PreferenceScreen> -->
+    <!-- <PreferenceScreen -->
+    <!-- android:key="@string/preference_about_key" -->
+    <!-- android:title="@string/preference_about" /> -->
+
+</PreferenceScreen>

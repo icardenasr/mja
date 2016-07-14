@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.xabber.android.utils.font.tvRobotoBold
+        android:id="@+id/tv_left"
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <com.xabber.android.utils.font.tvRobotoRegular
+        android:id="@+id/tv_right"
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+    <LinearLayout
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/tv_right"
+        android:layout_toRightOf="@+id/tv_left"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:duplicateParentState="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_head_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:orientation="horizontal" >
+
+                <com.xabber.android.utils.font.tvRobotoBold
+                    android:id="@+id/co_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="0"
+                    android:duplicateParentState="true"
+                    android:paddingLeft="4dip"
+                    android:text="@string/tres_m"
+                    android:textColor="#086F20"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <com.xabber.android.utils.font.tvRobotoBold
+                    android:id="@+id/user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:duplicateParentState="true"
+                    android:textColor="#086F20"
+                    android:textStyle="bold" />
+
+                <com.xabber.android.utils.font.tvRobotoRegular
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0"
+                    android:duplicateParentState="true"
+                    android:paddingLeft="4dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:background="#CDCDCD"
+                android:duplicateParentState="true"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_consigna"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/selector_message_selected"
+                android:clickable="false"
+                android:duplicateParentState="true"
+                android:paddingLeft="4dip"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"        
+    android:padding="10dp" >
+
+    <es.sdos.common.font.MontserratBoldTextView android:text="@string/descargando"
+        	android:id="@+id/tv_des_tot"
+        	android:layout_weight="1"
+            android:contentDescription="@string/descargando"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        
+
+    <ProgressBar
+        android:id="@+id/pb_des_tot"
+        android:layout_weight="1"        
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <es.sdos.common.font.MontserratBoldTextView
+         android:text="@string/descargando"
+            android:id="@+id/tv_des_par"
+            android:layout_weight="1"
+            android:lines="3"
+            android:maxLines="3"
+            android:gravity="bottom"
+            android:contentDescription="@string/descargando"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/pb_des_par"
+        android:layout_weight="1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

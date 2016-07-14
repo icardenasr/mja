@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <com.xabber.android.utils.font.tvRobotoBold
+        android:id="@+id/txt_infowindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:lines="1"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_infowindow"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="13dp"
+        android:layout_weight="0"
+        android:adjustViewBounds="true"
+        android:src="@drawable/next_black" >
+    </ImageView>
+
+</LinearLayout>

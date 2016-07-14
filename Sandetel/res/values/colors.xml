@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<resources>
+
+    <color name="bright_foreground_dark">#ffffffff</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="black">#000000</color>
+    <color name="red_row_list">#E13728</color>
+    <color name="red_separator_row_list">#F1C2C8</color>
+    <color name="gray_top_bar">#989898</color>
+
+    <drawable name="red_selec_tab_host">#E8332C</drawable>
+    <drawable name="red_unselec_tab_host">#C91C18</drawable>
+    <color name="red_txt_tab_host">#7C110B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gris_medio">#E8E8E8</color>
+    
+    <color name="gray_hint">#B5B5B5</color>
+    
+    
+    <color name="pressed_color">#4d90fe</color>
+    <color name="default_color">#000000</color>
+
+</resources>

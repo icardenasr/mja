@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_error.png -->
+    <string name="EMPTY_NICK_NAME">Apodo no especificado</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_error.png -->
+    <string name="EMPTY_ROOM_NAME">Sala no especificada</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_conference_context_menu.png -->
+    <string name="muc_join">Unirse a sala</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png -->
+    <string name="muc_nick">Apodo</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png -->
+    <string name="muc_nick_hint">Su apodo en la sala</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png -->
+    <string name="muc_password">Contraseña</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png -->
+    <string name="muc_password_hint">la contraseña no es requerida</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png -->
+    <string name="muc_room">Sala</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png -->
+    <string name="muc_server">Servidor de chat multi-usuario</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png -->
+    <string name="muc_server_hint"></string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_error.png -->
+    <string name="NICK_ALREADY_USED">Alias actualmente en uso</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_error.png -->
+    <string name="ALREADY_IN_PROGRESS">Operación en progreso</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_error.png -->
+    <string name="ALREADY_JOINED">Ya existe</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png -->
+    <string name="muc_add">Unirse a sala</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_conference_context_menu.png -->
+    <string name="muc_delete">Cerrar sala</string>
+    <string name="muc_delete_owner">Eliminar sala</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_conference_confirm.png -->
+    <string name="muc_delete_confirm">¿Está seguro de que quiere borrar la sala %s? La sala se borrará de la lista de contactos.</string>
+    <string name="muc_leave_confirm">¿Está seguro de que quiere abandonar la sala %s? La sala permanecerá en el listado de contactos, pero aparecerá como desconectada.</string>
+    <string name="muc_remove_confirm">¿Está seguro de que quiere eliminar la sala %s? La sala se eliminará por completo para todos sus miembros.</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_conference_context_menu.png -->
+    <string name="muc_edit">Opciones de autorización</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_invite.png -->
+    <string name="muc_invite_confirm">%2$s te ha invitado a unirte a la sala %3$s. Unirte con la cuenta %1$s?</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor_invite.png -->
+    <string name="muc_invite_confirm_reason">%2$s te ha invitado a unirte a la sala %3$s: %4$s. Unirte con la cuenta %1$s?</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_list_conference_context_menu.png -->
+    <string name="muc_leave">Abandonar sala</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png -->
+    <string name="muc_save">Crear o Unir a sala</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/conference_editor.png -->
+    <string name="muc_create">Crear sala</string>
+    
+    <string name="muc_invite_custom">El usuario %2$s te ha invitado a unirte a la sala %1$s. ¿Deseas unirte?</string>
+
+</resources>

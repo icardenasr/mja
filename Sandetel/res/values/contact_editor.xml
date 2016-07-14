@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png -->
+    <string name="CANNOT_ADD_TO_GROUP">Error: No se puede añadir al grupo</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png -->
+    <string name="CANNOT_CREATE_CONTACT">Error: No se puede añadir el contacto</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png -->
+    <string name="CANNOT_REMOVE_CONTACT">Error: No se puede eliminar el contacto</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png -->
+    <string name="CANNOT_REMOVE_FROM_GROUP">Error: No se puede eliminar del grupo</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png -->
+    <string name="CANNOT_REMOVE_GROUP">Error: No se puede borrar el grupo</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png -->
+    <string name="CANNOT_RENAME_GROUP">Error: No se puede renombrar el grupo</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add.png -->
+    <string name="contact_account">Cuenta</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor.png -->
+    <string name="contact_editor_title">Editando %s</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor.png -->
+    <string name="contact_group">Seleccionar grupos</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add.png -->
+    <string name="contact_name">Nick para el usuario</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add.png -->
+    <string name="contact_photo">Foto asociada</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add.png -->
+    <string name="contact_name_hint">Nick del usuario</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add_confirm.png -->
+    <string name="contact_subscribe_confirm">¿Compartir el estado de la cuenta %2$s con %1$s?</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_add.png -->
+    <string name="contact_user">Buscar contacto</string>
+    <string name="contact_add_chat">Introduce el contacto a añadir</string>
+    <string name="contact_intro">Introduce el contacto a añadir</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png -->
+    <string name="ENTRY_IS_NOT_FOUND">Contacto no encontrado</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor.png -->
+    <string name="group_add"><u>Añadir Nuevo Grupo</u></string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor.png -->
+    <string name="group_default">Amigos</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png -->
+    <string name="group_exists">Este grupo ya existe</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png -->
+    <string name="group_is_empty">Especificar nombre del grupo</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/group_add.png -->
+    <string name="group_name">Nombre de grupo</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png -->
+    <string name="choose_account">Elija una cuenta</string>
+    <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/contact_editor_error.png -->
+    <string name="EMPTY_ACCOUNT">Seleccione una cuenta por favor</string>
+    <string name="own_account">¡El contacto que intenta añadir es la cuenta con la que está identificado!</string>
+    <string name="contact_exists">¡El contacto que intenta añadir ya existe!</string>
+    <string name="uid_user">UID del usuario</string>
+    <string name="uid_user_expl">El UID del usuario es su dirección de Correo Corporativo sin @juntadeandalucia.es</string>
+    <string name="no_user_exist">El usuario que busca no existe.</string>
+    <string name="contact_add_succesful">Contacto añadido correctamente</string>
+    <string name="send_email">Enviar correo</string>
+    <string name="no_phone">Sin teléfono</string>
+    <string name="see_phones">Ver teléfonos</string>
+    <string name="phones">Teléfonos</string>
+    <string name="call_to">Llamar a...</string>
+    <string name="save_contact">Guardar contacto</string>
+    <string name="sure_save_contact">¿Estás seguro que deseas guardar los cambios?</string>
+</resources>

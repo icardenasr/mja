@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/header_one_line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <com.xabber.android.utils.font.tvRobotoRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_account"
+                android:visibility="gone" />
+
+            <com.xabber.android.ui.widget.NoDefaultSpinner
+                android:id="@+id/contact_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/choose_account"
+                android:visibility="gone" />
+
+            <com.xabber.android.utils.font.tvRobotoRegular
+                android:id="@+id/tv_muc_server"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/muc_server" />
+
+            <LinearLayout
+                android:id="@+id/ll_muc_server"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#cccccc"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="1dp" >
+
+                <com.xabber.android.utils.font.etRobotoRegular
+                    android:id="@+id/muc_server"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:hint="@string/muc_server_hint"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <com.xabber.android.utils.font.tvRobotoRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/muc_room" />
+
+            <LinearLayout
+                android:id="@+id/ll_add_user"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#cccccc"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="1dp" >
+
+                <com.xabber.android.utils.font.etRobotoRegular
+                    android:id="@+id/muc_room"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <com.xabber.android.utils.font.tvRobotoRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/muc_nick"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/ll_add_user"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#cccccc"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:visibility="gone" >
+
+                <com.xabber.android.utils.font.etRobotoRegular
+                    android:id="@+id/muc_nick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:hint="@string/muc_nick_hint"
+                    android:padding="10dp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <com.xabber.android.utils.font.tvRobotoRegular
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/muc_password"
+                android:visibility="gone" />
+
+            <com.xabber.android.utils.font.etRobotoRegular
+                android:id="@+id/muc_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/muc_password_hint"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/muc_join"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/muc_join"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="horizontal" >
+
+                <com.xabber.android.utils.font.btnRobotoRegular
+                    android:id="@+id/ok"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_bg_chat"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/muc_save"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

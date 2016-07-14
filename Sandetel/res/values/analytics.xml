@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="https://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <!-- Replace placeholder ID with your tracking ID -->
+    <string name="ga_trackingId"></string>
+
+    <!-- Enable automatic activity tracking -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- Enable automatic exception tracking -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <string name="com.xabber.android.ui.own.LoginAct">Splash</string>
+    <string name="com.xabber.android.ui.ContactList">Listado de contactos</string>
+    <string name="com.xabber.android.ui.ChatViewer">Chat contacto/sala</string>
+    <string name="com.xabber.android.ui.own.AcercadeAct">Acerca de</string>
+    <string name="com.xabber.android.ui.ContactAdd">Contactos</string>
+    <string name="com.xabber.android.ui.PreferenceEditor">Configuración listado de contactos</string>
+    <string name="com.xabber.android.ui.StatusEditor">Estado</string>
+    <string name="com.xabber.android.ui.MUCEditor">Salas</string>
+
+</resources>

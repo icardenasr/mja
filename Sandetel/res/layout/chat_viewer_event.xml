@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.xabber.android.utils.font.tvRobotoRegular
+        android:id="@+id/tv_left"
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <com.xabber.android.utils.font.tvRobotoRegular
+        android:id="@+id/tv_right"
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+    <LinearLayout
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/tv_right"
+        android:layout_toRightOf="@+id/tv_left"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_weight="0"
+            android:src="@drawable/avatar_1_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <com.xabber.android.utils.font.tvRobotoBold
+                    android:id="@+id/co_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="0"
+                    android:paddingLeft="4dip"
+                    android:text="@string/tres_m"
+                    android:textColor="#086F20"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <com.xabber.android.utils.font.tvRobotoBold
+                    android:id="@+id/user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#086F20"
+                    android:textStyle="bold" />
+
+                <com.xabber.android.utils.font.tvRobotoRegular
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0"
+                    android:paddingLeft="4dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:background="#CDCDCD"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+            </LinearLayout>
+
+            <com.xabber.android.utils.font.tvRobotoRegular
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header_one_line_no_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <com.xabber.android.utils.font.tvRobotoRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sele_tu_esta"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/status_mode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:prompt="@string/status_editor" />
+        <!-- <com.xabber.android.utils.font.etRobotoRegular -->
+        <!-- android:id="@+id/status_text" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginBottom="15dp" -->
+        <!-- android:hint="@string/if_you_wish" /> -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#cccccc"
+            android:orientation="horizontal"
+            android:padding="1dp" >
+
+            <com.xabber.android.utils.font.etRobotoRegular
+                android:id="@+id/status_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:cursorVisible="true"
+                android:ellipsize="end"
+                android:fadingEdge="vertical"
+                android:hint="@string/if_you_wish"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:singleLine="true"
+                android:textColorHint="@color/gray_hint" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#cccccc"
+            android:orientation="horizontal"
+            android:padding="1dp" >
+
+            <com.xabber.android.utils.font.btnRobotoRegular
+                android:id="@+id/ok"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_bg_chat"
+                android:padding="10dp"
+                android:text="@string/load"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<resources>
+    
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+		<item name="expanderBackground">@drawable/expander_background_light</item>
+        <item name="expanderGroupColor">?android:attr/textColorPrimary</item>
+        <item name="expanderAccountColor">?android:attr/textColorPrimary</item>
+        <item name="expanderIndicator">@drawable/expander_indicator_light</item>
+        <item name="accountBackground">@drawable/account_background</item>
+        <item name="titleMainBackground">@drawable/title_main_background_light</item>
+        <item name="titleAccountBackground">@drawable/title_account_background_light</item>
+        <item name="textColorPrimaryNoSelected">@color/bright_foreground_light</item>
+    </style>
+    <style name="DiaDialogTheme" parent="android:Theme.Dialog">
+
+        <!-- Fill the screen -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <!-- <item name="android:padding">12dp</item> -->
+
+
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Just to prove it's working -->
+        <!-- <item name="android:background">@drawable/inset_fondo_popup</item> -->
+
+    </style>
+
+    <style name="NotificationTitle">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NotificationText">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="NotificationText2" parent="@style/NotificationText">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="ChatHeader" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ChatHeader.Time">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="ChatHeader.Name">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ChatHeader.Delay">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="ChatText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ChatText.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ChatText.Normal">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ChatText.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ChatText.XLarge">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="ChatInfo">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="ChatInfo.Warning">
+        <item name="android:textColor">#D00000</item>
+    </style>
+
+    <style name="ChatRead">
+        <item name="android:textColor">#222222</item>
+    </style>
+
+    <style name="ChatReadEvent">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ChatInfo.Info">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="ChatList" parent="@android:style/TextAppearance" />
+
+    <style name="ChatList.Normal">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="ChatList.Notification">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="OccupantList" parent="@android:style/TextAppearance" />
+
+    <style name="OccupantList_Moderator_Own">
+        <item name="android:textColor">@color/green_login</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="OccupantList_Participant_Own">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="OccupantList_Visitor_Own">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="OccupantList.Moderator">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="OccupantList.Participant">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="OccupantList.Visitor">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <dimen name="status_icon_width">24dip</dimen>
+    <dimen name="avatar_size">48dip</dimen>
+    <dimen name="title_height">44dip</dimen>
+    <dimen name="contact_list_item_padding_top">2dip</dimen>
+    <dimen name="contact_list_item_padding_bottom">2dip</dimen>
+    <dimen name="contact_list_item_height">52dip</dimen>
+    <!-- = avatar_size + contact_list_item_padding_top + contact_list_item_padding_bottom -->
+
+    <dimen name="contact_list_status_mode_width">44dip</dimen>
+    <!-- = status_icon_width + active_chat_padding_right * 2 -->
+
+    <dimen name="active_chat_padding_left">10dip</dimen>
+    <dimen name="active_chat_padding_top">0dip</dimen>
+    <dimen name="active_chat_padding_right">10dip</dimen>
+    <dimen name="active_chat_padding_bottom">0dip</dimen>
+    <dimen name="client_software_margin_left">34dip</dimen>
+    <!-- = active_chat_padding_right + status_icon_width -->
+
+    <dimen name="contact_name_height_hide_status">48dip</dimen>
+    <!-- = avatar_size - active_chat_padding_top - active_chat_padding_bottom -->
+    <dimen name="contact_name_height_show_status">24dip</dimen>
+    <!-- = contact_name_height_hide_status / 2 -->
+
+    <dimen name="expander_height">38dip</dimen>
+    <dimen name="expander_arrow_margin_left">6dip</dimen>
+    <dimen name="expander_arrow_margin_right">4dip</dimen>
+    <dimen name="expander_text_margin_right">14dip</dimen>
+    <!-- = ( status_icon_width - offline_mode_width ) / 2 + active_chat_padding_right -->
+
+
+    <!-- The width of the big icons in notifications. -->
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <!-- The width of the big icons in notifications. -->
+    <dimen name="notification_large_icon_height">64dp</dimen>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="styleThemeFullScreen" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+
+
+    <style name="menu_tv" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="menu_icon">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitEnd</item>
+        <item name="android:gravity">right</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="row_cabecera_17_bold">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@drawable/selector_color_white_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="row_cabecera_16_bold">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@drawable/selector_color_white_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="row_cabecera_17_bold_tipo_poi">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="row_cabecera_17_bold_poi">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="row_cabecera_15_tipo_poi">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/gray_cuerpo_cat_poi</item>
+    </style>
+
+    <style name="row_cabecera_15_poi">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="row_cabecera_15">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@drawable/selector_color_white_black</item>
+    </style>
+
+    <style name="row_cat_poi">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+</resources>
