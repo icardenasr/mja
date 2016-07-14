@@ -3,7 +3,7 @@
 
     <string name="app_name">Mensajería Junta</string>
     
-    <string name="version_number">Versión 1.1.6</string>
+    <string name="version_number">Versión 1.1.8</string>
     
     <string name="delaferia">de la Feria de Sevilla</string>
     <string name="enviando">Enviando...</string>
@@ -191,8 +191,8 @@
     <string name="create_group">Crear grupo</string>
     <string name="conferencias">Salas de charla</string>
     <string name="acerca_de">Aplicación corporativa de la Junta de Andalucía</string>
-    <string name="acerca_de_titulo">Acerca de Mensajería Junta</string>
-    <string name="acerca_de_opciones">Acerca de</string>
+    <string name="acerca_de_titulo">Ayuda de Mensajería Junta</string>
+    <string name="acerca_de_opciones">Ayuda</string>
     <string name="administrator">Administrador</string>
     <string name="error_login">Usuario y/o contraseña erróneas.</string>
     <string name="destroy_title">Sala eliminada</string>

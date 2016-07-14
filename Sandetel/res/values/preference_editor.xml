@@ -79,7 +79,7 @@
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_01.png -->
     <string name="preference_interface">Opciones de Tema\nOpciones de Apariencia</string>
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_02.png -->
-    <string name="about_viewer">Acerca de</string>
+    <string name="about_viewer">Ayuda</string>
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer.png -->
     <string name="chats_divide">Mensaje en nueva linea\nMuestra cada mensaje en una nueva línea</string>
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/preference_editor_chat_viewer_new_line.png -->

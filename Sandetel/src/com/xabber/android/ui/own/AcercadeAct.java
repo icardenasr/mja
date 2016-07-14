@@ -38,7 +38,7 @@ public class AcercadeAct extends ManagedActivity implements OnClickListener {
 		helpButton = (Button)findViewById(R.id.button_help);
 		helpButton.setOnClickListener(new OnClickListener() {
             public void onClick(View thisButton) {
-            	String url = "https://correo.juntadeandalucia.es/webmail/plugins/help/content/mensajeria.html";
+            	String url = "https://correo.juntadeandalucia.es/ayuda/index.html#/mensajeria/android";
             	Intent i = new Intent(Intent.ACTION_VIEW);
             	i.setData(Uri.parse(url));
             	startActivity(i);
@@ -48,7 +48,7 @@ public class AcercadeAct extends ManagedActivity implements OnClickListener {
 		supportButton = (Button)findViewById(R.id.button_support);
 		supportButton.setOnClickListener(new OnClickListener() {
             public void onClick(View thisButton) {
-            	String url = "https://correo.juntadeandalucia.es/webmail/plugins/help/content/soporte.html";
+            	String url = "https://correo.juntadeandalucia.es/ayuda/index.html#/soporte";
             	Intent i = new Intent(Intent.ACTION_VIEW);
             	i.setData(Uri.parse(url));
             	startActivity(i);
