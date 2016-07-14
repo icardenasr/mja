@@ -14,6 +14,8 @@
  */
 package com.xabber.android.data.extension.vcard;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -87,6 +89,8 @@ public class VCardManager implements OnLoadListener, OnPacketListener,
 	 */
 	private final ArrayList<String> accountRequested;
 
+	private final HashMap<String, String> avatarsEncode;
+
 	private final static VCardManager instance;
 
 	static {
@@ -103,6 +107,8 @@ public class VCardManager implements OnLoadListener, OnPacketListener,
 		invalidHashes = new HashSet<String>();
 		names = new HashMap<String, StructuredName>();
 		accountRequested = new ArrayList<String>();
+		avatarsEncode = new HashMap<String, String>();
+
 	}
 
 	@Override
@@ -233,21 +239,18 @@ public class VCardManager implements OnLoadListener, OnPacketListener,
 	 *            avatar's hash that was intent to request vCard. Can be
 	 *            <code>null</code>.
 	 */
-	public void requestAvatar(String account, String bareAddress, String hash) {
+	public void requestAvatar(String account, String bareAddress, String hash,
+			String avatarEncode) {
+
 		if (hash != null && invalidHashes.contains(hash))
 			return;
-		// User can change avatar before first request will be completed.
-		for (VCardRequest check : requests)
-			if (check.getUser().equals(bareAddress)) {
-				if (hash != null)
-					check.addHash(hash);
-				return;
-			}
+		Application.getInstance().setvCardPending(true);
 		VCard packet = new VCard();
 		packet.setTo(bareAddress);
-		packet.setType(Type.SET);
+		packet.setType(Type.GET);
 		VCardRequest request = new VCardRequest(account, bareAddress,
 				packet.getPacketID());
+		avatarsEncode.put(packet.getPacketID(), avatarEncode);
 		requests.add(request);
 		if (hash != null)
 			request.addHash(hash);
@@ -257,6 +260,7 @@ public class VCardManager implements OnLoadListener, OnPacketListener,
 			requests.remove(request);
 			onVCardFailed(account, bareAddress);
 		}
+
 	}
 
 	/**
@@ -288,14 +292,33 @@ public class VCardManager implements OnLoadListener, OnPacketListener,
 	}
 
 	private void onVCardReceived(final String account,
-			final String bareAddress, final VCard vCard) {
+			final String bareAddress, final VCard vCard, String hash) {
 		if (Application.getInstance().isvCardPending()) {
 			Application.getInstance().setvCardPending(false);
-			Context context = Application.getInstance().getApplicationContext();
-			String resultText = null;
-			resultText = context.getString(R.string.change_succeful);
 
-			Toast.makeText(context, resultText, Toast.LENGTH_SHORT).show();
+			org.jivesoftware.smackx.packet.VCard packet = new org.jivesoftware.smackx.packet.VCard();
+			packet.setType(Type.SET);
+
+			vCard.setType(Type.SET);
+			packet.setFrom(account);
+			packet.setFirstName(vCard.getFirstName());
+			packet.setLastName(vCard.getLastName());
+			packet.setOrganization((vCard.getOrganizations() != null && vCard
+					.getOrganizations().size() > 0) ? vCard.getOrganizations()
+					.get(0).getName() : null);
+			packet.setPacketID(vCard.getPacketID());
+
+			if (avatarsEncode != null) {
+				String imageEnconde = avatarsEncode.get(vCard.getPacketID());
+				packet.setAvatar(imageEnconde);
+			}
+
+			try {
+				ConnectionManager.getInstance().sendPacket(account, packet);
+			} catch (NetworkException e) {
+				e.printStackTrace();
+			}
+
 		}
 
 		for (OnVCardListener listener : Application.getInstance()
@@ -337,9 +360,31 @@ public class VCardManager implements OnLoadListener, OnPacketListener,
 
 		else if (packet instanceof IQ) {
 			IQ iq = (IQ) packet;
-			if (iq.getType() != Type.ERROR && !(packet instanceof VCard))
-				return;
 			String packetId = iq.getPacketID();
+			if (iq.getType() != Type.ERROR && !(packet instanceof VCard)) {
+
+				String id = avatarsEncode.get(iq.getPacketID());
+				if (id != null) {
+					avatarsEncode.remove(packet.getPacketID());
+
+					Context context = Application.getInstance()
+							.getApplicationContext();
+					String resultText = null;
+					resultText = context.getString(R.string.change_succeful);
+
+					Toast.makeText(context, resultText, Toast.LENGTH_SHORT)
+							.show();
+
+					Iterator<VCardRequest> iterator = requests.iterator();
+					while (iterator.hasNext()) {
+						if (iterator.next().getAccount().equals(account))
+							iterator.remove();
+					}
+				}
+
+				return;
+			}
+
 			VCardRequest request = null;
 			Iterator<VCardRequest> iterator = requests.iterator();
 			while (iterator.hasNext()) {
@@ -360,17 +405,22 @@ public class VCardManager implements OnLoadListener, OnPacketListener,
 					return;
 				name = EMPTY_STRUCTURED_NAME;
 			} else if (packet instanceof VCard) {
+
 				VCard vCard = (VCard) packet;
-				onVCardReceived(account, bareAddress, vCard);
+
 				String hash = vCard.getAvatarHash();
-				for (String check : request.getHashes())
-					if (!check.equals(hash))
+				for (String check : request.getHashes()) {
+					if (!check.equals(hash)) {
 						invalidHashes.add(check);
+					}
+				}
 				AvatarManager.getInstance().onAvatarReceived(bareAddress, hash,
 						vCard.getAvatar());
 				name = new StructuredName(vCard.getNickName(),
 						vCard.getFormattedName(), vCard.getFirstName(),
 						vCard.getMiddleName(), vCard.getLastName());
+
+				onVCardReceived(account, bareAddress, vCard, hash);
 			} else
 				throw new IllegalStateException();
 			names.put(bareAddress, name);
@@ -396,5 +446,4 @@ public class VCardManager implements OnLoadListener, OnPacketListener,
 			}
 		}
 	}
-
 }

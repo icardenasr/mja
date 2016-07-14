@@ -22,6 +22,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 
+import org.jivesoftware.smack.util.StringUtils;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -760,6 +761,7 @@ public class ContactList extends ManagedListActivity implements
 	// return true;
 	// }
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		super.onOptionsItemSelected(item);
@@ -872,13 +874,12 @@ public class ContactList extends ManagedListActivity implements
 
 			break;
 
-		/*
-		 * case R.id.action_avatar_change:
-		 * 
-		 * showFileChooser();
-		 * 
-		 * break;
-		 */
+		case R.id.action_avatar_change:
+
+			showFileChooser();
+
+			break;
+
 		case R.id.action_state:
 			startActivity(StatusEditor.createIntent(this));
 			return true;
@@ -2295,49 +2296,17 @@ public class ContactList extends ManagedListActivity implements
 			} else {
 				bitmap = BitmapFactory.decodeFile(path);
 			}
-			// mImageView.setImageBitmap(bitmap);
-			String hash = BitMapToString(bitmap);
+
+			ByteArrayOutputStream stream = new ByteArrayOutputStream();
+			bitmap.compress(Bitmap.CompressFormat.PNG, 30, stream);
+			byte[] byteArray = stream.toByteArray();
+
+			String encodedImage = StringUtils.encodeBase64(byteArray);
+
 			String thisBareAddress = Jid.getBareAddress(accountItem);
 
-			Application.getInstance().setvCardPending(true);
 			VCardManager.getInstance().requestAvatar(account.getAccount(),
-					thisBareAddress, hash);
-
-			// org.jivesoftware.smackx.packet.VCard vCard = null;
-			// if (accountItem != null && path != null) {
-			// vCard = new org.jivesoftware.smackx.packet.VCard();
-			// // vCard.setNickName(accountItem.split("@")[0] + "rgregrg");
-			// vCard.setNickName("Quiero un erro leñes");
-			// FileInputStream fis;
-			// try {
-			// fis = new FileInputStream(path);
-			//
-			// StringBuffer fileContent = new StringBuffer("");
-			//
-			// byte[] buffer = new byte[1024];
-			// int n;
-			// while ((n = fis.read(buffer)) != -1) {
-			// fileContent.append(new String(buffer, 0, n));
-			// }
-			// vCard.setAvatar(buffer);
-			// } catch (FileNotFoundException e) {
-			//
-			// vCard = null;
-			// e.printStackTrace();
-			// } catch (IOException e) {
-			//
-			// vCard = null;
-			// e.printStackTrace();
-			// }
-			// }
-			//
-			// if (vCard != null && accountItem != null) {
-			// Application.getInstance().setvCardPending(true);
-			// XMPPConnection mXMPPConnection = AccountManager.getInstance()
-			// .getAccount(accountItem).getConnectionThread()
-			// .getXMPPConnection();
-			// mXMPPConnection.sendPacket(vCard);
-			// }
+					thisBareAddress, null, encodedImage);
 
 			return null;
 		}

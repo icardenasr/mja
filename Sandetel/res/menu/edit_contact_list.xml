@@ -63,11 +63,11 @@
         android:icon="@drawable/menu_icono_config"
         android:orderInCategory="100"
         android:title="@string/list_cont"/>
-    <!-- <item
+    <item
         android:id="@+id/action_avatar_change"
         android:icon="@drawable/menu_icono_editar_perfil"
         android:orderInCategory="100"
-        android:title="@string/avatar_change"/>  -->
+        android:title="@string/avatar_change"/>
     <item
         android:id="@+id/action_about_ne"
         android:icon="@drawable/menu_icono_acerca"
