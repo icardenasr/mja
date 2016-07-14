@@ -24,6 +24,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
+import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -73,6 +74,8 @@ public class SendFileService extends IntentService {
 
 	@SuppressWarnings("deprecation")
 	public void uploadFile(String pass, String path) throws Exception {
+		Log.e("ENVIAR", "SendFileService");
+		
 		HttpClient httpclient = new DefaultHttpClient();
 		String salida = "";
 		try {

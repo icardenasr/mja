@@ -2298,7 +2298,8 @@ public class ContactList extends ManagedListActivity implements
 			}
 
 			ByteArrayOutputStream stream = new ByteArrayOutputStream();
-			bitmap.compress(Bitmap.CompressFormat.PNG, 30, stream);
+			//bitmap.compress(Bitmap.CompressFormat.PNG, 30, stream);
+			bitmap.compress(Bitmap.CompressFormat.JPEG, 60, stream);
 			byte[] byteArray = stream.toByteArray();
 
 			String encodedImage = StringUtils.encodeBase64(byteArray);

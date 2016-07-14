@@ -47,6 +47,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.text.ClipboardManager;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -2174,7 +2175,7 @@ public class ChatViewer extends ManagedActivity implements
 	public void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 		if (resultCode == Activity.RESULT_OK) {
-
+			
 			Uri uri;
 			switch (requestCode) {
 			case PICKFILE_RESULT_CODE:
